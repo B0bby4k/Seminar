@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  15 NOV 2023 16:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  16 NOV 2023 16:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1341,44 +1341,39 @@ chapter 4.
 
 
 
-]
-<figures/DokumentenAgent-Uebersicht.png, id=176, 708.684pt x 442.818pt>
-File: figures/DokumentenAgent-Uebersicht.png Graphic file (type png)
-<use figures/DokumentenAgent-Uebersicht.png>
-Package pdftex.def Info: figures/DokumentenAgent-Uebersicht.png  used on input line 52.
-(pdftex.def)             Requested size: 341.43442pt x 213.34752pt.
- [8
+] [8] [9] [10] [11
 pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.68 
-     
-pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.68 
-     
+l.108 \subsection
+                 {OnePager}] [12]
+<figures/DokumentenAgent-Uebersicht.png, id=235, 708.684pt x 442.818pt>
+File: figures/DokumentenAgent-Uebersicht.png Graphic file (type png)
+<use figures/DokumentenAgent-Uebersicht.png>
+Package pdftex.def Info: figures/DokumentenAgent-Uebersicht.png  used on input line 136.
+(pdftex.def)             Requested size: 341.43442pt x 213.34752pt.
+ [13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.68 
-      <./figures/DokumentenAgent-Uebersicht.png>] [9]
-<figures/03_Prompt_Evaluierung.png, id=192, 979.9812pt x 346.896pt>
+l.157 
+       <./figures/DokumentenAgent-Uebersicht.png>]
+<figures/03_Prompt_Evaluierung.png, id=243, 979.9812pt x 346.896pt>
 File: figures/03_Prompt_Evaluierung.png Graphic file (type png)
 <use figures/03_Prompt_Evaluierung.png>
-Package pdftex.def Info: figures/03_Prompt_Evaluierung.png  used on input line 97.
+Package pdftex.def Info: figures/03_Prompt_Evaluierung.png  used on input line 160.
 (pdftex.def)             Requested size: 341.43442pt x 120.85962pt.
- [10
+ [14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.116 
-       <./figures/03_Prompt_Evaluierung.png>]) [11]
+l.179 
+       <./figures/03_Prompt_Evaluierung.png>]) [15]
 \openout2 = `chapters/50_Reflexion_Bewertung.aux'.
 
  (chapters/50_Reflexion_Bewertung.tex
 chapter 5.
-) [12
+) [16
 
 
 
@@ -1389,7 +1384,7 @@ chapter 5.
 
  (chapters/60_Fazit_Ausblick.tex
 chapter 6.
-) [13
+) [17
 
 
 
@@ -1400,7 +1395,7 @@ chapter 6.
 
  (chapters/70_Anhang.tex
 chapter 7.
-) [14
+) [18
 
 
 
@@ -1411,7 +1406,7 @@ chapter 7.
 
  (chapters/80_Eidesstattliche_Erklaerung.tex
 chapter 8.
-) [15
+) [19
 
 
 
@@ -1422,7 +1417,7 @@ chapter 8.
 
  (chapters/70_conclusion.tex
 chapter 9.
-) [16
+) [20
 
 
 
@@ -1441,19 +1436,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [17
+ [21
 
 
 
 
 
 ]
-<figures/folderstructure.png, id=234, 370.38374pt x 1030.85126pt>
+<figures/folderstructure.png, id=286, 370.38374pt x 1030.85126pt>
 File: figures/folderstructure.png Graphic file (type png)
 <use figures/folderstructure.png>
 Package pdftex.def Info: figures/folderstructure.png  used on input line 22.
 (pdftex.def)             Requested size: 170.71394pt x 475.12538pt.
- [18] [19
+ [22] [23
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1468,12 +1463,12 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 11.
 )
-<figures/ieee_float_format.jpg, id=252, 414.54875pt x 67.25125pt>
+<figures/ieee_float_format.jpg, id=304, 414.54875pt x 67.25125pt>
 File: figures/ieee_float_format.jpg Graphic file (type jpg)
 <use figures/ieee_float_format.jpg>
 Package pdftex.def Info: figures/ieee_float_format.jpg  used on input line 53.
 (pdftex.def)             Requested size: 277.41179pt x 45.00473pt.
- [20{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}
+ [24{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1483,7 +1478,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.10.3}) 
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.60 
-      <./figures/ieee_float_format.jpg>] [21
+      <./figures/ieee_float_format.jpg>] [25
 pdfTeX warning (ext4): destination with the same identifier (name{table.10.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1494,7 +1489,7 @@ File: lstlang1.sty 2023/02/27 1.9 listings language file
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 86.
- [22
+ [26
 pdfTeX warning (ext4): destination with the same identifier (name{algocf.10.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
@@ -1507,7 +1502,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--139
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 144.
 (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [23{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]) [24]
+) [27{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]) [28]
 \openout2 = `chapters/999_LatexTutorial.aux'.
 
  (chapters/999_LatexTutorial.tex
@@ -1515,13 +1510,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--11
 
  []
 
-[25
+[29
 
 
 
-]) [26]
+]) [30]
 chapter 11.
-[27
+[31
 
 
 
@@ -1541,9 +1536,9 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              and replace `\begin{appendix}' by command
 (scrreprt)              `\appendix' on input line 168.
 
-(appendices/example_appendix.tex [28]
+(appendices/example_appendix.tex [32]
 chapter A.
-) [29
+) [33
 
 
 ]
@@ -1553,7 +1548,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 173
 \tf@lof=\write7
 \openout7 = `Raubald_BPS_Bericht.lof'.
 
- [30
+ [34
 
 
 ]
@@ -1577,7 +1572,7 @@ Class scrreprt Warning: \float@listhead detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@listhead interface on input line 175.
 
-[31
+[35
 
 
 ]
@@ -1588,10 +1583,10 @@ chapter D.
 
 
 No file Raubald_BPS_Bericht.acr.
-[32
+[36
 
 
-] (appendices/erklaerung.tex) [33] (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_Grundlagen.aux) (chapters/40_Projektberichte_Tätigkeitsbeschreibungen.aux) (chapters/50_Reflexion_Bewertung.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux) (chapters/99_tutorial.aux) (chapters/999_LatexTutorial.aux))
+] (appendices/erklaerung.tex) [37] (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_Grundlagen.aux) (chapters/40_Projektberichte_Tätigkeitsbeschreibungen.aux) (chapters/50_Reflexion_Bewertung.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux) (chapters/99_tutorial.aux) (chapters/999_LatexTutorial.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
@@ -1603,10 +1598,10 @@ Package logreq Info: Writing requests to 'Raubald_BPS_Bericht.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46305 strings out of 474592
- 913808 string characters out of 5744382
- 2082264 words of memory out of 5000000
- 67353 multiletter control sequences out of 15000+600000
+ 46353 strings out of 474592
+ 914701 string characters out of 5744382
+ 2082207 words of memory out of 5000000
+ 67369 multiletter control sequences out of 15000+600000
  638052 words of font info for 167 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  110i,15n,131p,10987b,7355s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1614,9 +1609,9 @@ Here is how much of TeX's memory you used:
 pdfTeX warning (dest): name{glo:nic} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Raubald_BPS_Bericht.pdf (37 pages, 838950 bytes).
+Output written on Raubald_BPS_Bericht.pdf (41 pages, 854600 bytes).
 PDF statistics:
- 719 PDF objects out of 1000 (max. 8388607)
- 157 named destinations out of 1000 (max. 500000)
- 48123 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 796 PDF objects out of 1000 (max. 8388607)
+ 189 named destinations out of 1000 (max. 500000)
+ 48179 words of extra memory for PDF output out of 51595 (max. 10000000)
 

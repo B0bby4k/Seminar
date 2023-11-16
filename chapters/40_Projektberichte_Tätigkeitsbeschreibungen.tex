@@ -10,49 +10,82 @@ Daten welche für eine Entscheidung, ob man sich bewerben möchte oder nicht, re
 diesen One Pager mithilfe von künstlicher Intelligenz und einem LLM aus einer oder mehreren bereitgestellten PDF-Datei zu 
 generieren. Der Anwender soll dies über ein Userinterface im Stile einer Webanwendung bedienen können.
 
-\section{Verwendete Software}
-In diesem Kapitel werden alle Software-Werkzeuge beschrieben, welche im Entwicklungsumfeld des TenderInsights verwendet werden.
+\section{Verwendete Software und Grundlagen}
+In diesem Kapitel werden alle Software-Werkzeuge, Technologien und Begriffe beschrieben, welche im Entwicklungsumfeld des 
+TenderInsights verwendet werden oder für ein Verständnis zuträglich sind.
 
 
 \subsection{Technologien}
+Bei der Entwicklung des TenderInsights werden viele unterschiedliche Technologien eingesetzt. Während meines Praktikums habe ich 
+in meiner Tätigkeit als Entwickler viele davon kennengelernt und verwendet. Nachfolgend erkläre ich die wichtigsten Technologien.
+
+\subsubsection{Python}
+Python ist eine höhere Programmiersprache welche sich durch ihre klare und leicht verständliche Syntax auszeichnet.
+Sie ist bekannt für ihre zahlreichen Standardbibliotheken und ihrer reichen Auswahl an Modulen und Frameworks.
+Da OpenAI nur JavaScript und Python unterstützt, und Python aus zuvor genannten Gründen einsteigefreundlicher ist wurde sich 
+für diese Sprache entschieden.
+
+\subsubsection{Langchain}
+Langchain ist ein Open-Source-Framework, das auf die Entwicklung und integration von Sprach-KI-Anwendungen spezialisiert ist.
+Es erleichtert das einbinden von Sprachmodellen wie GPT-3.5-turbo von openAI in Projekte und wird beim TenderInsights für 
+Textgenerierung verwendet.
+
+\subsubsection{OpenAI - GPT}
+OpenAI ist ein US-Amerikanisches Unternehmen welches sich mit der Erforschung und Entwicklung von künstlicher Intelligenz beschäftigt.
+Eines der bekanntesten Tools bzw. Frameworks ist GPT - Generative Pretrained Transformer, ein Sprachverarbeitungsmodell zur Textgenerierung, 
+Übersetzung, Zusammenfassung und mehr. GPT wird im TenderInsights verwendet um Information aus Texten zu extrahieren und um die 
+gelieferten Prompts zu bewerten.
+
+\subsubsection{Azure}
+Microsoft Azure ist eine Cloud-Computing-Plattform, welche eine breite Palette von Diensten und Lösungen für Unternehmen und Entwickler bietet.
+Zu den Entwickler-Tools und -Diensten gehört unter anderem Azure openAI, welches eine openAI API zur Verfügung stellt. Im Gegensatz zu openAI 
+befinden sich die Server in Europa, weshalb im späteren Verlauf des Projekts aus Gründen des Datenschutzes zu Azure gewechselt wurde.
+
+\subsubsection{ChromaDB}
+ChromaDB ist eine Open-Source-Datenbanklösung, welche speziell für die Arbeit mit Vektor-Einbettungen in KI-Anwendungen entwickelt wurde.
+Da der Kontext für Sprachmodelle stark unter der Größe von durchschnittlichen Dokumenten liegt wird eine Vektor-Datenbank genutzt um die relevanten
+Stellen in den Dokumenten zu finden und als Kontext mit dem Prompt an das Sprachmodell für die Textgenerierung zu übergeben.
+
+\subsubsection{JSON}
+JavaScript Object Notation, oder kurz JSON, ist ein Daten-Austauschformat welches häufig verendet wird um Daten zwischen einem Server und einer 
+Webanwendung zu übertragen. Da es für Menschen gut lesbar und für Maschinen einfach zu parsen (Entspricht einem normalen Dictionary in Python) 
+ist eignet es sich hervorragend für das Speichern der OnePager Informationen.
+
+
+\subsection{Werkzeuge}
+
+\subsubsection{Visual Studio Code}
+Visual Studio Code (VSCode) ist ein leistungsfähiger und anpassbarer Quelltext-Editor von Microsoft, der eine breite Palette von 
+Programmiersprachen unterstützt und zahlreiche Erweiterungen für Entwickler bietet. 
+
+\subsubsection{GitLab}
+GitLab ist eine auf Git basierende webbasierte DevOps-Plattform, welche für die Versionskontrolle und CI/CD bei der Softwareentwicklung verwendet wird.
+
+\subsubsection{Microsoft Teams}
+Ein Kommunikationstool von Microsoft, welches genutzt wird um sich mit Kollegen auszutauschen, Dateien zu teilen und Besprechungen zu planen so wie durchzuführen.
+
+\subsubsection{Jira}
+Ein Projektmanagement-Werkzeug von Atlassian, das speziell für Softwareentwicklungsteams konzipiert ist und Funktionen für die Verfolgung von Aufgaben, Bugs und agile Prozesse bietet.
+Es kam insbesondere beim verwalten des Backlogs und beim bearbeiten von Tickets zum Einsatz.
+
+\subsubsection{Miro}
+Eine digitale, kollaborative Whiteboard-Plattform, die es unserem Team ermöglicht, visuell zu brainstormen, zu planen und Projekte in Echtzeit zu gestalten.
+
+\subsection{Wichtige Begriffe}
 
 \begin{table}[H]
     \centering
-    \caption{Übersicht der Technologien}
+    \caption{Wichtige Begriffe}
     \label{tab:technologien}
     \begin{tabular}{|l|l|}
     \hline
     \textbf{Name} & \textbf{Beschreibung} \\ \hline
-    Name1 & Beschreibung1 \\ \hline
+    Prompt & Anleitung oder Frage die dem Sprachmodell vorgibt, was es tun soll \\ \hline
     Name2 & Beschreibung2 \\ \hline
     Name3 & Beschreibung3 \\ \hline
     \end{tabular}
 \end{table}
 
-
-\subsection{Werkzeuge}
-
-\begin{table}[H]
-    \centering
-    \caption{Übersicht der Werkzeuge}
-    \label{tab:werkzeuge}
-    \begin{tabular}{|l|l|}
-    \hline
-    \textbf{Name} & \textbf{Beschreibung} \\ \hline
-    Werkzeug1 & Beschreibung1 \\ \hline
-    Werkzeug2 & Beschreibung2 \\ \hline
-    Werkzeug3 & Beschreibung3 \\ \hline
-    \end{tabular}
-\end{table}
-
-
-
-\begin{figure}[ht]
-    \centering
-    \includegraphics[width=0.8\textwidth]{figures/DokumentenAgent-Uebersicht.png}
-    \caption{Schematische Darstellung der Software-Architektur}
-    \label{fig:DokumentenAgent-uebersicht}    % \ref{fig:DokumentenAgent-uebersich}
-\end{figure}
 
 
 \section{Projektstand bei Arbeitsbeginn}
@@ -61,19 +94,49 @@ PDF-Dateien können über einen File-Uploader im Frontend an die Anwendung über
 begrenzte Token-Anzahl für die Abfragen haben ist es nicht möglich das gesamte Dokument an das LLM zu übergeben. 
 Daher wird das Dokument aufgesplittet und mittels einer Vektordatenbank auf Ähnlichkeit mit die gesuchte Information 
 abgeglichen. Die k Ergebnisse mit der größten Ähnlichkeit werden zusammen mit dem Prompt als Abfrage an das LLM übermittelt. 
-Die Abfragen werden mit der langchain API durchgführt, das verwendete Modell ist "gpt-3.5 turbo". 
-Der Großteil dieser Funktionalitäten findet sich in der Document-Agent Klasse. Es gibt 3 Ausschreibungsdokumente in 
-verschiedenen Größen mit denen die Abfragen getestet werden können. Es gibt 3 Prompts, welche bislang nur bedingt gute 
+Die Abfragen werden mit der Langchain API durchgführt, das verwendete Modell ist "gpt-3.5 turbo". Es gibt 3 Ausschreibungsdokumente 
+in verschiedenen Größen mit denen die Abfragen getestet werden können. Es gibt 3 Prompts, welche bislang nur bedingt gute 
 Ergebnisse liefern.
 
-\section{Deine Rolle und Aufgaben im Projekt}
-Ich bin als Softwareentwickler in das Projekt gekommen. Meine Aufgabe bestand Anfangs darin, die Prompts für die einzelnen 
+\section{Meine Rolle und Aufgaben im Projekt}
+Ich bin in der Rolle eines Softwareentwickler in das Projekt gekommen. Meine Aufgabe bestand Anfangs darin, die Prompts für die einzelnen 
 Felder des One Pagers zu formulieren um die gelieferten Ergebnisse zu verbessern. Dies resultierte in den Aufbau einer 
-Test- und Evaluierungsarchitektur mithilfe derer die Prompts vollautomatisch bewertet werden und anhand ihrer Kennzahl 
-ausgewählt und weiter optimiert werden. Durch die Komplikationen mit dem Datenschutz wurde der Umstieg von langchain auf 
-Azure von Microsoft beschlossen, welchen ich durchgeführt habe. Zum Abschluss des Projektes wurden wir angefragt, ob wir 
+Test- und Evaluierungsarchitektur in Python mithilfe derer die Prompts vollautomatisch bewertet werden und anhand ihrer Kennzahl 
+ausgewählt und weiter optimiert werden. Durch die Komplikationen mit dem Datenschutz wurde der Umstieg von Langchain auf 
+Azure von Microsoft beschlossen, welchen ich durchgeführt habe. 
+
+\subsection{OnePager}
+Der von PMO erstellte OnePager umfasst alle wesentlichen Information der Ausschreibung um eine fundierte Entscheidung darüber treffen zu 
+können, ob die Ausschreibung als Projekt für iteratec geeignet ist. Informationen sind unter anderem der Projekttitel, eine kurze Projektbeschreibung, 
+Adressdaten über das Ausschreibende Unternehmen oder Amt, wichtige Termine und Deadlines, Bewertungskriterien, Aufgaben und benötigte Unterlagen welche 
+dem Angebot beigefügt werden müssen. Da jede dieser Punkte in unterschiedlichen Regionen der Dokumente zu finden ist und die Qualität der Ergebnisse 
+besser ist wenn man nicht mehrere Fragen in einer Anfrage bündelt wird der OnePager in der Anwendung Frage für Frage zusammengesetzt und ergänzt.
+Als Format wird JSON verwendet um später den fertigen OnePager gut speichern und weiterverarbeiten zu können (zum Beispiel für die Evaluation) und um dem
+Frontend die Daten als Variable zur Verfügung zu stellen. Die OnePager-Klasse wurde wurde um viele Hilfsmethoden ausgestattet um das Arbeiten mit den 
+JSON-Objekten zu erleichtert. Zu den Hilfsmethoden gehören unter anderem das initialisieren des OnePager-Template, das laden und abspeichern als Datei, 
+einfaches hinzufügen von Teilinformationen aus den einzelnen Ergebnissen des Sprachmodells in den bestehenden OnePager und Prüffunktionen um nicht 
+JSON-Konforme Antworten zu erkennen. 
+
+\subsection{Evaluation}
+
+\subsection{Prompt Engineering}
+
+\subsection{Azure Migration}
+
+\subsection{Messestand auf der BUILD23}
+
+Zum Abschluss des Projektes wurden wir angefragt, ob wir 
 aufgrund des hohen Interesses an dem Projekt eine Präsentation während des GS-Meetings und der BUILD23 halten möchten. 
 Das erstellen der Präsentation und Vortragen dieser gehörte auch zu meinem Aufgabenbereich.
+
+\section{Softwarearchitektur der Anwendung}
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/DokumentenAgent-Uebersicht.png}
+    \caption{Schematische Darstellung der Software-Architektur}
+    \label{fig:DokumentenAgent-uebersicht}    % \ref{fig:DokumentenAgent-uebersich}
+\end{figure}
 
 Anf: Datenschutz, große seiten, chatten mit Dokument
 Grundlagen: Token, Similarity Search, Prompts
