@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  16 NOV 2023 16:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  17 NOV 2023 09:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1109,7 +1109,7 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 119.
  (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_Grundlagen.aux) (chapters/40_Projektberichte_Tätigkeitsbeschreibungen.aux) (chapters/50_Reflexion_Bewertung.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux) (chapters/99_tutorial.aux) (chapters/999_LatexTutorial.aux))
+) (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/40_Projektberichte_Tätigkeitsbeschreibungen.aux) (chapters/50_Reflexion_Bewertung.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux) (chapters/99_tutorial.aux) (chapters/999_LatexTutorial.aux))
 \openout1 = `Raubald_BPS_Bericht.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
@@ -1308,33 +1308,22 @@ Class scrreprt Warning: \float@addtolists detected!
 
 
 
-] [2]) [3]
+] [2] [3]) [4]
 \openout2 = `"chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux"'.
 
  (chapters/20_Tätigkeitsbereich und Aufgabenstellung.tex
 chapter 2.
-[4
+[5
 
 
 
 
 
-]) [5]
-\openout2 = `chapters/30_Grundlagen.aux'.
-
- (chapters/30_Grundlagen.tex
-chapter 3.
-) [6
-
-
-
-
-
-]
+]) [6]
 \openout2 = `chapters/40_Projektberichte_Tätigkeitsbeschreibungen.aux'.
 
  (chapters/40_Projektberichte_Tätigkeitsbeschreibungen.tex
-chapter 4.
+chapter 3.
 [7
 
 
@@ -1342,29 +1331,29 @@ chapter 4.
 
 
 ] [8] [9] [10] [11
-pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.108 \subsection
                  {OnePager}] [12]
-<figures/DokumentenAgent-Uebersicht.png, id=235, 708.684pt x 442.818pt>
+<figures/DokumentenAgent-Uebersicht.png, id=227, 708.684pt x 442.818pt>
 File: figures/DokumentenAgent-Uebersicht.png Graphic file (type png)
 <use figures/DokumentenAgent-Uebersicht.png>
 Package pdftex.def Info: figures/DokumentenAgent-Uebersicht.png  used on input line 136.
 (pdftex.def)             Requested size: 341.43442pt x 213.34752pt.
  [13
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.157 
        <./figures/DokumentenAgent-Uebersicht.png>]
-<figures/03_Prompt_Evaluierung.png, id=243, 979.9812pt x 346.896pt>
+<figures/03_Prompt_Evaluierung.png, id=235, 979.9812pt x 346.896pt>
 File: figures/03_Prompt_Evaluierung.png Graphic file (type png)
 <use figures/03_Prompt_Evaluierung.png>
 Package pdftex.def Info: figures/03_Prompt_Evaluierung.png  used on input line 160.
 (pdftex.def)             Requested size: 341.43442pt x 120.85962pt.
  [14
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.179 
@@ -1372,7 +1361,7 @@ l.179
 \openout2 = `chapters/50_Reflexion_Bewertung.aux'.
 
  (chapters/50_Reflexion_Bewertung.tex
-chapter 5.
+chapter 4.
 ) [16
 
 
@@ -1383,7 +1372,7 @@ chapter 5.
 \openout2 = `chapters/60_Fazit_Ausblick.aux'.
 
  (chapters/60_Fazit_Ausblick.tex
-chapter 6.
+chapter 5.
 ) [17
 
 
@@ -1394,7 +1383,7 @@ chapter 6.
 \openout2 = `chapters/70_Anhang.aux'.
 
  (chapters/70_Anhang.tex
-chapter 7.
+chapter 6.
 ) [18
 
 
@@ -1405,7 +1394,7 @@ chapter 7.
 \openout2 = `chapters/80_Eidesstattliche_Erklaerung.aux'.
 
  (chapters/80_Eidesstattliche_Erklaerung.tex
-chapter 8.
+chapter 7.
 ) [19
 
 
@@ -1416,7 +1405,7 @@ chapter 8.
 \openout2 = `chapters/70_conclusion.aux'.
 
  (chapters/70_conclusion.tex
-chapter 9.
+chapter 8.
 ) [20
 
 
@@ -1427,7 +1416,7 @@ chapter 9.
 \openout2 = `chapters/99_tutorial.aux'.
 
  (chapters/99_tutorial.tex
-chapter 10.
+chapter 9.
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 18.
 (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1443,13 +1432,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 
 ]
-<figures/folderstructure.png, id=286, 370.38374pt x 1030.85126pt>
+<figures/folderstructure.png, id=278, 370.38374pt x 1030.85126pt>
 File: figures/folderstructure.png Graphic file (type png)
 <use figures/folderstructure.png>
 Package pdftex.def Info: figures/folderstructure.png  used on input line 22.
 (pdftex.def)             Requested size: 170.71394pt x 475.12538pt.
  [22] [23
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.36 
@@ -1463,23 +1452,23 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 11.
 )
-<figures/ieee_float_format.jpg, id=304, 414.54875pt x 67.25125pt>
+<figures/ieee_float_format.jpg, id=296, 414.54875pt x 67.25125pt>
 File: figures/ieee_float_format.jpg Graphic file (type jpg)
 <use figures/ieee_float_format.jpg>
 Package pdftex.def Info: figures/ieee_float_format.jpg  used on input line 53.
 (pdftex.def)             Requested size: 277.41179pt x 45.00473pt.
  [24{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10.2}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.60 
      
-pdfTeX warning (ext4): destination with the same identifier (name{figure.10.3}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{figure.9.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.60 
       <./figures/ieee_float_format.jpg>] [25
-pdfTeX warning (ext4): destination with the same identifier (name{table.10.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{table.9.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.85 
@@ -1490,7 +1479,7 @@ File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 86.
  [26
-pdfTeX warning (ext4): destination with the same identifier (name{algocf.10.1}) has been already used, duplicate ignored
+pdfTeX warning (ext4): destination with the same identifier (name{algocf.9.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.129 
@@ -1515,7 +1504,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--11
 
 
 ]) [30]
-chapter 11.
+chapter 10.
 [31
 
 
@@ -1586,7 +1575,7 @@ No file Raubald_BPS_Bericht.acr.
 [36
 
 
-] (appendices/erklaerung.tex) [37] (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_Grundlagen.aux) (chapters/40_Projektberichte_Tätigkeitsbeschreibungen.aux) (chapters/50_Reflexion_Bewertung.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux) (chapters/99_tutorial.aux) (chapters/999_LatexTutorial.aux))
+] (appendices/erklaerung.tex) [37] (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/40_Projektberichte_Tätigkeitsbeschreibungen.aux) (chapters/50_Reflexion_Bewertung.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux) (chapters/99_tutorial.aux) (chapters/999_LatexTutorial.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
@@ -1598,20 +1587,20 @@ Package logreq Info: Writing requests to 'Raubald_BPS_Bericht.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46353 strings out of 474592
- 914701 string characters out of 5744382
- 2082207 words of memory out of 5000000
- 67369 multiletter control sequences out of 15000+600000
- 638052 words of font info for 167 fonts, out of 8000000 for 9000
+ 46322 strings out of 474592
+ 913505 string characters out of 5744382
+ 2079418 words of memory out of 5000000
+ 67347 multiletter control sequences out of 15000+600000
+ 638143 words of font info for 168 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  110i,15n,131p,10987b,7355s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{glo:nic} has been referenced but does not exist, replaced by a fixed one
 
 <C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Raubald_BPS_Bericht.pdf (41 pages, 854600 bytes).
+Output written on Raubald_BPS_Bericht.pdf (41 pages, 852843 bytes).
 PDF statistics:
- 796 PDF objects out of 1000 (max. 8388607)
- 189 named destinations out of 1000 (max. 500000)
- 48179 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 775 PDF objects out of 1000 (max. 8388607)
+ 185 named destinations out of 1000 (max. 500000)
+ 48147 words of extra memory for PDF output out of 51595 (max. 10000000)
 

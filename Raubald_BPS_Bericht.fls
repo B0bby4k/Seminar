@@ -410,9 +410,6 @@ INPUT chapters\10_Einleitung.aux
 INPUT .\chapters\20_Tätigkeitsbereich und Aufgabenstellung.aux
 INPUT .\chapters\20_Tätigkeitsbereich und Aufgabenstellung.aux
 INPUT chapters\20_Tätigkeitsbereich und Aufgabenstellung.aux
-INPUT .\chapters\30_Grundlagen.aux
-INPUT .\chapters\30_Grundlagen.aux
-INPUT chapters\30_Grundlagen.aux
 INPUT .\chapters\40_Projektberichte_Tätigkeitsbeschreibungen.aux
 INPUT .\chapters\40_Projektberichte_Tätigkeitsbeschreibungen.aux
 INPUT chapters\40_Projektberichte_Tätigkeitsbeschreibungen.aux
@@ -558,12 +555,6 @@ OUTPUT chapters\20_Tätigkeitsbereich und Aufgabenstellung.aux
 INPUT .\chapters\20_Tätigkeitsbereich und Aufgabenstellung.tex
 INPUT .\chapters\20_Tätigkeitsbereich und Aufgabenstellung.tex
 INPUT chapters\20_Tätigkeitsbereich und Aufgabenstellung.tex
-INPUT .\chapters\30_Grundlagen.tex
-INPUT .\chapters\30_Grundlagen.tex
-OUTPUT chapters\30_Grundlagen.aux
-INPUT .\chapters\30_Grundlagen.tex
-INPUT .\chapters\30_Grundlagen.tex
-INPUT chapters\30_Grundlagen.tex
 INPUT .\chapters\40_Projektberichte_Tätigkeitsbeschreibungen.tex
 INPUT .\chapters\40_Projektberichte_Tätigkeitsbeschreibungen.tex
 OUTPUT chapters\40_Projektberichte_Tätigkeitsbeschreibungen.aux
@@ -709,9 +700,6 @@ INPUT chapters\10_Einleitung.aux
 INPUT .\chapters\20_Tätigkeitsbereich und Aufgabenstellung.aux
 INPUT .\chapters\20_Tätigkeitsbereich und Aufgabenstellung.aux
 INPUT chapters\20_Tätigkeitsbereich und Aufgabenstellung.aux
-INPUT .\chapters\30_Grundlagen.aux
-INPUT .\chapters\30_Grundlagen.aux
-INPUT chapters\30_Grundlagen.aux
 INPUT .\chapters\40_Projektberichte_Tätigkeitsbeschreibungen.aux
 INPUT .\chapters\40_Projektberichte_Tätigkeitsbeschreibungen.aux
 INPUT chapters\40_Projektberichte_Tätigkeitsbeschreibungen.aux
