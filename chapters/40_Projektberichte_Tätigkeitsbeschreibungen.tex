@@ -105,6 +105,14 @@ Test- und Evaluierungsarchitektur in Python mithilfe derer die Prompts vollautom
 ausgewählt und weiter optimiert werden. Durch die Komplikationen mit dem Datenschutz wurde der Umstieg von Langchain auf 
 Azure von Microsoft beschlossen, welchen ich durchgeführt habe. 
 
+\subsection{Prompt Engineering}
+Um gute Ergebnisse durch die Textvervollständigung der Sprachmodelle zu erhalten ist es unumgänglich hochwertige Prompts zu formulieren.
+Hierfür habe ich mehrere E-Learnings zum Thema Prompt Engineering absolviert, in denen erklärt wird wie man hochwertige Prompts erstellt und 
+ganze Systeme mit einer Chatbotintegration entwickelt. Besondere Methoden welche im Projekt zum Einsatz kommen sind Single-Shot-Prompting, 
+bei dem man ein Beispiel gibt wie eine optimale Antwort auszusehen hat, und die Ausgabe als JSON festzulegen, um die erhaltenen Ergebnisse 
+im Code nutzen und anwenden zu können. Das Bewerten der generierten Antworten durch das Sprachmodell um die Qualität zu messen, welches später 
+im Kapitel \ref{chap:Evaluation} Verwendung findet.
+
 \subsection{OnePager}
 Der von PMO erstellte OnePager umfasst alle wesentlichen Information der Ausschreibung um eine fundierte Entscheidung darüber treffen zu 
 können, ob die Ausschreibung als Projekt für iteratec geeignet ist. Informationen sind unter anderem der Projekttitel, eine kurze Projektbeschreibung, 
@@ -118,6 +126,7 @@ einfaches hinzufügen von Teilinformationen aus den einzelnen Ergebnissen des Sp
 JSON-Konforme Antworten zu erkennen. 
 
 \subsection{Evaluation}
+\label{chap:Evaluation}
 
 \subsection{Prompt Engineering}
 
@@ -131,7 +140,7 @@ Das erstellen der Präsentation und Vortragen dieser gehörte auch zu meinem Auf
 
 \section{Softwarearchitektur der Anwendung}
 
-\begin{figure}[ht]
+\begin{figure}[h]
     \centering
     \includegraphics[width=0.8\textwidth]{figures/DokumentenAgent-Uebersicht.png}
     \caption{Schematische Darstellung der Software-Architektur}
@@ -155,7 +164,7 @@ generieren. Zur Darstellung wurde eine Visualisierungsklasse geschrieben, welche
 (siehe \ref{fig:03_Prompt_Evaluierung}) und so schnell erkennbar ist, ob der aktuelle Prompt zu einer Verbesserung 
 oder Verschlechterung der Ergebnisse führt.
 
-\begin{figure}[ht]
+\begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{figures/03_Prompt_Evaluierung.png}
     \caption{Visualisierung der durchschnittlichen Promptqualität im Laufe der Zeit}
