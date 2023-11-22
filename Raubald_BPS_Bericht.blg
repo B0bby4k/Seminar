@@ -1,0 +1,27 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'Raubald_BPS_Bericht.blg'
+[152] biber-MSWIN64:340> INFO - === 
+[206] Biber.pm:419> INFO - Reading 'Raubald_BPS_Bericht.bcf'
+[368] Biber.pm:979> INFO - Found 10 citekeys in bib section 0
+[392] Biber.pm:4419> INFO - Processing section 0
+[406] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography/references.bib' for section 0
+[456] bibtex.pm:1713> INFO - LaTeX decoding ...
+[468] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography/references.bib'
+[544] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography/websources.bib' for section 0
+[601] bibtex.pm:1713> INFO - LaTeX decoding ...
+[626] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography/websources.bib'
+[644] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography/normen.bib' for section 0
+[707] bibtex.pm:1713> INFO - LaTeX decoding ...
+[718] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography/normen.bib'
+[750] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[750] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[750] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'de-DE'
+[750] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[775] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[775] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[775] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'de-DE'
+[775] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[795] bbl.pm:660> INFO - Writing 'Raubald_BPS_Bericht.bbl' with encoding 'UTF-8'
+[806] bbl.pm:763> INFO - Output to Raubald_BPS_Bericht.bbl
+[806] Biber.pm:131> WARN - Duplicate entry key: 'deeplearning.AI' in file 'bibliography/websources.bib', skipping ...
+[806] Biber.pm:133> INFO - WARNINGS: 1

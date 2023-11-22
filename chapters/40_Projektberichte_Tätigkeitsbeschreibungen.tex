@@ -81,7 +81,7 @@ Eine digitale, kollaborative Whiteboard-Plattform, die es unserem Team ermöglic
     \hline
     \textbf{Name} & \textbf{Beschreibung} \\ \hline
     Prompt & Anleitung oder Frage die dem Sprachmodell vorgibt, was es tun soll \\ \hline
-    Name2 & Beschreibung2 \\ \hline
+    Embedding & Einbetten von Text in Vektoren \\ \hline
     Name3 & Beschreibung3 \\ \hline
     \end{tabular}
 \end{table}
@@ -128,8 +128,6 @@ JSON-Konforme Antworten zu erkennen.
 \subsection{Evaluation}
 \label{chap:Evaluation}
 
-\subsection{Prompt Engineering}
-
 \subsection{Azure Migration}
 
 \subsection{Messestand auf der BUILD23}
@@ -156,7 +154,7 @@ Grundlagen: Token, Similarity Search, Prompts
 Um die Prompts zu verbessern ist es notwendig, diese an unterschiedlichen Ausschreibungen zu testen und das gelieferte 
 Ergebnis mit der richtigen Antwort zu vergleichen. Da das größte Dokument über 100 Seiten hat und wir keine Musterlösungen 
 haben war es schwierig Aussagen über die Qualität der Prompts zu treffen. Die Lösung war das Einführen einer Metrik welche 
-die Qualität der Prompts misst. Es wurden 10 Dokumente ausgearbeitet und sämtliche wichtige Informationen in json Dateien 
+die Qualität der Prompts misst. Es wurden 10 Dokumente ausgearbeitet und sämtliche wichtige Informationen in OnePager-JSON Dateien 
 gespeichert. Anschließend wurde eine Testarchitektur geschaffen, in welcher man die gewünschten Prompts vollautomatisiert 
 gegen die 10 Testdokumente abfragt und anschließend die Resultate zusammen mit der Musterlösung von ChatGPT auf inhaltliche 
 Übereinstimmung überprüfen und bewerten lässt. Aus den so generierten Bewertungen lassen sich nun Aussagekräftige Kennzahlen 
@@ -185,5 +183,7 @@ welche die Dokumente bzw. die Inputs auf mehrere Listen mit einer Größe kleine
 die einzelnen Listen über eine REST API zu embeddings umgewandelt und anschließend wieder zusammengesetzt. Am ende wird eine 
 Collection mit den Embeddings, den Dokumenten und entsprechenden Metadaten erstellt, welche zentral in einem VectorDataManager 
 zur Verfügung gestellt wird. Gegen diese Collection können anschließend Abfragen wie Similarity-Searches durchgeführt werden.
+Zusätzlich anonymisieren wir so gut wie alle Personenbezogenen Daten bevor wir diese an das Sprachmodell übermitteln, indem 
+wir den Kontext vor dem Abschicken gegen eine Liste an Namen prüfen, und so Namen und Mailadressen herausfiltern.
 
 \section{Ergebnisse und Erfahrungen}
