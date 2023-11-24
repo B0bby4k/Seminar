@@ -77,16 +77,16 @@ Eine digitale, kollaborative Whiteboard-Plattform, die es unserem Team ermöglic
     \centering
     \caption{Wichtige Begriffe}
     \label{tab:technologien}
-    \begin{tabular}{|l|l|}
+    \begin{tabular}{|>{\centering\arraybackslash}m{4cm}|p{10cm}|} % Anpassen der Breitenangaben nach Bedarf
     \hline
     \textbf{Name} & \textbf{Beschreibung} \\ \hline
-    Prompt & Anleitung oder Frage die dem Sprachmodell vorgibt, was es tun soll \\ \hline
+    Prompt & Anleitung oder Frage die dem Sprachmodell vorgibt, was es tun soll. Auch Eingabeaufforderung genannt. \\ \hline
+    Prompt Engineering & Gestalten und Optimieren von Eingabeaufforderungen (Prompts) \\ \hline
     Embedding & Einbetten von Text in Vektoren \\ \hline
-    Name3 & Beschreibung3 \\ \hline
+    Vektordatenbank & Datenbank welche die aus dem Embedding generierten Vektoren enthält \\ \hline
+    Similarity Search & Suche von nahestehenden Vektoren innerhalb der Vektordatenbank um gesuchte Dokumenteninhalte zu finden \\ \hline
     \end{tabular}
 \end{table}
-
-
 
 \section{Projektstand bei Arbeitsbeginn}
 Zum Zeitpunkt meines Projekteintrittes gibt es bereits ein Frontend welches mithilfe von Streamlit implementiert wurde. 
@@ -102,7 +102,7 @@ Ergebnisse liefern.
 Ich bin in der Rolle eines Softwareentwickler in das Projekt gekommen. Meine Aufgabe bestand Anfangs darin, die Prompts für die einzelnen 
 Felder des One Pagers zu formulieren um die gelieferten Ergebnisse zu verbessern. Dies resultierte in den Aufbau einer 
 Test- und Evaluierungsarchitektur in Python mithilfe derer die Prompts vollautomatisch bewertet werden und anhand ihrer Kennzahl 
-ausgewählt und weiter optimiert werden. Durch die Komplikationen mit dem Datenschutz wurde der Umstieg von Langchain auf 
+ausgewählt und weiter optimiert werden. Durch Komplikationen mit dem Datenschutz wurde der Umstieg von Langchain auf 
 Azure von Microsoft beschlossen, welchen ich durchgeführt habe. 
 
 \subsection{Prompt Engineering}
@@ -110,8 +110,11 @@ Um gute Ergebnisse durch die Textvervollständigung der Sprachmodelle zu erhalte
 Hierfür habe ich mehrere E-Learnings zum Thema Prompt Engineering absolviert, in denen erklärt wird wie man hochwertige Prompts erstellt und 
 ganze Systeme mit einer Chatbotintegration entwickelt. Besondere Methoden welche im Projekt zum Einsatz kommen sind Single-Shot-Prompting, 
 bei dem man ein Beispiel gibt wie eine optimale Antwort auszusehen hat, und die Ausgabe als JSON festzulegen, um die erhaltenen Ergebnisse 
-im Code nutzen und anwenden zu können. Das Bewerten der generierten Antworten durch das Sprachmodell um die Qualität zu messen, welches später 
-im Kapitel \ref{chap:Evaluation} Verwendung findet.
+im Code nutzen und anwenden zu können. Das Abgrenzen von wichtigen Informationen wie dem mitgelieferten Kontext über sogenannte Delimiter hilft
+dem Modell dabei, Aufgabe und Kontext nicht zu vermischen (wenn auch nicht immer perfekt). Gut eignet sich hierfür '\#\#\#\#', da dies als 
+ein Token zählt und selten regulär vorkommt. Um Halluzinationen, also das produzieren von Falschinformationen oder ausgedachten Informationen zu 
+vermeiden wird im Prompt explizit darauf hingewiesen, dass bei nicht vorhandenen Informationen das entsprechende Feld leer gelassen werden soll. 
+%Das Bewerten der generierten Antworten durch das Sprachmodell um die Qualität zu messen, welches später im Kapitel \ref{chap:Evaluation} Verwendung findet.
 
 \subsection{OnePager}
 Der von PMO erstellte OnePager umfasst alle wesentlichen Information der Ausschreibung um eine fundierte Entscheidung darüber treffen zu 
@@ -123,12 +126,62 @@ Als Format wird JSON verwendet um später den fertigen OnePager gut speichern un
 Frontend die Daten als Variable zur Verfügung zu stellen. Die OnePager-Klasse wurde wurde um viele Hilfsmethoden ausgestattet um das Arbeiten mit den 
 JSON-Objekten zu erleichtert. Zu den Hilfsmethoden gehören unter anderem das initialisieren des OnePager-Template, das laden und abspeichern als Datei, 
 einfaches hinzufügen von Teilinformationen aus den einzelnen Ergebnissen des Sprachmodells in den bestehenden OnePager und Prüffunktionen um nicht 
-JSON-Konforme Antworten zu erkennen. 
+JSON-Konforme Antworten zu erkennen.
 
-\subsection{Evaluation}
-\label{chap:Evaluation}
+\subsection{Verbessern der Kontextauswahl über Similarity Search}
+\label{chap:Verbessern der Kontextauswahl über Similarity Search}
+Um gezielt die fachlich richtigen Passagen innerhalb des Dokuments zu finden wird eine query gegen die über das Embedding generierte Vektordatenbank gestellt.
+Als Ergebnis erhält man die n-Textausschnitte, mit der höchsten Trefferquote. 
+
+\begin{lstlisting}[language=Python, caption=Code einer Similarity Search, label=lst:vectorquery_listing]
+    results = collection.query(
+        query_texts=["This is a query document"],
+        n_results=2)
+\end{lstlisting}
+
+Bei dem eben beschriebenen Verfahren sprechen wir von einer Similarity Search, also dem finden von ähnlichen Daten innerhalb einer Vektorrepräsentation des 
+bereitgestellten Dokuments. Da es bei Ausschreibungen viele synonyme Begriffe gibt, welche Informationen zu identischen Fragestellungen geben habe ich diese 
+Begriffe in einem Lexikon erfasst und gesammelt. Die Akquiseabteilung wurde zusätzlich darum gebeten weitere Ergänzungen vorzunehmen um fachlich möglichst 
+viele Begriffe abzudecken. Mit dem so erhaltenen Lexikon können wichtige Keywords für die Similarity Search bereitgestellt werden, vereinzelt wird auch innerhalb 
+der Prompts darauf zurückgegriffen um das Sprachmodell dabei zu unterstützen die richtigen Informationen der richtigen Stelle des OnePagers zuzuordnen. Über ein 
+Prompt.Config Dictionary kann nun für jedes Prompt auf entsprechende Felder wie Suchbegriffe, Promptmethode oder Suchergebnisanzahl individuell zugegriffen werden.
+
+\subsection{Evaluation} 
+\label{chap:Evaluation}   
+Um festzustellen ob sich Prompts beim Wechsel von Modellen, Promptversionen oder unterschiedlichen PreProcessing-Verfahren verbessern oder verschlechtern 
+habe ich 10 Testdatensätze aus öffentlichen Ausschreibungsportalen zusammmengesucht und entsprechende Musterlösungen erarbeitet, sofern dies in unserem 
+fachlichen Rahmen möglich war. Dies hat uns ermöglicht, ausgewählte Prompts testweise gegen alle 10 Testdatensätze abzufragen. Hierbei wird die neu 
+generierte Antwort mit der Musterlösung verglichen und anschließend anhand eines Bewertungsschemas mit Punkten zwischen 0 und 10 inklusive einer 
+Begründung bewertet, je nachdem wie nah das gelieferte Ergebnis an die Musterlösung herankommt.    
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/02_Prompt_Evaluierung.png}
+    \caption{Visualisierung eines Prompts mit verschiedenen Prompt und Bewertungsmodifikationen über Zeit}
+    \label{figure:02_Prompt_Evaluierung}     % \ref{figure:02_Prompt_Evaluierung}
+\end{figure}
+
+Die einzelnen Punkte werden anschließend für jedes Prompt zu einem Average Score zusammengerechnet und mithilfe der Visualisierungsklasse als Plot dargestellt. 
+Dabei können einzelne Prompts über verschiedene Versionen und Zeitpunkte (siehe \ref{figure:02_Prompt_Evaluierung}) oder mehrere Prompts bei Verwendung 
+unterschiedlicher Sprachmodelle (siehe \ref{fig:04_Prompt_Evaluierung-MitPreProcessing}) dargestellt und verglichen werden.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/04_Prompt_Evaluierung-MitPreProcessing.png}
+    \caption{Visualisierung der Prompts mithilfe unterschiedlicher Modelle. PreProcessing ist aktiviert}
+    \label{fig:04_Prompt_Evaluierung-MitPreProcessing}    % \ref{fig:04_Prompt_Evaluierung-MitPreProcessing}
+\end{figure}
 
 \subsection{Azure Migration}
+Da die rechtliche Lage bei der Verarbeitung Personenbezogener Daten durch Sprachmodelle wie gpt laut unserer Datenschutzbeauftragten noch sehr unklar ist bis es 
+erste Urteile geben wird, wurde sich darauf geeinigt auf azure openAI zu migrieren da dort europäische Server verwendet werden statt amerikanischer.
+Ein großer Nachteil von Azure ist aber, dass man für das erstellen der Embeddings für die Vektordatenbank auf 16 Inputs beschränkt ist, während openAI hier 
+keine Einschränkungen vorgibt. Größere Dokumente können leicht auf 1 Input pro Seite kommen, was ein Einbetten von Dokumenten ab 20 Seiten verhindert.
+Um das Problem zu lösen habe ich statt die vorgegebene Embedding-Methode zu verwenden eine eigene Methode erstellt, welche die Dokumente bzw. die Inputs auf 
+mehrere Listen mit einer Größe kleiner gleich 16 aufteilt. Anschließend werden die einzelnen Listen über eine REST API zu embeddings umgewandelt und 
+wieder zusammengesetzt. Am ende wird eine Collection mit den Embeddings, den Dokumenten und entsprechenden Metadaten erstellt, welche zentral in einem 
+VectorDataManager zur Verfügung gestellt wird. Gegen diese Collection können anschließend Abfragen wie Similarity-Searches (siehe 
+\ref{chap:Verbessern der Kontextauswahl über Similarity Search}) durchgeführt werden. 
 
 \subsection{Messestand auf der BUILD23}
 
@@ -136,7 +189,7 @@ Zum Abschluss des Projektes wurden wir angefragt, ob wir
 aufgrund des hohen Interesses an dem Projekt eine Präsentation während des GS-Meetings und der BUILD23 halten möchten. 
 Das erstellen der Präsentation und Vortragen dieser gehörte auch zu meinem Aufgabenbereich.
 
-\section{Softwarearchitektur der Anwendung}
+\section{Softwarearchitektur der Anwendung zum Zeitpunkt der BUILD23}
 
 \begin{figure}[h]
     \centering
@@ -157,7 +210,11 @@ haben war es schwierig Aussagen über die Qualität der Prompts zu treffen. Die 
 die Qualität der Prompts misst. Es wurden 10 Dokumente ausgearbeitet und sämtliche wichtige Informationen in OnePager-JSON Dateien 
 gespeichert. Anschließend wurde eine Testarchitektur geschaffen, in welcher man die gewünschten Prompts vollautomatisiert 
 gegen die 10 Testdokumente abfragt und anschließend die Resultate zusammen mit der Musterlösung von ChatGPT auf inhaltliche 
-Übereinstimmung überprüfen und bewerten lässt. Aus den so generierten Bewertungen lassen sich nun Aussagekräftige Kennzahlen 
+Übereinstimmung überprüfen und bewerten lässt.
+
+[SIEHE ANHANG XXX - Evaluationsprompt]
+
+Aus den so generierten Bewertungen lassen sich nun Aussagekräftige Kennzahlen 
 generieren. Zur Darstellung wurde eine Visualisierungsklasse geschrieben, welche die Punktzahl der Prompts graphisch darstellt 
 (siehe \ref{fig:03_Prompt_Evaluierung}) und so schnell erkennbar ist, ob der aktuelle Prompt zu einer Verbesserung 
 oder Verschlechterung der Ergebnisse führt.
@@ -171,19 +228,25 @@ oder Verschlechterung der Ergebnisse führt.
 
 \subsection{Datenschutz}
 Das übermitteln und verarbeiten von Personenbezogenen Daten ist in Deutschland nur mit Ausdrücklicher Genehmigung der 
-entsprechenden Person zulässig. Es ist unklar inwiefern das Übermitteln der Daten aus den Dokumenten über die openAI 
+entsprechenden Person zulässig. Laut unserer Datenschutzbeauftragten ist unklar inwiefern das Übermitteln der Daten aus den Dokumenten über die OpenAI 
 API hierunter einzustufen ist. Offiziell heißt es, dass die Daten, welche über die API geteilt werden, nicht zu 
-Trainingszwecken genutzt werden. Da die Server von openAI allerdings in den USA liegen gestalten sich Probleme mit 
+Trainingszwecken genutzt werden. Da die Server von OpenAI allerdings in den USA liegen gestalten sich Probleme mit 
 europäischen Datenschutzrecht. Als Lösung wurde die Umstellung auf Azure in Betracht gezogen, da die Server auf europäischen 
-Boden stehen und damit zumindest nach europäischen Recht Datenschutzkonform sind. Ein großer Nachteil von Azure ist aber, 
-dass man für das erstellen der Vektordatenbank auf 16 Inputs beschränkt ist, während openAI hier keine Einschränkungen vorgibt. 
-Größere Dokumente können leicht auf 1 Input pro Seite kommen, was ein Einbetten von Dokumenten ab 20 Seiten verhindert.
-Um das Problem zu lösen habe ich statt die vorgegebene Embedding-Methode zu verwenden eine eigene Methode erstellt, 
-welche die Dokumente bzw. die Inputs auf mehrere Listen mit einer Größe kleiner gleich 16 aufteilt. Anschließend werden 
-die einzelnen Listen über eine REST API zu embeddings umgewandelt und anschließend wieder zusammengesetzt. Am ende wird eine 
-Collection mit den Embeddings, den Dokumenten und entsprechenden Metadaten erstellt, welche zentral in einem VectorDataManager 
-zur Verfügung gestellt wird. Gegen diese Collection können anschließend Abfragen wie Similarity-Searches durchgeführt werden.
+Boden stehen und damit zumindest nach europäischen Recht Datenschutzkonform sind. 
 Zusätzlich anonymisieren wir so gut wie alle Personenbezogenen Daten bevor wir diese an das Sprachmodell übermitteln, indem 
 wir den Kontext vor dem Abschicken gegen eine Liste an Namen prüfen, und so Namen und Mailadressen herausfiltern.
 
 \section{Ergebnisse und Erfahrungen}
+
+\subsection{Proof of Concept}
+Aus den gesammelten Ergebnissen und Erfahrungen lässt sich herleiten, dass der PoC definitiv zeigt, dass die Anwendung so möglich ist.
+Auch wenn nicht immer alle OnePager korrekt generiert wurden, und teils immer noch Halluzinationen vorkommen und wichtige Informationen 
+fehlen so funktioniert die Anwendung im Kern so wie sie es soll. Wichtig für die Zukunft ist es Klarheit beim Umgang mit Personenbezogenen 
+Daten im Zusammenhang mit Sprachmodellen zu schaffen und gegebenenfalls eine geeignete Filterung dieser Daten zu implementieren.
+Durch neue Modelle, wie dem gegen Ende des Projekts angekündigten gpt-4-turbo, welches eine Kontextlänge von 128K Tokens besitzt, wird man 
+nicht länger gezwungen sein sich auf kleine Textausschnitte zu begrenzen. Man kann ganze Kapitel übergeben und Limitierungen haben mehr wirtschaftliche 
+Gründe als Technische. Auch die Fehleranfälligkeit wird durch einen eingebauten JSON-Parser weiter sinken.
+Unsere Tests zeigen keine Nennenswerte Unterschiede zwischen den Modellen gpt-3.5-turbo und gpt-4 was die Qualität der Prompts angeht,
+daher ist es unwahrscheinlich, dass das neue Modell hier tatsächlich einen Unterschied macht.
+
+\subsection{Persönlich}
