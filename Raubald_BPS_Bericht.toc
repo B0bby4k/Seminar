@@ -13,72 +13,71 @@
 \contentsline {section}{\numberline {2.1}Arbeitsbereich und Ausstattung}{5}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Hauptaufgaben}{6}{section.2.2}%
 \contentsline {section}{\numberline {2.3}Verwendete Software und Grundlagen}{6}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Technologien}{7}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Werkzeuge}{7}{subsection.2.3.2}%
-\contentsline {subsubsection}{\nonumberline Visual Studio Code}{7}{subsubsection*.3}%
+\contentsline {subsection}{\numberline {2.3.1}Werkzeuge}{6}{subsection.2.3.1}%
+\contentsline {subsubsection}{\nonumberline Visual Studio Code}{6}{subsubsection*.3}%
 \contentsline {subsubsection}{\nonumberline GitLab}{7}{subsubsection*.5}%
 \contentsline {subsubsection}{\nonumberline Microsoft Teams}{7}{subsubsection*.7}%
 \contentsline {subsubsection}{\nonumberline Jira}{7}{subsubsection*.9}%
-\contentsline {subsubsection}{\nonumberline Miro}{8}{subsubsection*.11}%
-\contentsline {section}{\numberline {2.4}PERSPEKTIVWECHSEL!!!}{8}{section.2.4}%
-\contentsline {chapter}{\numberline {3}TenderInsights}{9}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Kurze Projektbeschreibung}{9}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Verwendete Software und Grundlagen}{9}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Technologien}{10}{subsection.3.2.1}%
-\contentsline {subsubsection}{\nonumberline Python}{10}{subsubsection*.13}%
-\contentsline {subsubsection}{\nonumberline Langchain}{10}{subsubsection*.15}%
-\contentsline {subsubsection}{\nonumberline OpenAI - GPT}{10}{subsubsection*.17}%
-\contentsline {subsubsection}{\nonumberline Azure}{11}{subsubsection*.19}%
-\contentsline {subsubsection}{\nonumberline ChromaDB}{11}{subsubsection*.21}%
-\contentsline {subsubsection}{\nonumberline JSON}{11}{subsubsection*.23}%
-\contentsline {subsection}{\numberline {3.2.2}Wichtige Begriffe}{12}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Projektstand bei Arbeitsbeginn}{12}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Softwarearchitektur der Anwendung zum Zeitpunkt der BUILD23}{13}{section.3.4}%
-\contentsline {section}{\numberline {3.5}Meine Rolle und Aufgaben im Projekt}{14}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Prompt Engineering}{14}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}OnePager}{15}{subsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.5.3}Verbessern der Kontextauswahl über Similarity Search}{15}{subsection.3.5.3}%
-\contentsline {subsection}{\numberline {3.5.4}Evaluation}{16}{subsection.3.5.4}%
-\contentsline {subsection}{\numberline {3.5.5}Azure Migration}{17}{subsection.3.5.5}%
-\contentsline {subsection}{\numberline {3.5.6}Dokumentation}{18}{subsection.3.5.6}%
-\contentsline {subsection}{\numberline {3.5.7}Messestand auf der BUILD23}{18}{subsection.3.5.7}%
-\contentsline {section}{\numberline {3.6}Herausforderungen und Lösungsansätze}{19}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Optimierung der Prompts}{19}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Datenschutz}{20}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Ergebnisse und Erfahrungen}{20}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Proof of Concept}{20}{subsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.7.2}Persönlich}{21}{subsection.3.7.2}%
-\contentsline {chapter}{\numberline {4}Reflexion und Bewertung}{22}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Persönliche Reflexion über das Praxissemester}{22}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Bewertung der Zusammenarbeit im Team und im Unternehmen}{22}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Einordnung der erlernten Inhalte und Fähigkeiten im Kontext deines Studiums}{22}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Fazit und Ausblick}{23}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Zusammenfassung der wichtigsten Erkenntnisse}{23}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Weiterer Werdegang}{23}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Einordnung der erlernten Inhalte und Fähigkeiten im Kontext deines Studiums}{23}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Anhang}{24}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Liste der verwendeten Tools und Technologien}{24}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Literaturverzeichnis}{24}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Eidesstattliche Erklärung}{25}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{26}{chapter.8}%
-\contentsline {chapter}{\numberline {9}Tutorial zu dieser LaTeX-Vorlage}{27}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Verwendung dieser Vorlage}{27}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Projektstruktur}{28}{section.9.2}%
-\contentsline {subsection}{\numberline {9.2.1}Unterkapitel}{28}{subsection.9.2.1}%
-\contentsline {section}{\numberline {9.3}Grafiken}{28}{section.9.3}%
-\contentsline {subsection}{\numberline {9.3.1}Vektor- vs Pixelgrafiken}{28}{subsection.9.3.1}%
-\contentsline {paragraph}{\nonumberline Profi-Tipp TikZ.}{30}{paragraph*.25}%
-\contentsline {section}{\numberline {9.4}Tabellen}{31}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Quellcode}{31}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Literatur}{32}{section.9.6}%
-\contentsline {section}{\numberline {9.7}Abkürzungen}{34}{section.9.7}%
-\contentsline {section}{\numberline {9.8}LaTeX Eigenarten}{35}{section.9.8}%
-\contentsline {paragraph}{\nonumberline Non-Breaking Space.}{35}{paragraph*.27}%
-\contentsline {paragraph}{\nonumberline Binde- und Gedankenstriche.}{35}{paragraph*.29}%
-\contentsline {paragraph}{\nonumberline Anführungszeichen.}{36}{paragraph*.31}%
-\contentsline {chapter}{\numberline {10}Literatur}{37}{chapter.10}%
-\contentsline {chapter}{\numberline {A}Anhang}{39}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{40}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Tabellenverzeichnis}{41}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Listings}{42}{appendix.D}%
+\contentsline {subsubsection}{\nonumberline Miro}{7}{subsubsection*.11}%
+\contentsline {section}{\numberline {2.4}PERSPEKTIVWECHSEL!!!}{7}{section.2.4}%
+\contentsline {chapter}{\numberline {3}TenderInsights}{8}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Kurze Projektbeschreibung}{8}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Verwendete Software und Grundlagen}{8}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Technologien}{9}{subsection.3.2.1}%
+\contentsline {subsubsection}{\nonumberline Python}{9}{subsubsection*.13}%
+\contentsline {subsubsection}{\nonumberline Langchain}{9}{subsubsection*.15}%
+\contentsline {subsubsection}{\nonumberline OpenAI - GPT}{9}{subsubsection*.17}%
+\contentsline {subsubsection}{\nonumberline Azure}{10}{subsubsection*.19}%
+\contentsline {subsubsection}{\nonumberline ChromaDB}{10}{subsubsection*.21}%
+\contentsline {subsubsection}{\nonumberline JSON}{10}{subsubsection*.23}%
+\contentsline {subsection}{\numberline {3.2.2}Wichtige Begriffe}{11}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Projektstand bei Arbeitsbeginn}{11}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Softwarearchitektur der Anwendung zum Zeitpunkt der BUILD23}{12}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Meine Rolle und Aufgaben im Projekt}{13}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Prompt Engineering}{13}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}OnePager}{14}{subsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.5.3}Verbessern der Kontextauswahl über Similarity Search}{14}{subsection.3.5.3}%
+\contentsline {subsection}{\numberline {3.5.4}Evaluation}{15}{subsection.3.5.4}%
+\contentsline {subsection}{\numberline {3.5.5}Azure Migration}{16}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.6}Dokumentation}{17}{subsection.3.5.6}%
+\contentsline {subsection}{\numberline {3.5.7}Messestand auf der BUILD23}{17}{subsection.3.5.7}%
+\contentsline {section}{\numberline {3.6}Herausforderungen und Lösungsansätze}{18}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Optimierung der Prompts}{18}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Datenschutz}{19}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Ergebnisse und Erfahrungen}{19}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Proof of Concept}{19}{subsection.3.7.1}%
+\contentsline {subsection}{\numberline {3.7.2}Persönlich}{20}{subsection.3.7.2}%
+\contentsline {chapter}{\numberline {4}Reflexion und Bewertung}{21}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Persönliche Reflexion über das Praxissemester}{21}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Bewertung der Zusammenarbeit im Team und im Unternehmen}{21}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Einordnung der erlernten Inhalte und Fähigkeiten im Kontext deines Studiums}{21}{section.4.3}%
+\contentsline {chapter}{\numberline {5}Fazit und Ausblick}{22}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Zusammenfassung der wichtigsten Erkenntnisse}{22}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Weiterer Werdegang}{22}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Einordnung der erlernten Inhalte und Fähigkeiten im Kontext deines Studiums}{22}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Anhang}{23}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Liste der verwendeten Tools und Technologien}{23}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Literaturverzeichnis}{23}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Eidesstattliche Erklärung}{24}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{25}{chapter.8}%
+\contentsline {chapter}{\numberline {9}Tutorial zu dieser LaTeX-Vorlage}{26}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Verwendung dieser Vorlage}{26}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Projektstruktur}{27}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Unterkapitel}{27}{subsection.9.2.1}%
+\contentsline {section}{\numberline {9.3}Grafiken}{27}{section.9.3}%
+\contentsline {subsection}{\numberline {9.3.1}Vektor- vs Pixelgrafiken}{27}{subsection.9.3.1}%
+\contentsline {paragraph}{\nonumberline Profi-Tipp TikZ.}{29}{paragraph*.25}%
+\contentsline {section}{\numberline {9.4}Tabellen}{30}{section.9.4}%
+\contentsline {section}{\numberline {9.5}Quellcode}{30}{section.9.5}%
+\contentsline {section}{\numberline {9.6}Literatur}{31}{section.9.6}%
+\contentsline {section}{\numberline {9.7}Abkürzungen}{33}{section.9.7}%
+\contentsline {section}{\numberline {9.8}LaTeX Eigenarten}{34}{section.9.8}%
+\contentsline {paragraph}{\nonumberline Non-Breaking Space.}{34}{paragraph*.27}%
+\contentsline {paragraph}{\nonumberline Binde- und Gedankenstriche.}{34}{paragraph*.29}%
+\contentsline {paragraph}{\nonumberline Anführungszeichen.}{35}{paragraph*.31}%
+\contentsline {chapter}{\numberline {10}Literatur}{36}{chapter.10}%
+\contentsline {chapter}{\numberline {A}Anhang}{38}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{39}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Tabellenverzeichnis}{40}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Listings}{41}{appendix.D}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
