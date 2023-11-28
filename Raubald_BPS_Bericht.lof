@@ -2,19 +2,19 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Visualisierung eines Prompts mit verschiedenen Prompt und Bewertungsmodifikationen über Zeit}}{14}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Visualisierung der Prompts mithilfe unterschiedlicher Modelle. PreProcessing ist aktiviert}}{15}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Schematische Darstellung der Software-Architektur}}{16}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Visualisierung der durchschnittlichen Promptqualität im Laufe der Zeit}}{17}{figure.3.4}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematische Darstellung der Software-Architektur}}{13}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Visualisierung eines Prompts mit verschiedenen Prompt und Bewertungsmodifikationen über Zeit}}{17}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Visualisierung der Prompts mithilfe unterschiedlicher Modelle. PreProcessing ist aktiviert}}{17}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Visualisierung der durchschnittlichen Promptqualität im Laufe der Zeit}}{19}{figure.3.4}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9.1}{\ignorespaces Ordnerstruktur eines LaTeX-Projektes}}{27}{figure.9.1}%
-\contentsline {figure}{\numberline {9.2}{\ignorespaces Aufbau des IEEE Floating Point Formats als Vektorgrafik mit TikZ erzeugt.}}{28}{figure.9.2}%
-\contentsline {figure}{\numberline {9.3}{\ignorespaces Aufbau des IEEE Floating Point Formats als Pixelgrafik.}}{28}{figure.9.3}%
+\contentsline {figure}{\numberline {9.1}{\ignorespaces Ordnerstruktur eines LaTeX-Projektes}}{29}{figure.9.1}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces Aufbau des IEEE Floating Point Formats als Vektorgrafik mit TikZ erzeugt.}}{30}{figure.9.2}%
+\contentsline {figure}{\numberline {9.3}{\ignorespaces Aufbau des IEEE Floating Point Formats als Pixelgrafik.}}{30}{figure.9.3}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

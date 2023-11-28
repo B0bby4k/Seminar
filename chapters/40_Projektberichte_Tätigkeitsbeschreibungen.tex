@@ -1,75 +1,59 @@
 \chapter{TenderInsights}
 
 \section{Kurze Projektbeschreibung}
-In dem Projekt geht es darum einen PoC - also einen Proof of Concept zu erstellen, der mithilfe von AI bzw. Large Language 
-Models (LLM) große Dokumente nach gesuchten Inhalten durchsucht und aufbereitet. Im Fokus stehen dabei insbesondere 
-öffentliche Ausschreibungen zur Akquise von neuen Projekten für das Unternehmen. Bisher hat ein Mitarbeiter aus PMO die 
-Ausschreibungen händisch grob für passend oder nicht geeignet erklärt und diese dann an die Akquise weitergeleitet. 
-Dort hat ein Mitarbeiter die Ausschreibung sehr genau analysiert und einen sogenannten One Pager erstellt, der alle 
-Daten welche für eine Entscheidung, ob man sich bewerben möchte oder nicht, relevant sind. Aufgabe des PoC ist es nun 
-diesen One Pager mithilfe von künstlicher Intelligenz und einem LLM aus einer oder mehreren bereitgestellten PDF-Datei zu 
-generieren. Der Anwender soll dies über ein Userinterface im Stile einer Webanwendung bedienen können.
+In dem Projekt geht es darum einen PoC - also einen Proof of Concept zu erstellen, der mithilfe von AI bzw. Large
+Language Models (LLM) große Dokumente nach gesuchten Inhalten durchsucht und aufbereitet. Im Fokus stehen dabei
+insbesondere öffentliche Ausschreibungen zur Akquise von neuen Projekten für das Unternehmen. Bisher hat ein Mitarbeiter
+aus PMO die Ausschreibungen händisch grob für passend oder nicht geeignet erklärt und dann an die Akquise
+weitergeleitet. Dort hat ein Mitarbeiter die Ausschreibung sehr genau analysiert und einen sogenannten One Pager
+erstellt, der alle Daten welche für eine Entscheidung, ob man sich bewerben möchte oder nicht, relevant sind. Aufgabe
+des PoC ist es nun diesen One Pager mithilfe von künstlicher Intelligenz und einem LLM aus einer oder mehreren
+bereitgestellten PDF-Datei zu generieren. Der Anwender soll dies über ein Userinterface im Stile einer Webanwendung
+bedienen können.
 
 \section{Verwendete Software und Grundlagen}
-In diesem Kapitel werden alle Software-Werkzeuge, Technologien und Begriffe beschrieben, welche im Entwicklungsumfeld des 
-TenderInsights verwendet werden oder für ein Verständnis zuträglich sind.
-
+In diesem Kapitel werden alle Technologien und Begriffe beschrieben, welche im Entwicklungsumfeld des TenderInsights
+verwendet werden oder für ein Verständnis zuträglich sind.
 
 \subsection{Technologien}
-Bei der Entwicklung des TenderInsights werden viele unterschiedliche Technologien eingesetzt. Während meines Praktikums habe ich 
-in meiner Tätigkeit als Entwickler viele davon kennengelernt und verwendet. Nachfolgend erkläre ich die wichtigsten Technologien.
+Bei der Entwicklung des TenderInsights werden viele unterschiedliche Technologien eingesetzt. Während meines Praktikums
+habe ich in meiner Tätigkeit als Entwickler viele davon kennengelernt und verwendet. Nachfolgend erkläre ich die
+wichtigsten Technologien.
 
 \subsubsection{Python}
-Python ist eine höhere Programmiersprache welche sich durch ihre klare und leicht verständliche Syntax auszeichnet.
-Sie ist bekannt für ihre zahlreichen Standardbibliotheken und ihrer reichen Auswahl an Modulen und Frameworks.
-Da OpenAI nur JavaScript und Python unterstützt, und Python aus zuvor genannten Gründen einsteigefreundlicher ist wurde sich 
-für diese Sprache entschieden.
+Python ist eine höhere Programmiersprache welche sich durch ihre klare und leicht verständliche Syntax auszeichnet. Sie
+ist bekannt für ihre zahlreichen Standardbibliotheken und ihrer reichen Auswahl an Modulen und Frameworks. Da OpenAI nur
+JavaScript und Python unterstützt, und Python aus zuvor genannten Gründen einsteigefreundlicher ist wurde sich für diese
+Sprache entschieden.
 
 \subsubsection{Langchain}
-Langchain ist ein Open-Source-Framework, das auf die Entwicklung und integration von Sprach-KI-Anwendungen spezialisiert ist.
-Es erleichtert das einbinden von Sprachmodellen wie GPT-3.5-turbo von openAI in Projekte und wird beim TenderInsights für 
-Textgenerierung verwendet.
+Langchain ist ein Open-Source-Framework, das auf die Entwicklung und integration von Sprach-KI-Anwendungen spezialisiert
+ist. Es erleichtert das einbinden von Sprachmodellen wie GPT-3.5-turbo von openAI in Projekte und wird beim
+TenderInsights für Textgenerierung verwendet.
 
 \subsubsection{OpenAI - GPT}
-OpenAI ist ein US-Amerikanisches Unternehmen welches sich mit der Erforschung und Entwicklung von künstlicher Intelligenz beschäftigt.
-Eines der bekanntesten Tools bzw. Frameworks ist GPT - Generative Pretrained Transformer, ein Sprachverarbeitungsmodell zur Textgenerierung, 
-Übersetzung, Zusammenfassung und mehr. GPT wird im TenderInsights verwendet um Information aus Texten zu extrahieren und um die 
-gelieferten Prompts zu bewerten.
+OpenAI ist ein US-Amerikanisches Unternehmen welches sich mit der Erforschung und Entwicklung von künstlicher
+Intelligenz beschäftigt. Eines der bekanntesten Tools bzw. Frameworks ist GPT - Generative Pretrained Transformer, ein
+Sprachverarbeitungsmodell zur Textgenerierung, Übersetzung, Zusammenfassung und mehr. GPT wird im TenderInsights
+verwendet um Information aus Texten zu extrahieren und um die gelieferten Prompts zu bewerten.
 
 \subsubsection{Azure}
-Microsoft Azure ist eine Cloud-Computing-Plattform, welche eine breite Palette von Diensten und Lösungen für Unternehmen und Entwickler bietet.
-Zu den Entwickler-Tools und -Diensten gehört unter anderem Azure openAI, welches eine openAI API zur Verfügung stellt. Im Gegensatz zu openAI 
-befinden sich die Server in Europa, weshalb im späteren Verlauf des Projekts aus Gründen des Datenschutzes zu Azure gewechselt wurde.
+Microsoft Azure ist eine Cloud-Computing-Plattform, welche eine breite Palette von Diensten und Lösungen für Unternehmen
+und Entwickler bietet. Zu den Entwickler-Tools und -Diensten gehört unter anderem Azure openAI, welches eine openAI API
+zur Verfügung stellt. Im Gegensatz zu openAI befinden sich die Server in Europa, weshalb im späteren Verlauf des
+Projekts aus Gründen des Datenschutzes zu Azure gewechselt wurde.
 
 \subsubsection{ChromaDB}
-ChromaDB ist eine Open-Source-Datenbanklösung, welche speziell für die Arbeit mit Vektor-Einbettungen in KI-Anwendungen entwickelt wurde.
-Da der Kontext für Sprachmodelle stark unter der Größe von durchschnittlichen Dokumenten liegt wird eine Vektor-Datenbank genutzt um die relevanten
-Stellen in den Dokumenten zu finden und als Kontext mit dem Prompt an das Sprachmodell für die Textgenerierung zu übergeben.
+ChromaDB ist eine Open-Source-Datenbanklösung, welche speziell für die Arbeit mit Vektor-Einbettungen in KI-Anwendungen
+entwickelt wurde. Da der Kontext für Sprachmodelle stark unter der Größe von durchschnittlichen Dokumenten liegt wird
+eine Vektor-Datenbank genutzt um die relevanten Stellen in den Dokumenten zu finden und als Kontext mit dem Prompt an
+das Sprachmodell für die Textgenerierung zu übergeben.
 
 \subsubsection{JSON}
-JavaScript Object Notation, oder kurz JSON, ist ein Daten-Austauschformat welches häufig verendet wird um Daten zwischen einem Server und einer 
-Webanwendung zu übertragen. Da es für Menschen gut lesbar und für Maschinen einfach zu parsen (Entspricht einem normalen Dictionary in Python) 
-ist eignet es sich hervorragend für das Speichern der OnePager Informationen.
-
-
-\subsection{Werkzeuge}
-
-\subsubsection{Visual Studio Code}
-Visual Studio Code (VSCode) ist ein leistungsfähiger und anpassbarer Quelltext-Editor von Microsoft, der eine breite Palette von 
-Programmiersprachen unterstützt und zahlreiche Erweiterungen für Entwickler bietet. 
-
-\subsubsection{GitLab}
-GitLab ist eine auf Git basierende webbasierte DevOps-Plattform, welche für die Versionskontrolle und CI/CD bei der Softwareentwicklung verwendet wird.
-
-\subsubsection{Microsoft Teams}
-Ein Kommunikationstool von Microsoft, welches genutzt wird um sich mit Kollegen auszutauschen, Dateien zu teilen und Besprechungen zu planen so wie durchzuführen.
-
-\subsubsection{Jira}
-Ein Projektmanagement-Werkzeug von Atlassian, das speziell für Softwareentwicklungsteams konzipiert ist und Funktionen für die Verfolgung von Aufgaben, Bugs und agile Prozesse bietet.
-Es kam insbesondere beim verwalten des Backlogs und beim bearbeiten von Tickets zum Einsatz.
-
-\subsubsection{Miro}
-Eine digitale, kollaborative Whiteboard-Plattform, die es unserem Team ermöglicht, visuell zu brainstormen, zu planen und Projekte in Echtzeit zu gestalten.
+JavaScript Object Notation, oder kurz JSON, ist ein Daten-Austauschformat welches häufig verendet wird um Daten zwischen
+einem Server und einer Webanwendung zu übertragen. Da es für Menschen gut lesbar und für Maschinen einfach zu parsen
+(Entspricht einem normalen Dictionary in Python) ist eignet es sich hervorragend für das Speichern der OnePager
+Informationen.
 
 \subsection{Wichtige Begriffe}
 
@@ -82,9 +66,12 @@ Eine digitale, kollaborative Whiteboard-Plattform, die es unserem Team ermöglic
     \textbf{Name} & \textbf{Beschreibung} \\ \hline
     Prompt & Anleitung oder Frage die dem Sprachmodell vorgibt, was es tun soll. Auch Eingabeaufforderung genannt. \\ \hline
     Prompt Engineering & Gestalten und Optimieren von Eingabeaufforderungen (Prompts) \\ \hline
+    Token & Grundlegender Baustein für die Verarbeitung und das Verständnis von Sprache in KI-Systemen  \\ \hline
     Embedding & Einbetten von Text in Vektoren \\ \hline
     Vektordatenbank & Datenbank welche die aus dem Embedding generierten Vektoren enthält \\ \hline
-    Similarity Search & Suche von nahestehenden Vektoren innerhalb der Vektordatenbank um gesuchte Dokumenteninhalte zu finden \\ \hline
+    Similarity Search & Suche von nahestehenden Vektoren innerhalb der Vektordatenbank um gesuchte Dokumenteninhalte zu
+    finden \\ \hline
+    Large Language Model (LLM) & Fortgeschrittene KI, die umfangreiche Textdaten versteht und generiert, basierend auf umfassendem Training und komplexen Algorithmen \\ \hline
     \end{tabular}
 \end{table}
 
@@ -97,6 +84,29 @@ abgeglichen. Die k Ergebnisse mit der größten Ähnlichkeit werden zusammen mit
 Die Abfragen werden mit der Langchain API durchgführt, das verwendete Modell ist "gpt-3.5 turbo". Es gibt 3 Ausschreibungsdokumente 
 in verschiedenen Größen mit denen die Abfragen getestet werden können. Es gibt 3 Prompts, welche bislang nur bedingt gute 
 Ergebnisse liefern.
+
+\section{Softwarearchitektur der Anwendung zum Zeitpunkt der BUILD23}
+Um nachfolgende Kapitel besser verstehen zu können erkläre ich in diesem Kapitel die Grobe Software-Architektur der
+Anwendung zum Zeitpunkt der BUILD23 anhand der Abbildung \ref{fig:DokumentenAgent-uebersicht}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.8\textwidth]{figures/DokumentenAgent-Uebersicht.png}
+    \caption{Schematische Darstellung der Software-Architektur}
+    \label{fig:DokumentenAgent-uebersicht}    % \ref{fig:DokumentenAgent-uebersich}
+\end{figure}
+
+Zuerst werden die Ausschreibungsdokumente im Frontend hochgeladen (Siehe 1.) und der Agent wird mit den gewünschten Prompts
+gestartet (Siehe 2.). Der Agent beginnt nun im Backend mit dem PreProcessing, welches die Dokumente in fachlich logische Blöcke
+aufspaltet und personenbezogene Daten anonymisiert (Siehe 3.). Anschließend wird das Embedding, also eine Repräsentation der Daten
+als Vektoren, erstellt und als der Vektordatenbank angelegt (Siehe 4.). Nun wird für jeden Prompt eine Similarity-Search
+durchgeführt (Siehe 5.), bei der dem möglichst passende Stellen aus den Dokumenten aus der Vektordatenbank extrahiert werden, damit
+diese im Prompt als Kontext eingebettet für die Textvervollständigung an das LLM übergeben werden (Siehe 6.). Das Ergebnis wird in
+ein JSON-Objekt übersetzt und der OnePager wird entsprechend aktualisiert (Siehe 7.). Währenddessen baut sich im Frontend Stück für
+Stück der OnePager mit allen gefundenen Informationen zusammen (Siehe 8.).
+
+Anf: Datenschutz, große seiten, chatten mit Dokument
+Grundlagen: Token, Similarity Search, Prompts
 
 \section{Meine Rolle und Aufgaben im Projekt}
 Ich bin in der Rolle eines Softwareentwickler in das Projekt gekommen. Meine Aufgabe bestand Anfangs darin, die Prompts für die einzelnen 
@@ -173,15 +183,25 @@ unterschiedlicher Sprachmodelle (siehe \ref{fig:04_Prompt_Evaluierung-MitPreProc
 \end{figure}
 
 \subsection{Azure Migration}
-Da die rechtliche Lage bei der Verarbeitung Personenbezogener Daten durch Sprachmodelle wie gpt laut unserer Datenschutzbeauftragten noch sehr unklar ist bis es 
-erste Urteile geben wird, wurde sich darauf geeinigt auf azure openAI zu migrieren da dort europäische Server verwendet werden statt amerikanischer.
-Ein großer Nachteil von Azure ist aber, dass man für das erstellen der Embeddings für die Vektordatenbank auf 16 Inputs beschränkt ist, während openAI hier 
-keine Einschränkungen vorgibt. Größere Dokumente können leicht auf 1 Input pro Seite kommen, was ein Einbetten von Dokumenten ab 20 Seiten verhindert.
-Um das Problem zu lösen habe ich statt die vorgegebene Embedding-Methode zu verwenden eine eigene Methode erstellt, welche die Dokumente bzw. die Inputs auf 
-mehrere Listen mit einer Größe kleiner gleich 16 aufteilt. Anschließend werden die einzelnen Listen über eine REST API zu embeddings umgewandelt und 
-wieder zusammengesetzt. Am ende wird eine Collection mit den Embeddings, den Dokumenten und entsprechenden Metadaten erstellt, welche zentral in einem 
-VectorDataManager zur Verfügung gestellt wird. Gegen diese Collection können anschließend Abfragen wie Similarity-Searches (siehe 
-\ref{chap:Verbessern der Kontextauswahl über Similarity Search}) durchgeführt werden. 
+Da die rechtliche Lage bei der Verarbeitung Personenbezogener Daten durch Sprachmodelle wie gpt laut unserer
+Datenschutzbeauftragten noch sehr unklar ist bis es erste Urteile geben wird, wurde sich darauf geeinigt auf azure
+openAI zu migrieren da dort europäische Server verwendet werden statt amerikanischer. Ein großer Nachteil von Azure ist
+aber, dass man für das erstellen der Embeddings für die Vektordatenbank auf 16 Inputs beschränkt ist, während openAI
+hier keine Einschränkungen vorgibt. Größere Dokumente können leicht auf 1 Input pro Seite kommen, was ein Einbetten von
+Dokumenten ab 20 Seiten verhindert. Um das Problem zu lösen habe ich statt die vorgegebene Embedding-Methode zu
+verwenden eine eigene Methode erstellt, welche die Dokumente bzw. die Inputs auf mehrere Listen mit einer Größe kleiner
+gleich 16 aufteilt. Anschließend werden die einzelnen Listen über eine REST API zu embeddings umgewandelt und wieder
+zusammengesetzt. Am ende wird eine Collection mit den Embeddings, den Dokumenten und entsprechenden Metadaten erstellt,
+welche zentral in einem VectorDataManager zur Verfügung gestellt wird. Gegen diese Collection können anschließend
+Abfragen wie Similarity-Searches (siehe \ref{chap:Verbessern der Kontextauswahl über Similarity Search}) durchgeführt
+werden. 
+
+\subsection{Dokumentation}
+Sämtlicher von mir geschriebener Quellcode wurde mit Ein- und Mehrzeiligen Kommentaren ergänzt, um das Lesen und
+Verstehen des Codes zu vereinfachen. Ich habe die gesammelten Erfahrungen in einem Bericht festgehalten und diesen im
+Repository abgelegt. Zudem wurden Architecture Decision Records, kurz ADR, erstellt und ebenfalls dem Projekt angehängt.
+Diese ADRs sind dazu da, später Einsicht darüber zu geben warum sich für bzw. gegen ein Framework oder eine Technologie 
+entschieden wurde. 
 
 \subsection{Messestand auf der BUILD23}
 
@@ -189,17 +209,6 @@ Zum Abschluss des Projektes wurden wir angefragt, ob wir
 aufgrund des hohen Interesses an dem Projekt eine Präsentation während des GS-Meetings und der BUILD23 halten möchten. 
 Das erstellen der Präsentation und Vortragen dieser gehörte auch zu meinem Aufgabenbereich.
 
-\section{Softwarearchitektur der Anwendung zum Zeitpunkt der BUILD23}
-
-\begin{figure}[h]
-    \centering
-    \includegraphics[width=0.8\textwidth]{figures/DokumentenAgent-Uebersicht.png}
-    \caption{Schematische Darstellung der Software-Architektur}
-    \label{fig:DokumentenAgent-uebersicht}    % \ref{fig:DokumentenAgent-uebersich}
-\end{figure}
-
-Anf: Datenschutz, große seiten, chatten mit Dokument
-Grundlagen: Token, Similarity Search, Prompts
 
 \section{Herausforderungen und Lösungsansätze}
 
@@ -227,26 +236,35 @@ oder Verschlechterung der Ergebnisse führt.
     \end{figure}
 
 \subsection{Datenschutz}
-Das übermitteln und verarbeiten von Personenbezogenen Daten ist in Deutschland nur mit Ausdrücklicher Genehmigung der 
-entsprechenden Person zulässig. Laut unserer Datenschutzbeauftragten ist unklar inwiefern das Übermitteln der Daten aus den Dokumenten über die OpenAI 
-API hierunter einzustufen ist. Offiziell heißt es, dass die Daten, welche über die API geteilt werden, nicht zu 
-Trainingszwecken genutzt werden. Da die Server von OpenAI allerdings in den USA liegen gestalten sich Probleme mit 
-europäischen Datenschutzrecht. Als Lösung wurde die Umstellung auf Azure in Betracht gezogen, da die Server auf europäischen 
-Boden stehen und damit zumindest nach europäischen Recht Datenschutzkonform sind. 
-Zusätzlich anonymisieren wir so gut wie alle Personenbezogenen Daten bevor wir diese an das Sprachmodell übermitteln, indem 
-wir den Kontext vor dem Abschicken gegen eine Liste an Namen prüfen, und so Namen und Mailadressen herausfiltern.
+Das übermitteln und verarbeiten von Personenbezogenen Daten ist in Deutschland nur mit Ausdrücklicher Genehmigung der
+entsprechenden Person zulässig. Laut unserer Datenschutzbeauftragten ist unklar inwiefern das Übermitteln der Daten aus
+den Dokumenten über die OpenAI API hierunter einzustufen ist. Offiziell heißt es, dass die Daten, welche über die API
+geteilt werden, nicht zu Trainingszwecken genutzt werden. Da die Server von OpenAI allerdings in den USA liegen
+gestalten sich Probleme mit europäischen Datenschutzrecht. Als Lösung wurde die Umstellung auf Azure in Betracht
+gezogen, da die Server auf europäischen Boden stehen und damit zumindest nach europäischen Recht Datenschutzkonform
+sind. Zusätzlich anonymisieren wir so gut wie alle Personenbezogenen Daten bevor wir diese an das Sprachmodell
+übermitteln, indem wir den Kontext vor dem Abschicken gegen eine Liste an Namen prüfen, und so Namen und Mailadressen
+herausfiltern.
 
 \section{Ergebnisse und Erfahrungen}
 
 \subsection{Proof of Concept}
-Aus den gesammelten Ergebnissen und Erfahrungen lässt sich herleiten, dass der PoC definitiv zeigt, dass die Anwendung so möglich ist.
-Auch wenn nicht immer alle OnePager korrekt generiert wurden, und teils immer noch Halluzinationen vorkommen und wichtige Informationen 
-fehlen so funktioniert die Anwendung im Kern so wie sie es soll. Wichtig für die Zukunft ist es Klarheit beim Umgang mit Personenbezogenen 
-Daten im Zusammenhang mit Sprachmodellen zu schaffen und gegebenenfalls eine geeignete Filterung dieser Daten zu implementieren.
-Durch neue Modelle, wie dem gegen Ende des Projekts angekündigten gpt-4-turbo, welches eine Kontextlänge von 128K Tokens besitzt, wird man 
-nicht länger gezwungen sein sich auf kleine Textausschnitte zu begrenzen. Man kann ganze Kapitel übergeben und Limitierungen haben mehr wirtschaftliche 
-Gründe als Technische. Auch die Fehleranfälligkeit wird durch einen eingebauten JSON-Parser weiter sinken.
-Unsere Tests zeigen keine Nennenswerte Unterschiede zwischen den Modellen gpt-3.5-turbo und gpt-4 was die Qualität der Prompts angeht,
-daher ist es unwahrscheinlich, dass das neue Modell hier tatsächlich einen Unterschied macht.
+Aus den gesammelten Ergebnissen und Erfahrungen lässt sich herleiten, dass der PoC definitiv zeigt, dass die Anwendung
+so möglich ist. Auch wenn nicht immer alle OnePager korrekt generiert wurden, und teils immer noch Halluzinationen
+vorkommen und wichtige Informationen fehlen so funktioniert die Anwendung im Kern so wie sie es soll. Wichtig für die
+Zukunft ist es Klarheit beim Umgang mit Personenbezogenen Daten im Zusammenhang mit Sprachmodellen zu schaffen und
+gegebenenfalls eine geeignete Filterung dieser Daten zu implementieren. Durch neue Modelle, wie dem gegen Ende des
+Projekts angekündigten gpt-4-turbo, welches eine Kontextlänge von 128K Tokens besitzt, wird man nicht länger gezwungen
+sein sich auf kleine Textausschnitte zu begrenzen. Man kann ganze Kapitel übergeben und Limitierungen haben mehr
+wirtschaftliche Gründe als Technische. Auch die Fehleranfälligkeit wird durch einen eingebauten JSON-Parser weiter
+sinken. Unsere Tests zeigen keine Nennenswerte Unterschiede zwischen den Modellen gpt-3.5-turbo und gpt-4 was die
+Qualität der Prompts angeht, daher ist es unwahrscheinlich, dass das neue Modell hier tatsächlich einen Unterschied
+macht.
 
 \subsection{Persönlich}
+Persönlich konnte ich in dem Projekt lernen, wie man mithilfe eines Jira-Boards als Gruppe iterativ Software entwickelt.
+Ich habe mit Python eine neue Programmiersprache gelernt, welche vielseitig einsetzbar ist und vor allem im Bereich der
+Künstlichen Intelligenz und Machine Learning viele Möglichkeiten bietet. Zudem konnte ich ein tieferes Verständnis für
+Prompts und deren Einsatzmöglichkeiten entwickeln. Das entwickeln einer ganze Applikation, welche Sprachmodelle oder
+andere LLMs integriert ist für mich nun verständlich und durchführbar. Ich konnte auch Erfahrungen im Dokumentieren von
+Entwicklungsartefakten und Entscheidungen sammeln, welche sich in zukünftigen Projekten weiter vertiefen lassen. 
