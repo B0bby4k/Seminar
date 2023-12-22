@@ -3061,21 +3061,6 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">bibliography/normen.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">overleaf</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">inkscape</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">tikz</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">algorithm2e</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">valdez2015reducing</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">valdez2015reducing</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">valdez2015reducing</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">valdez2015reducing</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">valdez2015reducing</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">valdez2015reducing</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">Nielsen1990</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">hollan2000</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">zobel2014writing</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">ISO9241</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">webimis</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

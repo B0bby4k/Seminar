@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  28 NOV 2023 13:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  22 DEC 2023 12:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1118,7 +1118,11 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 120.
  (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/40_Projektberichte_Tätigkeitsbeschreibungen.aux) (chapters/50_Reflexion_Bewertung.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux) (chapters/99_tutorial.aux) (chapters/999_LatexTutorial.aux))
+) (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_TenderInsights.aux) (chapters/40_TenderSniffer.aux
+
+LaTeX Warning: Label `tab:technologien' multiply defined.
+
+) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux))
 \openout1 = `Raubald_BPS_Bericht.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
@@ -1329,9 +1333,9 @@ chapter 2.
 
 
 ] [6]) [7]
-\openout2 = `chapters/40_Projektberichte_Tätigkeitsbeschreibungen.aux'.
+\openout2 = `chapters/30_TenderInsights.aux'.
 
- (chapters/40_Projektberichte_Tätigkeitsbeschreibungen.tex
+ (chapters/30_TenderInsights.tex
 chapter 3.
 [8
 
@@ -1345,7 +1349,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) ha
                                                   \__shipout_drop_firstpage_...
 l.87 
      ]
-<figures/DokumentenAgent-Uebersicht.png, id=234, 708.684pt x 442.818pt>
+<figures/DokumentenAgent-Uebersicht.png, id=213, 708.684pt x 442.818pt>
 File: figures/DokumentenAgent-Uebersicht.png Graphic file (type png)
 <use figures/DokumentenAgent-Uebersicht.png>
 Package pdftex.def Info: figures/DokumentenAgent-Uebersicht.png  used on input line 94.
@@ -1358,21 +1362,21 @@ l.107
        <./figures/DokumentenAgent-Uebersicht.png>] [13] (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 146.
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 143.
  [14]
-<figures/02_Prompt_Evaluierung.png, id=254, 680.0607pt x 346.896pt>
+<figures/02_Prompt_Evaluierung.png, id=234, 680.0607pt x 346.896pt>
 File: figures/02_Prompt_Evaluierung.png Graphic file (type png)
 <use figures/02_Prompt_Evaluierung.png>
-Package pdftex.def Info: figures/02_Prompt_Evaluierung.png  used on input line 169.
+Package pdftex.def Info: figures/02_Prompt_Evaluierung.png  used on input line 166.
 (pdftex.def)             Requested size: 341.43442pt x 174.16743pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<figures/04_Prompt_Evaluierung-MitPreProcessing.png, id=258, 967.323pt x 368.577pt>
+<figures/04_Prompt_Evaluierung-MitPreProcessing.png, id=238, 967.323pt x 368.577pt>
 File: figures/04_Prompt_Evaluierung-MitPreProcessing.png Graphic file (type png)
 <use figures/04_Prompt_Evaluierung-MitPreProcessing.png>
-Package pdftex.def Info: figures/04_Prompt_Evaluierung-MitPreProcessing.png  used on input line 180.
+Package pdftex.def Info: figures/04_Prompt_Evaluierung-MitPreProcessing.png  used on input line 177.
 (pdftex.def)             Requested size: 341.43442pt x 130.09492pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -1381,40 +1385,45 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.198 
+l.195 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.198 
+l.195 
        <./figures/02_Prompt_Evaluierung.png> <./figures/04_Prompt_Evaluierung-MitPreProcessing.png>] [17]
-<figures/03_Prompt_Evaluierung.png, id=279, 979.9812pt x 346.896pt>
+<figures/03_Prompt_Evaluierung.png, id=258, 979.9812pt x 346.896pt>
 File: figures/03_Prompt_Evaluierung.png Graphic file (type png)
 <use figures/03_Prompt_Evaluierung.png>
-Package pdftex.def Info: figures/03_Prompt_Evaluierung.png  used on input line 233.
+Package pdftex.def Info: figures/03_Prompt_Evaluierung.png  used on input line 230.
 (pdftex.def)             Requested size: 341.43442pt x 120.85962pt.
  [18
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.248 
-       <./figures/03_Prompt_Evaluierung.png>] [19]) [20]
-\openout2 = `chapters/50_Reflexion_Bewertung.aux'.
+l.245 
+       <./figures/03_Prompt_Evaluierung.png>]) [19] [20]
+\openout2 = `chapters/40_TenderSniffer.aux'.
 
- (chapters/50_Reflexion_Bewertung.tex
+ (chapters/40_TenderSniffer.tex
 chapter 4.
-) [21
+[21
 
 
 
 
 
-]
+]) [22
+pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.146     \include{chapters/40_TenderSniffer}
+                                             ] [23]
 \openout2 = `chapters/60_Fazit_Ausblick.aux'.
 
  (chapters/60_Fazit_Ausblick.tex
 chapter 5.
-) [22
+) [24
 
 
 
@@ -1425,7 +1434,7 @@ chapter 5.
 
  (chapters/70_Anhang.tex
 chapter 6.
-) [23
+) [25
 
 
 
@@ -1436,7 +1445,7 @@ chapter 6.
 
  (chapters/80_Eidesstattliche_Erklaerung.tex
 chapter 7.
-) [24
+) [26
 
 
 
@@ -1447,109 +1456,28 @@ chapter 7.
 
  (chapters/70_conclusion.tex
 chapter 8.
-) [25
+) [27
 
 
 
 
 
 ]
-\openout2 = `chapters/99_tutorial.aux'.
 
- (chapters/99_tutorial.tex
-chapter 9.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 18.
-(C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [26
+LaTeX Warning: Empty bibliography on input line 159.
 
 
+Package biblatex Warning: Type 'online' not found on input line 160.
 
 
-
-]
-<figures/folderstructure.png, id=324, 370.38374pt x 1030.85126pt>
-File: figures/folderstructure.png Graphic file (type png)
-<use figures/folderstructure.png>
-Package pdftex.def Info: figures/folderstructure.png  used on input line 22.
-(pdftex.def)             Requested size: 170.71394pt x 475.12538pt.
- [27] [28
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.36 
-      <./figures/folderstructure.png>] (figures/ieee_float_format.tex
-Missing character: There is no ; in font nullfont!
-Missing character: There is no ; in font nullfont!
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 11.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 11.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 11.
-)
-<figures/ieee_float_format.jpg, id=343, 414.54875pt x 67.25125pt>
-File: figures/ieee_float_format.jpg Graphic file (type jpg)
-<use figures/ieee_float_format.jpg>
-Package pdftex.def Info: figures/ieee_float_format.jpg  used on input line 53.
-(pdftex.def)             Requested size: 277.41179pt x 45.00473pt.
- [29{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc}
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.60 
-     
-pdfTeX warning (ext4): destination with the same identifier (name{figure.9.3}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.60 
-      <./figures/ieee_float_format.jpg>] [30
-pdfTeX warning (ext4): destination with the same identifier (name{table.9.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.85 
-     ] (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-) (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
-File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
-) [31
-pdfTeX warning (ext4): destination with the same identifier (name{algocf.9.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.129 
-      ]
-Underfull \hbox (badness 10000) in paragraph at lines 132--139
-
- []
-
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 144.
-(C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
-File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [32{C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}]) [33]
-\openout2 = `chapters/999_LatexTutorial.aux'.
-
- (chapters/999_LatexTutorial.tex
-Underfull \hbox (badness 10000) in paragraph at lines 7--11
-
- []
-
-[34
+LaTeX Warning: Empty bibliography on input line 160.
 
 
-
-]) [35]
-chapter 10.
-[36
+Package biblatex Warning: Keyword 'norm' not found on input line 162.
 
 
+LaTeX Warning: Empty bibliography on input line 162.
 
-
-]
 
 Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              You should note, that `\appendix' is a mostly globally
@@ -1562,26 +1490,28 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 (scrreprt)              inconsistent.
 (scrreprt)              Because of this, you should remove `\end{appendix}'
 (scrreprt)              and replace `\begin{appendix}' by command
-(scrreprt)              `\appendix' on input line 169.
+(scrreprt)              `\appendix' on input line 165.
 
-(appendices/example_appendix.tex [37]
+(appendices/example_appendix.tex
 chapter A.
-) [38
+) [28
+
+
 
 
 ]
 chapter B.
-Package tocbasic Info: character protrusion at lof deactivated on input line 174.
+Package tocbasic Info: character protrusion at lof deactivated on input line 170.
 (Raubald_BPS_Bericht.lof)
 \tf@lof=\write7
 \openout7 = `Raubald_BPS_Bericht.lof'.
 
- [39
+ [29
 
 
 ]
 chapter C.
-Package tocbasic Info: character protrusion at lot deactivated on input line 175.
+Package tocbasic Info: character protrusion at lot deactivated on input line 171.
 (Raubald_BPS_Bericht.lot)
 \tf@lot=\write8
 \openout8 = `Raubald_BPS_Bericht.lot'.
@@ -1598,9 +1528,9 @@ Class scrreprt Warning: \float@listhead detected!
 (scrreprt)              Loading of package `scrhack' may help to
 (scrreprt)              avoid this warning, if you are using a
 (scrreprt)              a package that still implements the
-(scrreprt)              deprecated \float@listhead interface on input line 176.
+(scrreprt)              deprecated \float@listhead interface on input line 172.
 
-[40
+[30
 
 
 ]
@@ -1611,14 +1541,18 @@ chapter D.
 
 
 No file Raubald_BPS_Bericht.acr.
-[41
+[31
 
 
-] (appendices/erklaerung.tex) [42] (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/40_Projektberichte_Tätigkeitsbeschreibungen.aux) (chapters/50_Reflexion_Bewertung.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux) (chapters/99_tutorial.aux) (chapters/999_LatexTutorial.aux))
+] (appendices/erklaerung.tex) [32] (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_TenderInsights.aux) (chapters/40_TenderSniffer.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `Raubald_BPS_Bericht.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'Raubald_BPS_Bericht.run.xml'.
@@ -1626,20 +1560,17 @@ Package logreq Info: Writing requests to 'Raubald_BPS_Bericht.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46560 strings out of 474592
- 917067 string characters out of 5744382
- 2080808 words of memory out of 5000000
- 67565 multiletter control sequences out of 15000+600000
- 638143 words of font info for 168 fonts, out of 8000000 for 9000
+ 45703 strings out of 474592
+ 897540 string characters out of 5744382
+ 2030089 words of memory out of 5000000
+ 66873 multiletter control sequences out of 15000+600000
+ 610846 words of font info for 127 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 110i,15n,131p,10987b,7355s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{glo:nic} has been referenced but does not exist, replaced by a fixed one
-
-<C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Raubald_BPS_Bericht.pdf (46 pages, 1822622 bytes).
+ 110i,10n,131p,10987b,7355s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on Raubald_BPS_Bericht.pdf (36 pages, 1521832 bytes).
 PDF statistics:
- 843 PDF objects out of 1000 (max. 8388607)
- 201 named destinations out of 1000 (max. 500000)
- 48197 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 571 PDF objects out of 1000 (max. 8388607)
+ 134 named destinations out of 1000 (max. 500000)
+ 31211 words of extra memory for PDF output out of 35830 (max. 10000000)
 
