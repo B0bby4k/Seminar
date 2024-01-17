@@ -137,21 +137,17 @@ JSON-Konforme Antworten zu erkennen.
 
 \subsection{Verbessern der Kontextauswahl über Similarity Search}
 \label{chap:Verbessern der Kontextauswahl über Similarity Search}
-Um gezielt die fachlich richtigen Passagen innerhalb des Dokuments zu finden wird eine query gegen die über das Embedding generierte Vektordatenbank gestellt.
-Als Ergebnis erhält man die n-Textausschnitte, mit der höchsten Trefferquote. 
-
-\begin{lstlisting}[language=Python, caption=Code einer Similarity Search, label=lst:vectorquery_listing]
-    results = collection.query(
-        query_texts=["This is a query document"],
-        n_results=2)
-\end{lstlisting}
-
-Bei dem eben beschriebenen Verfahren sprechen wir von einer Similarity Search, also dem finden von ähnlichen Daten innerhalb einer Vektorrepräsentation des 
-bereitgestellten Dokuments. Da es bei Ausschreibungen viele synonyme Begriffe gibt, welche Informationen zu identischen Fragestellungen geben habe ich diese 
-Begriffe in einem Lexikon erfasst und gesammelt. Die Akquiseabteilung wurde zusätzlich darum gebeten weitere Ergänzungen vorzunehmen um fachlich möglichst 
-viele Begriffe abzudecken. Mit dem so erhaltenen Lexikon können wichtige Keywords für die Similarity Search bereitgestellt werden, vereinzelt wird auch innerhalb 
-der Prompts darauf zurückgegriffen um das Sprachmodell dabei zu unterstützen die richtigen Informationen der richtigen Stelle des OnePagers zuzuordnen. Über ein 
-Prompt.Config Dictionary kann nun für jedes Prompt auf entsprechende Felder wie Suchbegriffe, Promptmethode oder Suchergebnisanzahl individuell zugegriffen werden.
+Um gezielt die fachlich richtigen Passagen innerhalb des Dokuments zu finden wird eine query gegen die über das
+Embedding generierte Vektordatenbank gestellt. Als Ergebnis erhält man die n-Textausschnitte, mit der höchsten
+Trefferquote. Bei dem eben beschriebenen Verfahren sprechen wir von einer Similarity Search, also dem finden von
+ähnlichen Daten innerhalb einer Vektorrepräsentation des bereitgestellten Dokuments. Da es bei Ausschreibungen viele
+synonyme Begriffe gibt, welche Informationen zu identischen Fragestellungen geben habe ich diese Begriffe in einem
+Lexikon erfasst und gesammelt. Die Akquiseabteilung wurde zusätzlich darum gebeten weitere Ergänzungen vorzunehmen um
+fachlich möglichst viele Begriffe abzudecken. Mit dem so erhaltenen Lexikon können wichtige Keywords für die Similarity
+Search bereitgestellt werden, vereinzelt wird auch innerhalb der Prompts darauf zurückgegriffen um das Sprachmodell
+dabei zu unterstützen die richtigen Informationen der richtigen Stelle des OnePagers zuzuordnen. Über ein Prompt.Config
+Dictionary kann nun für jedes Prompt auf entsprechende Felder wie Suchbegriffe, Promptmethode oder Suchergebnisanzahl
+individuell zugegriffen werden.
 
 \subsection{Evaluation} 
 \label{chap:Evaluation}   

@@ -3,7 +3,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Schematische Darstellung der Software-Architektur}}{12}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Visualisierung eines Prompts mit verschiedenen Prompt und Bewertungsmodifikationen über Zeit}}{16}{figure.3.2}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Visualisierung eines Prompts mit verschiedenen Prompt und Bewertungsmodifikationen über Zeit}}{15}{figure.3.2}%
 \contentsline {figure}{\numberline {3.3}{\ignorespaces Visualisierung der Prompts mithilfe unterschiedlicher Modelle. PreProcessing ist aktiviert}}{16}{figure.3.3}%
 \contentsline {figure}{\numberline {3.4}{\ignorespaces Visualisierung der durchschnittlichen Promptqualität im Laufe der Zeit}}{18}{figure.3.4}%
 \addvspace {10\p@ }

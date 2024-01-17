@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  17 JAN 2024 11:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  17 JAN 2024 12:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1355,77 +1355,67 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) h
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.107 
-       <./figures/DokumentenAgent-Uebersicht.png>] [13] (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
-File: lstlang1.sty 2023/02/27 1.9 listings language file
-)
-Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on input line 143.
- [14]
-<figures/02_Prompt_Evaluierung.png, id=234, 680.0607pt x 346.896pt>
+       <./figures/DokumentenAgent-Uebersicht.png>] [13] [14]
+<figures/02_Prompt_Evaluierung.png, id=228, 680.0607pt x 346.896pt>
 File: figures/02_Prompt_Evaluierung.png Graphic file (type png)
 <use figures/02_Prompt_Evaluierung.png>
-Package pdftex.def Info: figures/02_Prompt_Evaluierung.png  used on input line 166.
+Package pdftex.def Info: figures/02_Prompt_Evaluierung.png  used on input line 162.
 (pdftex.def)             Requested size: 341.43442pt x 174.16743pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<figures/04_Prompt_Evaluierung-MitPreProcessing.png, id=238, 967.323pt x 368.577pt>
-File: figures/04_Prompt_Evaluierung-MitPreProcessing.png Graphic file (type png)
-<use figures/04_Prompt_Evaluierung-MitPreProcessing.png>
-Package pdftex.def Info: figures/04_Prompt_Evaluierung-MitPreProcessing.png  used on input line 177.
-(pdftex.def)             Requested size: 341.43442pt x 130.09492pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15] [16
+ [15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.195 
-      
+l.170 
+       <./figures/02_Prompt_Evaluierung.png>]
+<figures/04_Prompt_Evaluierung-MitPreProcessing.png, id=239, 967.323pt x 368.577pt>
+File: figures/04_Prompt_Evaluierung-MitPreProcessing.png Graphic file (type png)
+<use figures/04_Prompt_Evaluierung-MitPreProcessing.png>
+Package pdftex.def Info: figures/04_Prompt_Evaluierung-MitPreProcessing.png  used on input line 173.
+(pdftex.def)             Requested size: 341.43442pt x 130.09492pt.
+ [16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.195 
-       <./figures/02_Prompt_Evaluierung.png> <./figures/04_Prompt_Evaluierung-MitPreProcessing.png>] [17]
-<figures/03_Prompt_Evaluierung.png, id=258, 979.9812pt x 346.896pt>
+l.198 
+       <./figures/04_Prompt_Evaluierung-MitPreProcessing.png>] [17]
+<figures/03_Prompt_Evaluierung.png, id=252, 979.9812pt x 346.896pt>
 File: figures/03_Prompt_Evaluierung.png Graphic file (type png)
 <use figures/03_Prompt_Evaluierung.png>
-Package pdftex.def Info: figures/03_Prompt_Evaluierung.png  used on input line 230.
+Package pdftex.def Info: figures/03_Prompt_Evaluierung.png  used on input line 226.
 (pdftex.def)             Requested size: 341.43442pt x 120.85962pt.
  [18
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.245 
-       <./figures/03_Prompt_Evaluierung.png>]) [19] [20]
+l.256 
+       <./figures/03_Prompt_Evaluierung.png>]) [19]
 \openout2 = `chapters/40_TenderSniffer.aux'.
 
  (chapters/40_TenderSniffer.tex
 chapter 4.
-[21
+[20
 
 
 
 
 
-] [22] [23] [24]) [25]
+] [21] [22]) [23]
 \openout2 = `chapters/60_Fazit_Ausblick.aux'.
 
  (chapters/60_Fazit_Ausblick.tex
 chapter 5.
-) [26
+) [24
 
 
 
 
 
-] [27]
+] [25]
 \openout2 = `chapters/70_Anhang.aux'.
 
  (chapters/70_Anhang.tex
 chapter 6.
-) [28
+) [26
 
 
 
@@ -1436,7 +1426,7 @@ chapter 6.
 
  (chapters/80_Eidesstattliche_Erklaerung.tex
 chapter 7.
-) [29
+) [27
 
 
 
@@ -1447,7 +1437,7 @@ chapter 7.
 
  (chapters/70_conclusion.tex
 chapter 8.
-) [30
+) [28
 
 
 
@@ -1485,7 +1475,7 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 
 (appendices/example_appendix.tex
 chapter A.
-) [31
+) [29
 
 
 
@@ -1497,7 +1487,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 170
 \tf@lof=\write7
 \openout7 = `Raubald_BPS_Bericht.lof'.
 
- [32
+ [30
 
 
 ]
@@ -1521,7 +1511,7 @@ Class scrreprt Warning: \float@listhead detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@listhead interface on input line 172.
 
-[33
+[31
 
 
 ]
@@ -1532,10 +1522,10 @@ chapter D.
 
 
 No file Raubald_BPS_Bericht.acr.
-[34
+[32
 
 
-] (appendices/erklaerung.tex) [35] (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_TenderInsights.aux) (chapters/40_TenderSniffer.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux))
+] (appendices/erklaerung.tex) [33] (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_TenderInsights.aux) (chapters/40_TenderSniffer.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
@@ -1547,17 +1537,17 @@ Package logreq Info: Writing requests to 'Raubald_BPS_Bericht.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45718 strings out of 474592
- 897734 string characters out of 5744382
- 2030050 words of memory out of 5000000
- 66874 multiletter control sequences out of 15000+600000
- 610937 words of font info for 128 fonts, out of 8000000 for 9000
+ 45265 strings out of 474592
+ 893469 string characters out of 5744382
+ 2012991 words of memory out of 5000000
+ 66440 multiletter control sequences out of 15000+600000
+ 604635 words of font info for 122 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  110i,10n,131p,10987b,7355s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Raubald_BPS_Bericht.pdf (39 pages, 1529312 bytes).
+<C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on Raubald_BPS_Bericht.pdf (37 pages, 1480614 bytes).
 PDF statistics:
- 597 PDF objects out of 1000 (max. 8388607)
- 146 named destinations out of 1000 (max. 500000)
- 31211 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 572 PDF objects out of 1000 (max. 8388607)
+ 140 named destinations out of 1000 (max. 500000)
+ 27115 words of extra memory for PDF output out of 29859 (max. 10000000)
 

@@ -565,11 +565,6 @@ INPUT .\figures\DokumentenAgent-Uebersicht.png
 INPUT .\figures\DokumentenAgent-Uebersicht.png
 INPUT .\figures\DokumentenAgent-Uebersicht.png
 INPUT .\figures\DokumentenAgent-Uebersicht.png
-INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex\latex\listings\lstlang1.sty
-INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr10.tfm
-INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\tfm\public\lm\ec-lmr6.tfm
 INPUT .\figures\02_Prompt_Evaluierung.png
 INPUT .\figures\02_Prompt_Evaluierung.png
 INPUT .\figures\02_Prompt_Evaluierung.png
@@ -675,14 +670,10 @@ INPUT Raubald_BPS_Bericht.run.xml
 OUTPUT Raubald_BPS_Bericht.run.xml
 INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
 INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmbx12.pfb
-INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
-INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr10.pfb
 INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr12.pfb
 INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr17.pfb
 INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr17.pfb
-INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pfb
-INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmr6.pfb
 INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss12.pfb
 INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss12.pfb
 INPUT C:\Users\jraubald\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmssbx10.pfb

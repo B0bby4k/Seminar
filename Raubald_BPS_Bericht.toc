@@ -36,7 +36,7 @@
 \contentsline {subsection}{\numberline {3.5.2}OnePager}{14}{subsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.5.3}Verbessern der Kontextauswahl über Similarity Search}{14}{subsection.3.5.3}%
 \contentsline {subsection}{\numberline {3.5.4}Evaluation}{15}{subsection.3.5.4}%
-\contentsline {subsection}{\numberline {3.5.5}Azure Migration}{15}{subsection.3.5.5}%
+\contentsline {subsection}{\numberline {3.5.5}Azure Migration}{16}{subsection.3.5.5}%
 \contentsline {subsection}{\numberline {3.5.6}Dokumentation}{17}{subsection.3.5.6}%
 \contentsline {subsection}{\numberline {3.5.7}Messestand auf der BUILD23}{17}{subsection.3.5.7}%
 \contentsline {section}{\numberline {3.6}Herausforderungen und Lösungsansätze}{17}{section.3.6}%
@@ -45,34 +45,34 @@
 \contentsline {section}{\numberline {3.7}Ergebnisse und Erfahrungen}{19}{section.3.7}%
 \contentsline {subsection}{\numberline {3.7.1}Proof of Concept}{19}{subsection.3.7.1}%
 \contentsline {subsection}{\numberline {3.7.2}Persönlich}{19}{subsection.3.7.2}%
-\contentsline {chapter}{\numberline {4}TenderSniffer}{21}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Kurze Projektbeschreibung}{21}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Verwendete Software und Grundlagen}{21}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Werkzeuge}{22}{subsection.4.2.1}%
-\contentsline {subsubsection}{\nonumberline IntelliJ IDEA}{22}{subsubsection*.25}%
-\contentsline {subsubsection}{\nonumberline PostgreSQL}{22}{subsubsection*.27}%
-\contentsline {subsubsection}{\nonumberline SonarQube}{22}{subsubsection*.29}%
-\contentsline {subsubsection}{\nonumberline Lint}{22}{subsubsection*.31}%
-\contentsline {subsection}{\numberline {4.2.2}Technologien}{22}{subsection.4.2.2}%
-\contentsline {subsubsection}{\nonumberline Java}{22}{subsubsection*.33}%
-\contentsline {subsubsection}{\nonumberline JavaScript}{23}{subsubsection*.35}%
-\contentsline {subsubsection}{\nonumberline Spring Boot}{23}{subsubsection*.37}%
-\contentsline {subsubsection}{\nonumberline Vue.js}{23}{subsubsection*.39}%
-\contentsline {subsubsection}{\nonumberline Jest}{23}{subsubsection*.41}%
-\contentsline {section}{\numberline {4.3}Meine Rolle und Aufgaben im Projekt}{23}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Kommentare ausblenden}{24}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Auftraggeberdetails erfassen}{24}{subsection.4.3.2}%
-\contentsline {chapter}{\numberline {5}Fazit und Ausblick}{26}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Zusammenfassung der wichtigsten Erkenntnisse}{26}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Einordnung der erlernten Inhalte und Fähigkeiten im Kontext deines Studiums}{26}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Weiterer Werdegang}{27}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Anhang}{28}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Liste der verwendeten Tools und Technologien}{28}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Literaturverzeichnis}{28}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Eidesstattliche Erklärung}{29}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{30}{chapter.8}%
-\contentsline {chapter}{\numberline {A}Anhang}{31}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{32}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Tabellenverzeichnis}{33}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Listings}{34}{appendix.D}%
+\contentsline {chapter}{\numberline {4}TenderSniffer}{20}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Kurze Projektbeschreibung}{20}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Verwendete Software und Grundlagen}{20}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Werkzeuge}{21}{subsection.4.2.1}%
+\contentsline {subsubsection}{\nonumberline IntelliJ IDEA}{21}{subsubsection*.25}%
+\contentsline {subsubsection}{\nonumberline PostgreSQL}{21}{subsubsection*.27}%
+\contentsline {subsubsection}{\nonumberline SonarQube}{21}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline Lint}{21}{subsubsection*.31}%
+\contentsline {subsection}{\numberline {4.2.2}Technologien}{21}{subsection.4.2.2}%
+\contentsline {subsubsection}{\nonumberline Java}{21}{subsubsection*.33}%
+\contentsline {subsubsection}{\nonumberline JavaScript}{22}{subsubsection*.35}%
+\contentsline {subsubsection}{\nonumberline Spring Boot}{22}{subsubsection*.37}%
+\contentsline {subsubsection}{\nonumberline Vue.js}{22}{subsubsection*.39}%
+\contentsline {subsubsection}{\nonumberline Jest}{22}{subsubsection*.41}%
+\contentsline {section}{\numberline {4.3}Meine Rolle und Aufgaben im Projekt}{22}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Kommentare ausblenden}{23}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Auftraggeberdetails erfassen}{23}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Fazit und Ausblick}{24}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Zusammenfassung der wichtigsten Erkenntnisse}{24}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Einordnung der erlernten Inhalte und Fähigkeiten im Kontext deines Studiums}{24}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Weiterer Werdegang}{25}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Anhang}{26}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Liste der verwendeten Tools und Technologien}{26}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Literaturverzeichnis}{26}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Eidesstattliche Erklärung}{27}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{28}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Anhang}{29}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{30}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Tabellenverzeichnis}{31}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Listings}{32}{appendix.D}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
