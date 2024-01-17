@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  22 DEC 2023 12:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  17 JAN 2024 11:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1118,11 +1118,7 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 120.
  (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_TenderInsights.aux) (chapters/40_TenderSniffer.aux
-
-LaTeX Warning: Label `tab:technologien' multiply defined.
-
-) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux))
+) (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_TenderInsights.aux) (chapters/40_TenderSniffer.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux))
 \openout1 = `Raubald_BPS_Bericht.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
@@ -1413,17 +1409,12 @@ chapter 4.
 
 
 
-]) [22
-pdfTeX warning (ext4): destination with the same identifier (name{table.4.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.146     \include{chapters/40_TenderSniffer}
-                                             ] [23]
+] [22] [23] [24]) [25]
 \openout2 = `chapters/60_Fazit_Ausblick.aux'.
 
  (chapters/60_Fazit_Ausblick.tex
 chapter 5.
-) [24
+) [26
 
 
 
@@ -1434,7 +1425,7 @@ chapter 5.
 
  (chapters/70_Anhang.tex
 chapter 6.
-) [25
+) [27
 
 
 
@@ -1445,7 +1436,7 @@ chapter 6.
 
  (chapters/80_Eidesstattliche_Erklaerung.tex
 chapter 7.
-) [26
+) [28
 
 
 
@@ -1456,7 +1447,7 @@ chapter 7.
 
  (chapters/70_conclusion.tex
 chapter 8.
-) [27
+) [29
 
 
 
@@ -1494,7 +1485,7 @@ Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
 
 (appendices/example_appendix.tex
 chapter A.
-) [28
+) [30
 
 
 
@@ -1506,7 +1497,7 @@ Package tocbasic Info: character protrusion at lof deactivated on input line 170
 \tf@lof=\write7
 \openout7 = `Raubald_BPS_Bericht.lof'.
 
- [29
+ [31
 
 
 ]
@@ -1530,7 +1521,7 @@ Class scrreprt Warning: \float@listhead detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@listhead interface on input line 172.
 
-[30
+[32
 
 
 ]
@@ -1541,18 +1532,14 @@ chapter D.
 
 
 No file Raubald_BPS_Bericht.acr.
-[31
+[33
 
 
-] (appendices/erklaerung.tex) [32] (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_TenderInsights.aux) (chapters/40_TenderSniffer.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux))
+] (appendices/erklaerung.tex) [34] (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_TenderInsights.aux) (chapters/40_TenderSniffer.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package rerunfilecheck Info: File `Raubald_BPS_Bericht.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
 Package logreq Info: Writing requests to 'Raubald_BPS_Bericht.run.xml'.
@@ -1560,17 +1547,17 @@ Package logreq Info: Writing requests to 'Raubald_BPS_Bericht.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45703 strings out of 474592
- 897540 string characters out of 5744382
- 2030089 words of memory out of 5000000
- 66873 multiletter control sequences out of 15000+600000
- 610846 words of font info for 127 fonts, out of 8000000 for 9000
+ 45717 strings out of 474592
+ 897727 string characters out of 5744382
+ 2030050 words of memory out of 5000000
+ 66874 multiletter control sequences out of 15000+600000
+ 610937 words of font info for 128 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  110i,10n,131p,10987b,7355s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Raubald_BPS_Bericht.pdf (36 pages, 1521832 bytes).
+Output written on Raubald_BPS_Bericht.pdf (38 pages, 1527618 bytes).
 PDF statistics:
- 571 PDF objects out of 1000 (max. 8388607)
- 134 named destinations out of 1000 (max. 500000)
+ 593 PDF objects out of 1000 (max. 8388607)
+ 145 named destinations out of 1000 (max. 500000)
  31211 words of extra memory for PDF output out of 35830 (max. 10000000)
 

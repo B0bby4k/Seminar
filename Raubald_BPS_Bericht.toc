@@ -18,7 +18,6 @@
 \contentsline {subsubsection}{\nonumberline Microsoft Teams}{7}{subsubsection*.7}%
 \contentsline {subsubsection}{\nonumberline Jira}{7}{subsubsection*.9}%
 \contentsline {subsubsection}{\nonumberline Miro}{7}{subsubsection*.11}%
-\contentsline {section}{\numberline {2.4}PERSPEKTIVWECHSEL!!!}{7}{section.2.4}%
 \contentsline {chapter}{\numberline {3}TenderInsights}{8}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Kurze Projektbeschreibung}{8}{section.3.1}%
 \contentsline {section}{\numberline {3.2}Verwendete Software und Grundlagen}{8}{section.3.2}%
@@ -53,21 +52,27 @@
 \contentsline {subsubsection}{\nonumberline IntelliJ IDEA}{22}{subsubsection*.25}%
 \contentsline {subsubsection}{\nonumberline PostgreSQL}{22}{subsubsection*.27}%
 \contentsline {subsubsection}{\nonumberline SonarQube}{22}{subsubsection*.29}%
+\contentsline {subsubsection}{\nonumberline Lint}{22}{subsubsection*.31}%
 \contentsline {subsection}{\numberline {4.2.2}Technologien}{22}{subsection.4.2.2}%
-\contentsline {subsubsection}{\nonumberline Java}{22}{subsubsection*.31}%
-\contentsline {subsection}{\numberline {4.2.3}Wichtige Begriffe}{22}{subsection.4.2.3}%
+\contentsline {subsubsection}{\nonumberline Java}{22}{subsubsection*.33}%
+\contentsline {subsubsection}{\nonumberline JavaScript}{23}{subsubsection*.35}%
+\contentsline {subsubsection}{\nonumberline Spring Boot}{23}{subsubsection*.37}%
+\contentsline {subsubsection}{\nonumberline Vue.js}{23}{subsubsection*.39}%
+\contentsline {subsubsection}{\nonumberline Jest}{23}{subsubsection*.41}%
 \contentsline {section}{\numberline {4.3}Meine Rolle und Aufgaben im Projekt}{23}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Fazit und Ausblick}{24}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Zusammenfassung der wichtigsten Erkenntnisse}{24}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Einordnung der erlernten Inhalte und Fähigkeiten im Kontext deines Studiums}{24}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Weiterer Werdegang}{24}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Anhang}{25}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Liste der verwendeten Tools und Technologien}{25}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Literaturverzeichnis}{25}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Eidesstattliche Erklärung}{26}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{27}{chapter.8}%
-\contentsline {chapter}{\numberline {A}Anhang}{28}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{29}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Tabellenverzeichnis}{30}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Listings}{31}{appendix.D}%
+\contentsline {subsection}{\numberline {4.3.1}Kommentare ausblenden}{24}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Auftraggeberdetails erfassen}{24}{subsection.4.3.2}%
+\contentsline {chapter}{\numberline {5}Fazit und Ausblick}{26}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Zusammenfassung der wichtigsten Erkenntnisse}{26}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Einordnung der erlernten Inhalte und Fähigkeiten im Kontext deines Studiums}{26}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Weiterer Werdegang}{26}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Anhang}{27}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Liste der verwendeten Tools und Technologien}{27}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Literaturverzeichnis}{27}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Eidesstattliche Erklärung}{28}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{29}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Anhang}{30}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{31}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Tabellenverzeichnis}{32}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Listings}{33}{appendix.D}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
