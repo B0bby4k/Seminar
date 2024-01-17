@@ -65,14 +65,14 @@
 \contentsline {chapter}{\numberline {5}Fazit und Ausblick}{26}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Zusammenfassung der wichtigsten Erkenntnisse}{26}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Einordnung der erlernten Inhalte und Fähigkeiten im Kontext deines Studiums}{26}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Weiterer Werdegang}{26}{section.5.3}%
-\contentsline {chapter}{\numberline {6}Anhang}{27}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Liste der verwendeten Tools und Technologien}{27}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Literaturverzeichnis}{27}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Eidesstattliche Erklärung}{28}{chapter.7}%
-\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{29}{chapter.8}%
-\contentsline {chapter}{\numberline {A}Anhang}{30}{appendix.A}%
-\contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{31}{appendix.B}%
-\contentsline {chapter}{\numberline {C}Tabellenverzeichnis}{32}{appendix.C}%
-\contentsline {chapter}{\numberline {D}Listings}{33}{appendix.D}%
+\contentsline {section}{\numberline {5.3}Weiterer Werdegang}{27}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Anhang}{28}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Liste der verwendeten Tools und Technologien}{28}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Literaturverzeichnis}{28}{section.6.2}%
+\contentsline {chapter}{\numberline {7}Eidesstattliche Erklärung}{29}{chapter.7}%
+\contentsline {chapter}{\numberline {8}Zusammenfassung und Ausblick}{30}{chapter.8}%
+\contentsline {chapter}{\numberline {A}Anhang}{31}{appendix.A}%
+\contentsline {chapter}{\numberline {B}Abbildungsverzeichnis}{32}{appendix.B}%
+\contentsline {chapter}{\numberline {C}Tabellenverzeichnis}{33}{appendix.C}%
+\contentsline {chapter}{\numberline {D}Listings}{34}{appendix.D}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
