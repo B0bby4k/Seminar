@@ -63,9 +63,9 @@
 \contentsline {subsubsection}{\nonumberline Jest}{22}{subsubsection*.43}%
 \contentsline {section}{\numberline {4.3}Meine Rolle und Aufgaben im Projekt}{22}{section.4.3}%
 \contentsline {subsection}{\numberline {4.3.1}Kommentare ausblenden}{23}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Auftraggeberdetails erfassen}{23}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.2}Auftraggeber Details erfassen}{23}{subsection.4.3.2}%
 \contentsline {chapter}{\numberline {5}Fazit und Ausblick}{24}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Zusammenfassung der wichtigsten Erkenntnisse}{24}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Einordnung der erlernten Inhalte und Fähigkeiten im Kontext deines Studiums}{24}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Einordnung der erlernten Inhalte und Fähigkeiten im Kontext meines Studiums}{24}{section.5.2}%
 \contentsline {section}{\numberline {5.3}Weiterer Werdegang}{25}{section.5.3}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

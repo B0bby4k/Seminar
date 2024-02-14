@@ -6,7 +6,7 @@ Ausschreibungsportale nach neuen Ausschreibungen zu durchsuchen und die gefunden
 darzustellen. Teilanwendungen hierbei sind der TenderCrawler, welcher die Ausschreibungen von den einzelnen Plattformen
 zieht und in die Datenbank speichert. Der TenderWeb ist ein Graphisches User Interface (GUI), welches die
 Ausschreibungen in der Datenbank darstellt und Benutzereingaben abspeichert. Mithilfe von verschiedenen Schaltflächen
-kann die Ausschreibung entweder an die Akquiseabteilung weitergeleitet werden oder für unpassend deklarieren.
+kann die Ausschreibung entweder an die Akquise Abteilung weitergeleitet werden oder für unpassend deklarieren.
 
 \section{Verwendete Software und Grundlagen}
 In diesem Kapitel werden alle SW-Werkzeuge und Technologien beschrieben, welche im Entwicklungsumfeld des TenderSniffers
@@ -54,25 +54,25 @@ von Webanwendungen bekannt ist.
 
 \section{Meine Rolle und Aufgaben im Projekt}
 Ich bin in der Rolle eines Softwareentwickler zum Projekt hinzugestoßen. Es wird agil mithilfe von Jiraboards und
-Sprints entwickelt. Ein Sprint geht über vier Wochen, da ein großteil der Projektbeteiligten Werkstudenten sind und
-entsprechend nur ein bis zwei Tage pro Woche arbeiten. Die Endnutzer (PMO- und Akquiseabteilungen) erstellen
-eigenständig neue tickets und beschreiben darin aus Benutzersicht welche Funktionen, Änderungen und Fehler gewünscht
-sind, bzw. beseitigt werden sollen. Neben den täglichen Austauschterminen, den sogenannten "Dailies" gibt es jeden
-Freitag einen größeren Besprechungstermin, die "Weeklies". Am ende eines jeden Sprints findet ein "Review", bevor der
+Sprints entwickelt. Ein Sprint geht über vier Wochen, da ein Großteil der Projektbeteiligten Werkstudenten sind und
+entsprechend nur ein bis zwei Tage pro Woche arbeiten. Die Endnutzer (PMO- und Akquise Abteilungen) erstellen
+eigenständig neue Tickets und beschreiben darin aus Benutzersicht welche Funktionen, Änderungen und Fehler gewünscht
+sind, bzw. beseitigt werden sollen. Neben den täglichen Austauschterminen, den sogenannten "`Dailies"' gibt es jeden
+Freitag einen größeren Besprechungstermin, die "`Weeklies"'. Am ende eines jeden Sprints findet ein "`Review"', bevor der
 nächste Sprint begonnen wird.
 
 \subsection{Kommentare ausblenden}
 Meine Einstiegsaufgabe war es in der Kommentarsektion einen Button im Frontend des TenderWeb zu programmieren, mit dem
 der Kommentarbereich eingeklappt werden kann sobald dieser mehr als 3 Kommentare enthält. Hierfür habe ich die
-vorhandene commentBox.vue um den besagten button erweitert und mithilfe von Javascript die Logik hinter dem Button
+vorhandene commentBox.vue um den besagten Button erweitert und mithilfe von Javascript die Logik hinter dem Button
 implementiert. Nach mehreren Schleifen mit dem Team und den Nutzern habe ich für die finale Version Tests mithilfe von
 Jest geschrieben. Im Anschluss habe ich den Merge Request erstellt und nachdem die Build-Pipeline erfolgreich
 durchgelaufen ist und die Funktion auf dem Testbuild einwandfrei funktioniert hat wurde das Feature auf der
 Produktionsumgebung ausgeliefert und das Ticket im nächsten Review abgeschlossen.
 
-\subsection{Auftraggeberdetails erfassen}
+\subsection{Auftraggeber Details erfassen}
 Die zweite und umfangreichste Aufgabe war es, die Daten der Auftraggeber in einer eigenen Box anzuzeigen und editierbar
-zu gestalten, so dass Änderungen konsistent sind. Hierfür habe ich das Datenbankschema um eine Auftraggebertabelle erweitert
+zu gestalten, so dass Änderungen konsistent sind. Hierfür habe ich das Datenbankschema um eine Auftraggeber Tabelle erweitert
 und im Backend entsprechende Daten-, Repository-, Service- und Controllerklassen geschrieben, mit denen über HTTP
 Requests die API-Endpunkte angesprochen werden können. Hiermit lassen sich die Auftraggeber sowohl abrufen als auch speichern. Im
 Frontend habe ich den Store, welcher als zentraler Ort zur Speicherung und Verwaltung des Anwendungszustands, was eine
