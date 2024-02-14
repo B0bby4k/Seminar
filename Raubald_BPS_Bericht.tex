@@ -54,7 +54,7 @@
 
 %%% additions by ACV
 % Citations using APA style with biblatex
-\usepackage[style=apa,backend=biber,backref=true,maxbibnames=20]{biblatex}
+\usepackage[style=verbose,backend=biber,backref=true,maxbibnames=20]{biblatex}
 % Biblatex allows multiple bib-files
 \addbibresource{bibliography/references.bib}
 \addbibresource{bibliography/websources.bib}
@@ -146,9 +146,9 @@
     \include{chapters/40_TenderSniffer}
     %\include{chapters/50_Reflexion_Bewertung}
     \include{chapters/60_Fazit_Ausblick}
-    \include{chapters/70_Anhang}
-    \include{chapters/80_Eidesstattliche_Erklaerung}
-    \include{chapters/70_conclusion}
+    % \include{chapters/70_Anhang}
+    % \include{chapters/80_Eidesstattliche_Erklaerung}
+    % \include{chapters/70_conclusion}
 
     % diese Zeilen auskommentieren, um das Tutorial aus der Arbeit auszublenden.
     %\include{chapters/99_tutorial}
@@ -156,28 +156,29 @@
 
     % add bibliography
     %\printbibheading
-    \printbibliography[nottype=online,notkeyword=norm]
+    % \printbibliography[nottype=online,notkeyword=norm]
     \printbibliography[type=online,heading=subbibliography,
-title={Online Quellen}]
-    \printbibliography[keyword=norm,heading=subbibliography,
-title={Normen}]
+    title={Online Quellen}]
+    % \printbibliography[keyword=norm,heading=subbibliography,
+    % title={Normen}]
+
     
-    \begin{appendix}
-        % create a tex file for each appendix and include it below
-        \input{appendices/example_appendix}
+    % \begin{appendix}
+    %     % create a tex file for each appendix and include it below
+    %     \input{appendices/example_appendix}
         
-        % add lists of figures, tables and listings to the appendix
-        \listoffigures
-        \listoftables
-        \lstlistoflistings
+    %     % add lists of figures, tables and listings to the appendix
+    %     \listoffigures
+    %     \listoftables
+    %     \lstlistoflistings
         
-        % add acronyms
-        \printglossary[type=\acronymtype, title=Abkürzungsverzeichnis, toctitle=Abkürzungsverzeichnis, numberedsection] 
+    %     % add acronyms
+    %     \printglossary[type=\acronymtype, title=Abkürzungsverzeichnis, toctitle=Abkürzungsverzeichnis, numberedsection] 
         
 
-    \end{appendix}
-    \newpage
-    \input{appendices/erklaerung}
+    % \end{appendix}
+    % \newpage
+    % \input{appendices/erklaerung}
 
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
     %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 

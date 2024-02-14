@@ -1,9 +1,21 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Raubald_BPS_Bericht.blg'
-[149] biber-MSWIN64:340> INFO - === 
-[189] Biber.pm:419> INFO - Reading 'Raubald_BPS_Bericht.bcf'
-[349] Biber.pm:979> INFO - Found 0 citekeys in bib section 0
-[374] bbl.pm:660> INFO - Writing 'Raubald_BPS_Bericht.bbl' with encoding 'UTF-8'
-[374] bbl.pm:763> INFO - Output to Raubald_BPS_Bericht.bbl
-[375] Biber.pm:131> WARN - The file 'Raubald_BPS_Bericht.bcf' does not contain any citations!
-[375] Biber.pm:133> INFO - WARNINGS: 1
+[139] biber-MSWIN64:340> INFO - === 
+[178] Biber.pm:419> INFO - Reading 'Raubald_BPS_Bericht.bcf'
+[324] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
+[344] Biber.pm:4419> INFO - Processing section 0
+[359] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography/references.bib' for section 0
+[405] bibtex.pm:1713> INFO - LaTeX decoding ...
+[421] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography/references.bib'
+[423] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography/websources.bib' for section 0
+[470] bibtex.pm:1713> INFO - LaTeX decoding ...
+[490] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography/websources.bib'
+[539] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[539] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[539] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[539] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[546] bbl.pm:660> INFO - Writing 'Raubald_BPS_Bericht.bbl' with encoding 'UTF-8'
+[547] bbl.pm:763> INFO - Output to Raubald_BPS_Bericht.bbl
+[547] Biber.pm:131> WARN - Duplicate entry key: 'deeplearning.AI' in file 'bibliography/websources.bib', skipping ...
+[547] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\jraubald\AppData\Local\Temp\biber_tmp_XQ5T\32877016081f67041f70486aac43b5cc_7860.utf8, line 51, warning: 69 characters of junk seen at toplevel
+[547] Biber.pm:133> INFO - WARNINGS: 2

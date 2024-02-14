@@ -1,7 +1,6 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  17 JAN 2024 12:39
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  14 FEB 2024 12:25
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
 **"c:/Users/jraubald/OneDrive - iteratec GmbH/Dokumente/BPS_Bericht/Latex/Raubald_BPS_Bericht.tex"
 (c:/Users/jraubald/OneDrive - iteratec GmbH/Dokumente/BPS_Bericht/Latex/Raubald_BPS_Bericht.tex
@@ -916,10 +915,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'apa.dbx' found.
- (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.dbx
-File: apa.dbx 2023/03/20 v9.17 APA biblatex style data model
-)
+Package biblatex Info: ... file 'verbose.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count408
@@ -958,48 +954,38 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedshortauthor=\count441
 \c@shorteditor=\count442
 \c@savedshorteditor=\count443
-\c@narrator=\count444
-\c@savednarrator=\count445
-\c@execproducer=\count446
-\c@savedexecproducer=\count447
-\c@execdirector=\count448
-\c@savedexecdirector=\count449
-\c@with=\count450
-\c@savedwith=\count451
-\c@labelname=\count452
-\c@savedlabelname=\count453
-\c@institution=\count454
-\c@savedinstitution=\count455
-\c@lista=\count456
-\c@savedlista=\count457
-\c@listb=\count458
-\c@savedlistb=\count459
-\c@listc=\count460
-\c@savedlistc=\count461
-\c@listd=\count462
-\c@savedlistd=\count463
-\c@liste=\count464
-\c@savedliste=\count465
-\c@listf=\count466
-\c@savedlistf=\count467
-\c@location=\count468
-\c@savedlocation=\count469
-\c@organization=\count470
-\c@savedorganization=\count471
-\c@origlocation=\count472
-\c@savedoriglocation=\count473
-\c@origpublisher=\count474
-\c@savedorigpublisher=\count475
-\c@publisher=\count476
-\c@savedpublisher=\count477
-\c@language=\count478
-\c@savedlanguage=\count479
-\c@origlanguage=\count480
-\c@savedoriglanguage=\count481
-\c@citation=\count482
-\c@savedcitation=\count483
-\c@pageref=\count484
-\c@savedpageref=\count485
+\c@labelname=\count444
+\c@savedlabelname=\count445
+\c@institution=\count446
+\c@savedinstitution=\count447
+\c@lista=\count448
+\c@savedlista=\count449
+\c@listb=\count450
+\c@savedlistb=\count451
+\c@listc=\count452
+\c@savedlistc=\count453
+\c@listd=\count454
+\c@savedlistd=\count455
+\c@liste=\count456
+\c@savedliste=\count457
+\c@listf=\count458
+\c@savedlistf=\count459
+\c@location=\count460
+\c@savedlocation=\count461
+\c@organization=\count462
+\c@savedorganization=\count463
+\c@origlocation=\count464
+\c@savedoriglocation=\count465
+\c@origpublisher=\count466
+\c@savedorigpublisher=\count467
+\c@publisher=\count468
+\c@savedpublisher=\count469
+\c@language=\count470
+\c@savedlanguage=\count471
+\c@origlanguage=\count472
+\c@savedoriglanguage=\count473
+\c@pageref=\count474
+\c@savedpageref=\count475
 \shorthandwidth=\skip111
 \shortjournalwidth=\skip112
 \shortserieswidth=\skip113
@@ -1023,55 +1009,44 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count486
-\c@textcitetotal=\count487
-\c@textcitemaxnames=\count488
-\c@biburlbigbreakpenalty=\count489
-\c@biburlbreakpenalty=\count490
-\c@biburlnumpenalty=\count491
-\c@biburlucpenalty=\count492
-\c@biburllcpenalty=\count493
+\c@textcitecount=\count476
+\c@textcitetotal=\count477
+\c@textcitemaxnames=\count478
+\c@biburlbigbreakpenalty=\count479
+\c@biburlbreakpenalty=\count480
+\c@biburlnumpenalty=\count481
+\c@biburlucpenalty=\count482
+\c@biburllcpenalty=\count483
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count494
+\c@smartand=\count484
 )
-Package biblatex Info: Trying to load bibliography style 'apa'...
-Package biblatex Info: ... file 'apa.bbx' found.
- (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.bbx
-File: apa.bbx 2023/03/20 v9.17 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'verbose'...
+Package biblatex Info: ... file 'verbose.bbx' found.
+ (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\verbose.bbx
+File: verbose.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'authortitle'...
+Package biblatex Info: ... file 'authortitle.bbx' found.
+ (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\authortitle.bbx
+File: authortitle.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count495
-\c@bbx:relatedtotal=\count496
-)
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defined, overwriting.
-Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already defined, overwriting.
-Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already defined, overwriting.
-Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already defined, overwriting.
-)
-Package biblatex Info: Trying to load citation style 'apa'...
-Package biblatex Info: ... file 'apa.cbx' found.
- (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.cbx
-File: apa.cbx 2023/03/20 v9.17 APA biblatex citation style
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
-Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined, overwriting.
-Package biblatex Info: Redefining '\fullcite'.
-Package biblatex Info: Redefining '\citeauthor'.
-Package biblatex Info: Redefining '\citeyear'.
+\c@bbx:relatedcount=\count485
+\c@bbx:relatedtotal=\count486
+)))
+Package biblatex Info: Trying to load citation style 'verbose'...
+Package biblatex Info: ... file 'verbose.cbx' found.
+ (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\verbose.cbx
+File: verbose.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcites'.
 Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\footcitetexts'.
 Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
 )
@@ -1092,7 +1067,7 @@ Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 Package: microtype 2023/03/13 v3.1a Micro-typographical refinements (RS)
 \MT@toks=\toks53
 \MT@tempbox=\box87
-\MT@count=\count497
+\MT@count=\count487
 LaTeX Info: Redefining \noprotrusionifhmode on input line 1059.
 LaTeX Info: Redefining \leftprotrusion on input line 1060.
 \MT@prot@toks=\toks54
@@ -1100,7 +1075,7 @@ LaTeX Info: Redefining \rightprotrusion on input line 1078.
 LaTeX Info: Redefining \textls on input line 1368.
 \MT@outer@kern=\dimen300
 LaTeX Info: Redefining \textmicrotypecontext on input line 1988.
-\MT@listname@count=\count498
+\MT@listname@count=\count488
  (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdftex.def
 File: microtype-pdftex.def 2023/03/13 v3.1a Definitions specific to pdftex (RS)
 LaTeX Info: Redefining \lsstyle on input line 902.
@@ -1118,7 +1093,7 @@ Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
 LaTeX Font Info:    Trying to load font information for T1+lmr on input line 120.
  (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_TenderInsights.aux) (chapters/40_TenderSniffer.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux))
+) (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_TenderInsights.aux) (chapters/40_TenderSniffer.aux) (chapters/60_Fazit_Ausblick.aux))
 \openout1 = `Raubald_BPS_Bericht.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 120.
@@ -1139,19 +1114,19 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
 LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 120.
 LaTeX Font Info:    ... okay on input line 120.
-\c@lstlisting=\count499
+\c@lstlisting=\count489
  (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count500
+\scratchcounter=\count490
 \scratchdimen=\dimen301
 \scratchbox=\box88
-\nofMPsegments=\count501
-\nofMParguments=\count502
+\nofMPsegments=\count491
+\nofMParguments=\count492
 \everyMPshowfont=\toks55
-\MPscratchCnt=\count503
+\MPscratchCnt=\count493
 \MPscratchDim=\dimen302
-\MPnumerator=\count504
-\makeMPintoPDFobject=\count505
+\MPnumerator=\count494
+\makeMPintoPDFobject=\count495
 \everyMPtoPDFconversion=\toks56
 ) (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -1176,38 +1151,22 @@ Class scrreprt Info: loading recommended package `bookmark'.
 Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
  (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
 File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
-\BKM@id=\count506
+\BKM@id=\count496
 ))
-Package biblatex Info: Trying to load language 'ngerman' -> 'ngerman-apa'...
-Package biblatex Info: ... file 'ngerman-apa.lbx' found.
- (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\ngerman-apa.lbx
-File: ngerman-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
  (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lbx
 File: ngerman.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'german' -> 'german-apa'...
-Package biblatex Info: ... file 'german-apa.lbx' found.
- (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\german-apa.lbx
-File: german-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
  (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
 File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
-)))
-Package biblatex Info: Trying to load language 'ngerman'...
-Package biblatex Info: ... file 'ngerman.lbx' found.
- (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\ngerman.lbx
-File: ngerman.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'german' -> 'german-apa'...
-Package biblatex Info: ... file 'german-apa.lbx' found.
- (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\german-apa.lbx
-File: german-apa.lbx 2023/03/20 v9.17 APA biblatex localisation
+)
 Package biblatex Info: Trying to load language 'german'...
 Package biblatex Info: ... file 'german.lbx' found.
  (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\german.lbx
 File: german.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
-))))
+))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1287,11 +1246,11 @@ LaTeX Font Info:    External font `lmex10' loaded for size
  [2
 
 
-] [3])
+])
 \tf@toc=\write6
 \openout6 = `Raubald_BPS_Bericht.toc'.
 
- [4]
+ [3]
 \openout2 = `chapters/10_Einleitung.aux'.
 
  (chapters/10_Einleitung.tex
@@ -1343,51 +1302,62 @@ chapter 3.
 pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.87 
+l.89 
      ]
-<figures/DokumentenAgent-Uebersicht.png, id=213, 708.684pt x 442.818pt>
+<figures/DokumentenAgent-Uebersicht.png, id=195, 708.684pt x 442.818pt>
 File: figures/DokumentenAgent-Uebersicht.png Graphic file (type png)
 <use figures/DokumentenAgent-Uebersicht.png>
-Package pdftex.def Info: figures/DokumentenAgent-Uebersicht.png  used on input line 94.
-(pdftex.def)             Requested size: 341.43442pt x 213.34752pt.
+Package pdftex.def Info: figures/DokumentenAgent-Uebersicht.png  used on input line 92.
+(pdftex.def)             Requested size: 426.7914pt x 266.6861pt.
  [12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.107 
+l.106 
        <./figures/DokumentenAgent-Uebersicht.png>] [13] [14]
-<figures/02_Prompt_Evaluierung.png, id=228, 680.0607pt x 346.896pt>
+<figures/02_Prompt_Evaluierung.png, id=210, 680.0607pt x 346.896pt>
 File: figures/02_Prompt_Evaluierung.png Graphic file (type png)
 <use figures/02_Prompt_Evaluierung.png>
-Package pdftex.def Info: figures/02_Prompt_Evaluierung.png  used on input line 162.
-(pdftex.def)             Requested size: 341.43442pt x 174.16743pt.
- [15
+Package pdftex.def Info: figures/02_Prompt_Evaluierung.png  used on input line 169.
+(pdftex.def)             Requested size: 426.7914pt x 217.7093pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[15] [16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.170 
+l.206 
        <./figures/02_Prompt_Evaluierung.png>]
-<figures/04_Prompt_Evaluierung-MitPreProcessing.png, id=239, 967.323pt x 368.577pt>
-File: figures/04_Prompt_Evaluierung-MitPreProcessing.png Graphic file (type png)
-<use figures/04_Prompt_Evaluierung-MitPreProcessing.png>
-Package pdftex.def Info: figures/04_Prompt_Evaluierung-MitPreProcessing.png  used on input line 173.
-(pdftex.def)             Requested size: 341.43442pt x 130.09492pt.
- [16
+<figures/03_Prompt_Evaluierung.png, id=226, 979.9812pt x 346.896pt>
+File: figures/03_Prompt_Evaluierung.png Graphic file (type png)
+<use figures/03_Prompt_Evaluierung.png>
+Package pdftex.def Info: figures/03_Prompt_Evaluierung.png  used on input line 232.
+(pdftex.def)             Requested size: 426.7914pt x 151.07321pt.
+ [17]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 256.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 256.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 256.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 256.
+ (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [18
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.198 
-       <./figures/04_Prompt_Evaluierung-MitPreProcessing.png>] [17]
-<figures/03_Prompt_Evaluierung.png, id=252, 979.9812pt x 346.896pt>
-File: figures/03_Prompt_Evaluierung.png Graphic file (type png)
-<use figures/03_Prompt_Evaluierung.png>
-Package pdftex.def Info: figures/03_Prompt_Evaluierung.png  used on input line 226.
-(pdftex.def)             Requested size: 341.43442pt x 120.85962pt.
- [18
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.256 
+l.265 
        <./figures/03_Prompt_Evaluierung.png>]) [19]
 \openout2 = `chapters/40_TenderSniffer.aux'.
 
@@ -1411,121 +1381,13 @@ chapter 5.
 
 
 ] [25]
-\openout2 = `chapters/70_Anhang.aux'.
-
- (chapters/70_Anhang.tex
-chapter 6.
-) [26
-
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/12'.
+(microtype)             Ignoring protrusion settings for this character.
+ [26
 
 
-
-
-]
-\openout2 = `chapters/80_Eidesstattliche_Erklaerung.aux'.
-
- (chapters/80_Eidesstattliche_Erklaerung.tex
-chapter 7.
-) [27
-
-
-
-
-
-]
-\openout2 = `chapters/70_conclusion.aux'.
-
- (chapters/70_conclusion.tex
-chapter 8.
-) [28
-
-
-
-
-
-]
-
-LaTeX Warning: Empty bibliography on input line 159.
-
-
-Package biblatex Warning: Type 'online' not found on input line 160.
-
-
-LaTeX Warning: Empty bibliography on input line 160.
-
-
-Package biblatex Warning: Keyword 'norm' not found on input line 162.
-
-
-LaTeX Warning: Empty bibliography on input line 162.
-
-
-Class scrreprt Warning: You are using `\begin{appendix}...\end{appendix}'.
-(scrreprt)              You should note, that `\appendix' is a mostly globally
-(scrreprt)              working command not an enviroment with only local
-(scrreprt)              effects. Therefore `\end{appendix}' will neither
-(scrreprt)              switch back to normal section numbering nor finish
-(scrreprt)              every other effect of `\begin{appendix}'.
-(scrreprt)              Nevertheless, some effects may end with
-(scrreprt)              `\end{appendix}' and the document may become
-(scrreprt)              inconsistent.
-(scrreprt)              Because of this, you should remove `\end{appendix}'
-(scrreprt)              and replace `\begin{appendix}' by command
-(scrreprt)              `\appendix' on input line 165.
-
-(appendices/example_appendix.tex
-chapter A.
-) [29
-
-
-
-
-]
-chapter B.
-Package tocbasic Info: character protrusion at lof deactivated on input line 170.
-(Raubald_BPS_Bericht.lof)
-\tf@lof=\write7
-\openout7 = `Raubald_BPS_Bericht.lof'.
-
- [30
-
-
-]
-chapter C.
-Package tocbasic Info: character protrusion at lot deactivated on input line 171.
-(Raubald_BPS_Bericht.lot)
-\tf@lot=\write8
-\openout8 = `Raubald_BPS_Bericht.lot'.
-
-
-
-Class scrreprt Warning: \float@listhead detected!
-(scrreprt)              Implementation of \float@listhead became
-(scrreprt)              deprecated in KOMA-Script v3.01 2008/11/14 and
-(scrreprt)              has been replaced by several more flexible
-(scrreprt)              features of package `tocbasic`.
-(scrreprt)              Maybe implementation of \float@listhead will
-(scrreprt)              be removed from KOMA-Script soon.
-(scrreprt)              Loading of package `scrhack' may help to
-(scrreprt)              avoid this warning, if you are using a
-(scrreprt)              a package that still implements the
-(scrreprt)              deprecated \float@listhead interface on input line 172.
-
-[31
-
-
-]
-chapter D.
-(Raubald_BPS_Bericht.lol)
-\tf@lol=\write9
-\openout9 = `Raubald_BPS_Bericht.lol'.
-
-
-No file Raubald_BPS_Bericht.acr.
-[32
-
-
-] (appendices/erklaerung.tex) [33] (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_TenderInsights.aux) (chapters/40_TenderSniffer.aux) (chapters/60_Fazit_Ausblick.aux) (chapters/70_Anhang.aux) (chapters/80_Eidesstattliche_Erklaerung.aux) (chapters/70_conclusion.aux))
+] (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_TenderInsights.aux) (chapters/40_TenderSniffer.aux) (chapters/60_Fazit_Ausblick.aux))
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2020/03/25>
@@ -1537,17 +1399,17 @@ Package logreq Info: Writing requests to 'Raubald_BPS_Bericht.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 45265 strings out of 474592
- 893469 string characters out of 5744382
- 2012991 words of memory out of 5000000
- 66440 multiletter control sequences out of 15000+600000
- 604635 words of font info for 122 fonts, out of 8000000 for 9000
+ 44766 strings out of 474592
+ 879667 string characters out of 5744382
+ 1936533 words of memory out of 5000000
+ 65940 multiletter control sequences out of 15000+600000
+ 638108 words of font info for 160 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 110i,10n,131p,10987b,7355s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr17.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on Raubald_BPS_Bericht.pdf (37 pages, 1480614 bytes).
+ 110i,10n,107p,10987b,2463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Raubald_BPS_Bericht.pdf (29 pages, 690998 bytes).
 PDF statistics:
- 572 PDF objects out of 1000 (max. 8388607)
- 140 named destinations out of 1000 (max. 500000)
- 27115 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 530 PDF objects out of 1000 (max. 8388607)
+ 129 named destinations out of 1000 (max. 500000)
+ 46502 words of extra memory for PDF output out of 51595 (max. 10000000)
 

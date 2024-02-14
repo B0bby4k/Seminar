@@ -16,5 +16,37 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{gpt-4-turbo}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0523b13262b12c215d8009938f5c14f1}{%
+           family={OpenAI},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
+      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://help.openai.com/en/articles/8555510-gpt-4-turbo}}
+      \field{note}{Zugriff am 14.02.2024}
+      \field{title}{GPT-4 Turbo Releasenotes}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://help.openai.com/en/articles/8555510-gpt-4-turbo
+      \endverb
+      \verb{url}
+      \verb https://help.openai.com/en/articles/8555510-gpt-4-turbo
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
