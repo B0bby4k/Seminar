@@ -19,36 +19,36 @@ Bei der Entwicklung des TenderInsights werden viele unterschiedliche Technologie
 habe ich in meiner Tätigkeit als Entwickler viele davon kennengelernt und verwendet. Nachfolgend erkläre ich die
 wichtigsten Technologien.
 
-\subsubsection{Python}
+\subsubsection{\textcite{python}}
 Python ist eine höhere Programmiersprache welche sich durch ihre klare und leicht verständliche Syntax auszeichnet. Sie
 ist bekannt für ihre zahlreichen Standardbibliotheken und ihrer reichen Auswahl an Modulen und Frameworks. Da OpenAI nur
 JavaScript und Python unterstützt, und Python aus zuvor genannten Gründen einsteigefreundlicher ist haben wir uns für
 diese Sprache entschieden.
 
-\subsubsection{Langchain}
+\subsubsection{\textcite{langchain}}
 Langchain ist ein Open-Source-Framework, das auf die Entwicklung und Integration von Sprach-KI-Anwendungen spezialisiert
 ist. Es erleichtert das einbinden von Sprachmodellen wie GPT-3.5-turbo von openAI in Projekte und wird beim
 TenderInsights für Textgenerierung verwendet.
 
-\subsubsection{OpenAI - GPT}
+\subsubsection{\textcite{openai-gpt}}
 OpenAI ist ein US-Amerikanisches Unternehmen welches sich mit der Erforschung und Entwicklung von künstlicher
 Intelligenz beschäftigt. Eines der bekanntesten Tools bzw. Frameworks ist GPT - Generative Pretrained Transformer, ein
 Sprachverarbeitungsmodell zur Textgenerierung, Übersetzung, Zusammenfassung und mehr. GPT wird im TenderInsights
 verwendet um Information aus Texten zu extrahieren und um die gelieferten Prompts zu bewerten.
 
-\subsubsection{Azure}
+\subsubsection{\textcite{azure}}
 Microsoft Azure ist eine Cloud-Computing-Plattform, welche eine breite Palette von Diensten und Lösungen für Unternehmen
 und Entwickler bietet. Zu den Entwickler-Tools und -Diensten gehört unter anderem Azure openAI, welches eine openAI API
 zur Verfügung stellt. Im Gegensatz zu openAI befinden sich die Server in Europa, weshalb im späteren Verlauf des
 Projekts aus Gründen des Datenschutzes zu Azure gewechselt wurde.
 
-\subsubsection{ChromaDB}
+\subsubsection{\textcite{chromadb}}
 ChromaDB ist eine Open-Source-Datenbanklösung, welche speziell für die Arbeit mit Vektor-Einbettungen in KI-Anwendungen
 entwickelt wurde. Da der Kontext für Sprachmodelle stark unter der Größe von durchschnittlichen Dokumenten liegt wird
 eine Vektor-Datenbank genutzt um die relevanten Stellen in den Dokumenten zu finden und als Kontext mit dem Prompt an
 das Sprachmodell für die Textgenerierung zu übergeben.
 
-\subsubsection{JSON}
+\subsubsection{\textcite{json}}
 JavaScript Object Notation, oder kurz JSON, ist ein Daten-Austauschformat welches häufig verendet wird um Daten zwischen
 einem Server und einer Webanwendung zu übertragen. Da es für Menschen gut lesbar und für Maschinen einfach zu parsen
 (Entspricht einem normalen Dictionary in Python) ist eignet es sich hervorragend für das Speichern der OnePager
@@ -113,7 +113,7 @@ Umstieg von Langchain auf Azure von Microsoft beschlossen, welchen ich durchgef�
 
 \subsection{Prompt Engineering}
 Um gute Ergebnisse durch die Textvervollständigung der Sprachmodelle zu erhalten ist es unumgänglich hochwertige Prompts
-zu formulieren. Hierfür habe ich mehrere E-Learnings zum Thema Prompt Engineering absolviert, in denen erklärt wird wie
+zu formulieren. Hierfür habe ich mehrere E-Learnings zum Thema \textcite{deeplearning.AI} absolviert, in denen erklärt wird wie
 man hochwertige Prompts erstellt und ganze Systeme mit einer Chatbot Integration entwickelt. Besondere Methoden welche im
 Projekt zum Einsatz kommen sind Single-Shot-Prompting, bei dem man ein Beispiel gibt wie eine optimale Antwort
 auszusehen hat, und die Ausgabe als JSON festzulegen, um die erhaltenen Ergebnisse im Code nutzen und anwenden zu
@@ -128,17 +128,16 @@ nicht vorhandenen Informationen das entsprechende Feld leer gelassen werden soll
 \subsection{OnePager}
 Der von PMO erstellte OnePager umfasst alle wesentlichen Information der Ausschreibung um eine fundierte Entscheidung
 darüber treffen zu können, ob die Ausschreibung als Projekt für iteratec geeignet ist. Informationen sind unter anderem
-der Projekttitel, eine kurze Projektbeschreibung, Adressdaten über das Ausschreibende Unternehmen oder Amt, wichtige
-Termine und Deadlines, Bewertungskriterien, Aufgaben und benötigte Unterlagen welche dem Angebot beigefügt werden
-müssen. Da jede dieser Punkte in unterschiedlichen Regionen der Dokumente zu finden ist und die Qualität der Ergebnisse
-besser ist wenn man nicht mehrere Fragen in einer Anfrage bündelt wird der OnePager in der Anwendung Frage für Frage
-zusammengesetzt und ergänzt. Als Format wird JSON verwendet um später den fertigen OnePager gut speichern und
-weiterverarbeiten zu können (zum Beispiel für die Evaluation). Zudem können dem Frontend die Daten so als Variable zur
-Verfügung gestellt werden. Die OnePager-Klasse wurde mit vielen Hilfsmethoden ausgestattet um das Arbeiten mit den
-JSON-Objekten zu erleichtern. Zu den Hilfsmethoden gehören unter anderem das Initialisieren des OnePager-Template, das
-Laden und Abspeichern als Datei. Eine weitere Hilfsmethode ist das Hinzufügen von Teilinformationen aus den einzelnen
-Ergebnissen des Sprachmodells in den bestehenden OnePager gehört. Mithilfe von Prüffunktionen werden nicht JSON-Konforme
-Antworten zu erkannt um Maßnahmen (etwa das Wiederholen der Anfrage) ergreifen zu können.
+der Projekttitel, eine kurze Projektbeschreibung, wichtige Termine und Deadlines und Bewertungskriterien. Da jede dieser
+Punkte in unterschiedlichen Regionen der Dokumente zu finden ist und die Qualität der Ergebnisse besser ist wenn man
+nicht mehrere Fragen in einer Anfrage bündelt wird der OnePager in der Anwendung Frage für Frage zusammengesetzt und
+ergänzt. Als Format wird JSON verwendet um später den fertigen OnePager gut speichern und weiterverarbeiten zu können
+(zum Beispiel für die Evaluation). Zudem können dem Frontend die Daten so als Variable zur Verfügung gestellt werden.
+Die OnePager-Klasse wurde mit vielen Hilfsmethoden ausgestattet um das Arbeiten mit den JSON-Objekten zu erleichtern. Zu
+den Hilfsmethoden gehören unter anderem das Initialisieren des OnePager-Template, das Laden und Abspeichern als Datei.
+Eine weitere Hilfsmethode ist das Hinzufügen von Teilinformationen aus den einzelnen Ergebnissen des Sprachmodells in
+den bestehenden OnePager gehört. Mithilfe von Prüffunktionen werden nicht JSON-Konforme Antworten erkannt um
+Maßnahmen (Wiederholen der Anfrage) ergreifen zu können.
 
 \subsection{Verbessern der Kontextauswahl über Similarity Search}
 \label{chap:Verbessern der Kontextauswahl über Similarity Search}
@@ -222,7 +221,7 @@ Informationen in OnePager-JSON Dateien gespeichert. Anschließend wurde eine Tes
 die gewünschten Prompts vollautomatisiert gegen die 10 Testdokumente abfragt und anschließend die Resultate zusammen mit
 der Musterlösung von ChatGPT auf inhaltliche Übereinstimmung überprüfen und bewerten lässt.
 
-Aus den so generierten Bewertungen lassen sich nun Aussagekräftige Kennzahlen generieren. Zur Darstellung wurde eine
+Aus den generierten Bewertungen lassen sich Aussagekräftige Kennzahlen generieren. Zur Darstellung wurde eine
 Visualisierungsklasse geschrieben, welche die Punktzahl der Prompts graphisch darstellt (siehe
 \ref{fig:03_Prompt_Evaluierung}) und so schnell erkennbar ist, ob der aktuelle Prompt zu einer Verbesserung oder
 Verschlechterung der Ergebnisse führt.
@@ -252,16 +251,15 @@ und so Namen und Mailadressen herausfiltern.
 Der PoC ist in der Lage viele der gesuchten Informationen aus den Dokumenten zu extrahieren und grafisch für den Nutzer
 aufzubereiten. Allerdings fehlen oft Teilinformationen oder es werden Halluzinationen bzw. Falschinformationen
 hinzugefügt. Ein möglicher Grund hierfür sind eventuell das PreProcessing,welches aufgrund der limitierten Kontextgröße
-von gpt-3.5 und gpt-4 notwendig ist. Durch neue Modelle, wie dem gegen Ende des Projekts angekündigten gpt-4-turbo
-(siehe dazu \textcite{gpt-4-turbo}), welches eine Kontextlänge von 128K Tokens besitzt, wird man nicht länger gezwungen
-sein sich auf kleine Textausschnitte zu begrenzen. Man kann ganze Kapitel übergeben und Limitierungen haben mehr
-wirtschaftliche Gründe als Technische. Auch die Fehleranfälligkeit wird durch einen eingebauten JSON-Parser weiter
-sinken. Unsere Tests zeigen keine Nennenswerte Unterschiede zwischen den Modellen gpt-3.5-turbo und gpt-4 was die
-Qualität der Prompts angeht. Der Versuch hat gezeigt, dass die Grundfunktionen, das übergeben von
-Ausschreibungsdokumenten und deren Analyse mithilfe eines Sprachmodells zur automatisierten Erstellung eines OnePager,
-technisch definitiv möglich sind. Wichtig für die Zukunft ist jedoch es Klarheit beim Umgang mit Personenbezogenen Daten
-im Zusammenhang mit Sprachmodellen zu schaffen und gegebenenfalls eine geeignete Filterung dieser Daten zu
-implementieren.
+von gpt-3.5 und gpt-4 notwendig ist. Durch neue Modelle, wie dem gegen Ende des Projekts angekündigten
+\textcite{gpt-4-turbo}, welches eine Kontextlänge von 128K Tokens besitzt, wird man nicht länger gezwungen sein sich auf
+kleine Textausschnitte zu begrenzen. Man kann ganze Kapitel übergeben und Limitierungen haben mehr wirtschaftliche
+Gründe als Technische. Auch die Fehleranfälligkeit wird durch einen eingebauten JSON-Parser weiter sinken. Unsere Tests
+zeigen keine Nennenswerte Unterschiede zwischen den Modellen gpt-3.5-turbo und gpt-4 was die Qualität der Prompts
+angeht. Der Versuch hat gezeigt, dass die Grundfunktionen, das übergeben von Ausschreibungsdokumenten und deren Analyse
+mithilfe eines Sprachmodells zur automatisierten Erstellung eines OnePager, technisch definitiv möglich sind. Wichtig
+für die Zukunft ist jedoch es Klarheit beim Umgang mit Personenbezogenen Daten im Zusammenhang mit Sprachmodellen zu
+schaffen und gegebenenfalls eine geeignete Filterung dieser Daten zu implementieren.
 
 \subsection{Persönlich}
 Persönlich konnte ich in dem Projekt lernen, wie man mithilfe eines Jira-Boards als Gruppe iterativ Software entwickelt.

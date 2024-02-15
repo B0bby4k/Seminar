@@ -19,31 +19,318 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
+    \entry{chromadb}{online}{}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pypi.org/project/chromadb/}}
+      \field{title}{ChromaDB Datenbanklösung}
+      \verb{urlraw}
+      \verb https://pypi.org/project/chromadb/
+      \endverb
+      \verb{url}
+      \verb https://pypi.org/project/chromadb/
+      \endverb
+    \endentry
+    \entry{gitlab}{online}{}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://en.wikipedia.org/wiki/GitLab}}
+      \field{title}{GitLab}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/GitLab
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/GitLab
+      \endverb
+    \endentry
     \entry{gpt-4-turbo}{online}{}
-      \name{author}{1}{}{%
-        {{hash=0523b13262b12c215d8009938f5c14f1}{%
-           family={OpenAI},
-           familyi={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{0523b13262b12c215d8009938f5c14f1}
-      \strng{fullhash}{0523b13262b12c215d8009938f5c14f1}
-      \strng{bibnamehash}{0523b13262b12c215d8009938f5c14f1}
-      \strng{authorbibnamehash}{0523b13262b12c215d8009938f5c14f1}
-      \strng{authornamehash}{0523b13262b12c215d8009938f5c14f1}
-      \strng{authorfullhash}{0523b13262b12c215d8009938f5c14f1}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{labelnamesource}{author}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labeltitlesource}{title}
       \field{howpublished}{\url{https://help.openai.com/en/articles/8555510-gpt-4-turbo}}
-      \field{note}{Zugriff am 14.02.2024}
       \field{title}{GPT-4 Turbo Releasenotes}
-      \field{year}{2024}
       \verb{urlraw}
       \verb https://help.openai.com/en/articles/8555510-gpt-4-turbo
       \endverb
       \verb{url}
       \verb https://help.openai.com/en/articles/8555510-gpt-4-turbo
+      \endverb
+    \endentry
+    \entry{intellij-idea}{online}{}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.jetbrains.com/idea/}}
+      \field{title}{IntelliJ IDEA}
+      \verb{urlraw}
+      \verb https://www.jetbrains.com/idea/
+      \endverb
+      \verb{url}
+      \verb https://www.jetbrains.com/idea/
+      \endverb
+    \endentry
+    \entry{java}{online}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.oracle.com/java/}}
+      \field{title}{Java}
+      \verb{urlraw}
+      \verb https://www.oracle.com/java/
+      \endverb
+      \verb{url}
+      \verb https://www.oracle.com/java/
+      \endverb
+    \endentry
+    \entry{javascript}{online}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://developer.mozilla.org/en-US/docs/Web/JavaScript}}
+      \field{title}{JavaScript}
+      \verb{urlraw}
+      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript
+      \endverb
+      \verb{url}
+      \verb https://developer.mozilla.org/en-US/docs/Web/JavaScript
+      \endverb
+    \endentry
+    \entry{json}{online}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.json.org/json-de.html}}
+      \field{title}{JavaScript Object Notation (JSON)}
+      \verb{urlraw}
+      \verb https://www.json.org/json-de.html
+      \endverb
+      \verb{url}
+      \verb https://www.json.org/json-de.html
+      \endverb
+    \endentry
+    \entry{jest}{online}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://jestjs.io/}}
+      \field{title}{Jest}
+      \verb{urlraw}
+      \verb https://jestjs.io/
+      \endverb
+      \verb{url}
+      \verb https://jestjs.io/
+      \endverb
+    \endentry
+    \entry{jira}{online}{}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.atlassian.com/software/jira}}
+      \field{title}{Jira}
+      \verb{urlraw}
+      \verb https://www.atlassian.com/software/jira
+      \endverb
+      \verb{url}
+      \verb https://www.atlassian.com/software/jira
+      \endverb
+    \endentry
+    \entry{langchain}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.langchain.com/langchain}}
+      \field{title}{Langchain Framework}
+      \verb{urlraw}
+      \verb https://www.langchain.com/langchain
+      \endverb
+      \verb{url}
+      \verb https://www.langchain.com/langchain
+      \endverb
+    \endentry
+    \entry{lint}{online}{}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://en.wikipedia.org/wiki/Lint_(software)}}
+      \field{title}{Lint}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Lint_(software)
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Lint_(software)
+      \endverb
+    \endentry
+    \entry{azure}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://azure.microsoft.com/de-de/resources/cloud-computing-dictionary/what-is-azure}}
+      \field{title}{Microsoft Azure Plattform}
+      \verb{urlraw}
+      \verb https://azure.microsoft.com/de-de/resources/cloud-computing-dictionary/what-is-azure
+      \endverb
+      \verb{url}
+      \verb https://azure.microsoft.com/de-de/resources/cloud-computing-dictionary/what-is-azure
+      \endverb
+    \endentry
+    \entry{miro}{online}{}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://miro.com/}}
+      \field{title}{Miro}
+      \verb{urlraw}
+      \verb https://miro.com/
+      \endverb
+      \verb{url}
+      \verb https://miro.com/
+      \endverb
+    \endentry
+    \entry{openai-gpt}{online}{}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://openai.com/}}
+      \field{title}{OpenAI - GPT Modelle}
+      \verb{urlraw}
+      \verb https://openai.com/
+      \endverb
+      \verb{url}
+      \verb https://openai.com/
+      \endverb
+    \endentry
+    \entry{postgresql}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.postgresql.org/}}
+      \field{title}{PostgreSQL}
+      \verb{urlraw}
+      \verb https://www.postgresql.org/
+      \endverb
+      \verb{url}
+      \verb https://www.postgresql.org/
+      \endverb
+    \endentry
+    \entry{postman}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.postman.com/}}
+      \field{title}{Postman}
+      \verb{urlraw}
+      \verb https://www.postman.com/
+      \endverb
+      \verb{url}
+      \verb https://www.postman.com/
+      \endverb
+    \endentry
+    \entry{deeplearning.AI}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/}}
+      \field{title}{Prompt Engineering for Developers}
+      \verb{urlraw}
+      \verb https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
+      \endverb
+      \verb{url}
+      \verb https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/
+      \endverb
+    \endentry
+    \entry{python}{online}{}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://en.wikipedia.org/wiki/Python_(programming_language)}}
+      \field{title}{Python}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Python_(programming_language)
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Python_(programming_language)
+      \endverb
+    \endentry
+    \entry{sonarqube}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.sonarqube.org/}}
+      \field{title}{SonarQube}
+      \verb{urlraw}
+      \verb https://www.sonarqube.org/
+      \endverb
+      \verb{url}
+      \verb https://www.sonarqube.org/
+      \endverb
+    \endentry
+    \entry{spring-boot}{online}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://spring.io/projects/spring-boot}}
+      \field{title}{Spring Boot}
+      \verb{urlraw}
+      \verb https://spring.io/projects/spring-boot
+      \endverb
+      \verb{url}
+      \verb https://spring.io/projects/spring-boot
+      \endverb
+    \endentry
+    \entry{visual-studio-code}{online}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://code.visualstudio.com/docs}}
+      \field{title}{Visual Studio Code}
+      \verb{urlraw}
+      \verb https://code.visualstudio.com/docs
+      \endverb
+      \verb{url}
+      \verb https://code.visualstudio.com/docs
+      \endverb
+    \endentry
+    \entry{vuejs}{online}{}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://vuejs.org/}}
+      \field{title}{Vue.js}
+      \verb{urlraw}
+      \verb https://vuejs.org/
+      \endverb
+      \verb{url}
+      \verb https://vuejs.org/
+      \endverb
+    \endentry
+    \entry{prompt-engineering}{online}{}
+      \name{author}{1}{}{%
+        {{hash=57ec74023103a4c2e497f559ee78a3db}{%
+           family={Wuttke},
+           familyi={W\bibinitperiod},
+           given={Laurenz},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{57ec74023103a4c2e497f559ee78a3db}
+      \strng{fullhash}{57ec74023103a4c2e497f559ee78a3db}
+      \strng{bibnamehash}{57ec74023103a4c2e497f559ee78a3db}
+      \strng{authorbibnamehash}{57ec74023103a4c2e497f559ee78a3db}
+      \strng{authornamehash}{57ec74023103a4c2e497f559ee78a3db}
+      \strng{authorfullhash}{57ec74023103a4c2e497f559ee78a3db}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://datasolut.com/was-ist-prompt-engineering/}}
+      \field{title}{Was ist Promptengineering}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://datasolut.com/was-ist-prompt-engineering/
+      \endverb
+      \verb{url}
+      \verb https://datasolut.com/was-ist-prompt-engineering/
       \endverb
     \endentry
   \enddatalist

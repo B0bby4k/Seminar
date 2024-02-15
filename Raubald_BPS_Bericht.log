@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  14 FEB 2024 14:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.11.13)  15 FEB 2024 14:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1287,7 +1287,27 @@ chapter 2.
 
 
 
-] [6]) [7]
+]
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <12> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 38.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 38.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 38.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 38.
+Package microtype Info: Character `029' is missing
+(microtype)             in font `T1/lmr/m/sc/10'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 38.
+ (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [6]) [7]
 \openout2 = `chapters/30_TenderInsights.aux'.
 
  (chapters/30_TenderInsights.tex
@@ -1304,7 +1324,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}) ha
                                                   \__shipout_drop_firstpage_...
 l.89 
      ]
-<figures/DokumentenAgent-Uebersicht.png, id=195, 708.684pt x 442.818pt>
+<figures/DokumentenAgent-Uebersicht.png, id=240, 708.684pt x 442.818pt>
 File: figures/DokumentenAgent-Uebersicht.png Graphic file (type png)
 <use figures/DokumentenAgent-Uebersicht.png>
 Package pdftex.def Info: figures/DokumentenAgent-Uebersicht.png  used on input line 92.
@@ -1315,10 +1335,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) h
                                                   \__shipout_drop_firstpage_...
 l.106 
        <./figures/DokumentenAgent-Uebersicht.png>] [13] [14]
-<figures/02_Prompt_Evaluierung.png, id=210, 680.0607pt x 346.896pt>
+<figures/02_Prompt_Evaluierung.png, id=262, 680.0607pt x 346.896pt>
 File: figures/02_Prompt_Evaluierung.png Graphic file (type png)
 <use figures/02_Prompt_Evaluierung.png>
-Package pdftex.def Info: figures/02_Prompt_Evaluierung.png  used on input line 169.
+Package pdftex.def Info: figures/02_Prompt_Evaluierung.png  used on input line 168.
 (pdftex.def)             Requested size: 426.7914pt x 217.7093pt.
 
 
@@ -1328,36 +1348,18 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.206 
+l.205 
        <./figures/02_Prompt_Evaluierung.png>]
-<figures/03_Prompt_Evaluierung.png, id=226, 979.9812pt x 346.896pt>
+<figures/03_Prompt_Evaluierung.png, id=278, 979.9812pt x 346.896pt>
 File: figures/03_Prompt_Evaluierung.png Graphic file (type png)
 <use figures/03_Prompt_Evaluierung.png>
-Package pdftex.def Info: figures/03_Prompt_Evaluierung.png  used on input line 232.
+Package pdftex.def Info: figures/03_Prompt_Evaluierung.png  used on input line 231.
 (pdftex.def)             Requested size: 426.7914pt x 151.07321pt.
- [17]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 256.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 256.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 256.
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 256.
- (C:\Users\jraubald\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmtt.fd
-File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [18
+ [17] [18
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.265 
+l.263 
        <./figures/03_Prompt_Evaluierung.png>]) [19]
 \openout2 = `chapters/40_TenderSniffer.aux'.
 
@@ -1369,22 +1371,32 @@ chapter 4.
 
 
 
-] [21] [22]) [23]
+] [21] [22] [23]) [24]
 \openout2 = `chapters/60_Fazit_Ausblick.aux'.
 
  (chapters/60_Fazit_Ausblick.tex
 chapter 5.
-) [24
+) [25
 
 
 
 
 
-] [25]
+] [26]
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
- [26
+
+Overfull \hbox (5.63643pt too wide) in paragraph at lines 163--163
+[][]\T1/lmr/m/it/12 (-20) Microsoft Azu-re Platt-form\T1/lmr/m/n/12 (-20) . \T1/lmr/m/sc/12 (-20) url\T1/lmr/m/n/12 (-20) : []$\T1/lmtt/m/n/12 https : / / azure . microsoft . com / de -[] de / resources /
+ []
+
+
+Overfull \hbox (3.70145pt too wide) in paragraph at lines 163--163
+[][]\T1/lmr/m/it/12 (-20) Python\T1/lmr/m/n/12 (-20) . \T1/lmr/m/sc/12 (-20) url\T1/lmr/m/n/12 (-20) : []$\T1/lmtt/m/n/12 https : / / en . wikipedia . org / wiki / Python _ (programming _ language)$[]
+ []
+
+[27
 
 
 ] (Raubald_BPS_Bericht.aux (chapters/10_Einleitung.aux) (chapters/20_Tätigkeitsbereich und Aufgabenstellung.aux) (chapters/30_TenderInsights.aux) (chapters/40_TenderSniffer.aux) (chapters/60_Fazit_Ausblick.aux))
@@ -1399,17 +1411,17 @@ Package logreq Info: Writing requests to 'Raubald_BPS_Bericht.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44761 strings out of 474592
- 879584 string characters out of 5744382
- 1936533 words of memory out of 5000000
- 65935 multiletter control sequences out of 15000+600000
- 638108 words of font info for 160 fonts, out of 8000000 for 9000
+ 44975 strings out of 474592
+ 884453 string characters out of 5744382
+ 1942533 words of memory out of 5000000
+ 66071 multiletter control sequences out of 15000+600000
+ 644425 words of font info for 168 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 110i,10n,107p,10987b,2463s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Raubald_BPS_Bericht.pdf (29 pages, 691469 bytes).
+ 110i,10n,107p,10987b,2549s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbo10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Users/jraubald/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Raubald_BPS_Bericht.pdf (30 pages, 791658 bytes).
 PDF statistics:
- 530 PDF objects out of 1000 (max. 8388607)
- 129 named destinations out of 1000 (max. 500000)
- 46502 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 706 PDF objects out of 1000 (max. 8388607)
+ 194 named destinations out of 1000 (max. 500000)
+ 50598 words of extra memory for PDF output out of 51595 (max. 10000000)
 
