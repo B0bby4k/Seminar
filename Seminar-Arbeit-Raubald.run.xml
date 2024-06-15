@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>Raubald_BPS_Bericht.bcf</file>
+      <file>Seminar-Arbeit-Raubald.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>Raubald_BPS_Bericht.bbl</file>
+      <file>Seminar-Arbeit-Raubald.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -66,19 +66,19 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>Raubald_BPS_Bericht</infile>
+      <infile>Seminar-Arbeit-Raubald</infile>
     </cmdline>
     <input>
-      <file>Raubald_BPS_Bericht.bcf</file>
+      <file>Seminar-Arbeit-Raubald.bcf</file>
     </input>
     <output>
-      <file>Raubald_BPS_Bericht.bbl</file>
+      <file>Seminar-Arbeit-Raubald.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>Raubald_BPS_Bericht.bbl</file>
+      <file>Seminar-Arbeit-Raubald.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>Raubald_BPS_Bericht.bcf</file>
+      <file>Seminar-Arbeit-Raubald.bcf</file>
     </requires>
     <requires type="editable">
       <file>bibliography/references.bib</file>
