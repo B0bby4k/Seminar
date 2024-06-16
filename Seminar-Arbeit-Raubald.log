@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  15 JUN 2024 19:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  16 JUN 2024 19:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1206,16 +1206,11 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<figures/iteratec-Logo.png, id=8, 776.9025pt x 301.125pt>
-File: figures/iteratec-Logo.png Graphic file (type png)
-<use figures/iteratec-Logo.png>
-Package pdftex.def Info: figures/iteratec-Logo.png  used on input line 36.
-(pdftex.def)             Requested size: 213.39569pt x 82.71083pt.
  [1
 
 
 
-{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./figures/HFT-Logo.jpg> <./figures/iteratec-Logo.png>])
+{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc} <./figures/HFT-Logo.jpg>])
 Package tocbasic Info: character protrusion at toc deactivated on input line 127.
  (./Seminar-Arbeit-Raubald.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 4.
@@ -1278,18 +1273,18 @@ Class scrreprt Warning: \float@addtolists detected!
 
  (./chapters/20_Grundlagen.tex
 chapter 2.
-) [2
+[2
 
 
 
 
 
-]
+]) [3]
 \openout2 = `chapters/30_Herausforderungen_Risiken.aux'.
 
  (./chapters/30_Herausforderungen_Risiken.tex
 chapter 3.
-) [3
+) [4
 
 
 
@@ -1300,7 +1295,7 @@ chapter 3.
 
  (./chapters/40_Gesetzliche_Rahmenbedingungen.tex
 chapter 4.
-) [4
+) [5
 
 
 
@@ -1311,7 +1306,7 @@ chapter 4.
 
  (./chapters/50_Lösungsansätze.tex
 chapter 5.
-) [5
+) [6
 
 
 
@@ -1322,7 +1317,7 @@ chapter 5.
 
  (./chapters/60_Abschluss_Ausblick.tex
 chapter 6.
-) [6
+) [7
 
 
 
@@ -1340,7 +1335,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [7
+ [8
 
 
 ] (./Seminar-Arbeit-Raubald.aux (./chapters/10_Einleitung.aux) (./chapters/20_Grundlagen.aux) (./chapters/30_Herausforderungen_Risiken.aux) (./chapters/40_Gesetzliche_Rahmenbedingungen.aux) (./chapters/50_Lösungsansätze.aux) (./chapters/60_Abschluss_Ausblick.aux))
@@ -1355,18 +1350,18 @@ Package logreq Info: Writing requests to 'Seminar-Arbeit-Raubald.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44440 strings out of 474116
- 867706 string characters out of 5743682
+ 44458 strings out of 474116
+ 867772 string characters out of 5743682
  1934187 words of memory out of 5000000
- 65996 multiletter control sequences out of 15000+600000
- 604109 words of font info for 101 fonts, out of 8000000 for 9000
+ 65991 multiletter control sequences out of 15000+600000
+ 607957 words of font info for 113 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  110i,7n,107p,10953b,2463s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Seminar-Arbeit-Raubald.pdf (9 pages, 220310 bytes).
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
+Output written on Seminar-Arbeit-Raubald.pdf (10 pages, 230203 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 143 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
- 27279 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 178 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
+ 29322 words of extra memory for PDF output out of 29859 (max. 10000000)
 
