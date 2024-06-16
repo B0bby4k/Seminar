@@ -19,33 +19,57 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{prompt-engineering}{online}{}
+    \entry{conrad_2017}{article}{}
       \name{author}{1}{}{%
-        {{hash=57ec74023103a4c2e497f559ee78a3db}{%
-           family={Wuttke},
-           familyi={W\bibinitperiod},
-           given={Laurenz},
-           giveni={L\bibinitperiod}}}%
+        {{hash=7d9b4277f221b960100d06206521ab8d}{%
+           family={Conrad},
+           familyi={C\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
       }
-      \strng{namehash}{57ec74023103a4c2e497f559ee78a3db}
-      \strng{fullhash}{57ec74023103a4c2e497f559ee78a3db}
-      \strng{bibnamehash}{57ec74023103a4c2e497f559ee78a3db}
-      \strng{authorbibnamehash}{57ec74023103a4c2e497f559ee78a3db}
-      \strng{authornamehash}{57ec74023103a4c2e497f559ee78a3db}
-      \strng{authorfullhash}{57ec74023103a4c2e497f559ee78a3db}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \strng{namehash}{7d9b4277f221b960100d06206521ab8d}
+      \strng{fullhash}{7d9b4277f221b960100d06206521ab8d}
+      \strng{bibnamehash}{7d9b4277f221b960100d06206521ab8d}
+      \strng{authorbibnamehash}{7d9b4277f221b960100d06206521ab8d}
+      \strng{authornamehash}{7d9b4277f221b960100d06206521ab8d}
+      \strng{authorfullhash}{7d9b4277f221b960100d06206521ab8d}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://datasolut.com/was-ist-prompt-engineering/}}
-      \field{title}{Was ist Promptengineering}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://datasolut.com/was-ist-prompt-engineering/
-      \endverb
-      \verb{url}
-      \verb https://datasolut.com/was-ist-prompt-engineering/
-      \endverb
+      \field{journaltitle}{DuD - Datenschutz und Datensicherheit}
+      \field{title}{Künstliche Intelligenz – Die Risiken für den Datenschutz}
+      \field{volume}{12}
+      \field{year}{2017}
+      \field{pages}{740\bibrangedash 743}
+      \range{pages}{4}
+    \endentry
+    \entry{haerting2024}{online}{}
+      \name{author}{2}{}{%
+        {{hash=6b11aca8695c5ad1d98356eea9af52c8}{%
+           family={Hilchenbach},
+           familyi={H\bibinitperiod},
+           given={Leonore},
+           giveni={L\bibinitperiod}}}%
+        {{hash=3144c98e004aadfd84e60d657f32d8ea}{%
+           family={Dimov},
+           familyi={D\bibinitperiod},
+           given={Vitorio},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{ceef75a0514002b4af588a520a837c96}
+      \strng{fullhash}{ceef75a0514002b4af588a520a837c96}
+      \strng{bibnamehash}{ceef75a0514002b4af588a520a837c96}
+      \strng{authorbibnamehash}{ceef75a0514002b4af588a520a837c96}
+      \strng{authornamehash}{ceef75a0514002b4af588a520a837c96}
+      \strng{authorfullhash}{ceef75a0514002b4af588a520a837c96}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://web.archive.org/web/20240616154919/https://haerting.de/wissen/ki-und-die-dsgvo/}, accessed on 2024-06-16}
+      \field{title}{KI und die DSGVO}
+      \field{year}{2024}
     \endentry
   \enddatalist
 \endrefsection

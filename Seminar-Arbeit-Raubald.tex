@@ -58,7 +58,6 @@
 % Biblatex allows multiple bib-files
 \addbibresource{bibliography/references.bib}
 \addbibresource{bibliography/websources.bib}
-\addbibresource{bibliography/normen.bib}
 
 % Tables using APA Style
 \usepackage{booktabs}
@@ -143,23 +142,15 @@
     \include{chapters/10_Einleitung}
     \include{chapters/20_Grundlagen}
     \include{chapters/30_Herausforderungen_Risiken}
-    \include{chapters/40_Gesetzliche_Rahmenbedingungen}
+    % \include{chapters/40_Gesetzliche_Rahmenbedingungen}
     \include{chapters/50_Lösungsansätze}
     \include{chapters/60_Abschluss_Ausblick}
-
-    % \include{chapters_OLD/10_Einleitung}
-    % \include{chapters_OLD/20_Tätigkeitsbereich und Aufgabenstellung}
-    % \include{chapters_OLD/30_TenderInsights}
-    % \include{chapters_OLD/40_TenderSniffer}
-    % \include{chapters_OLD/60_Fazit_Ausblick}
-
-    \nocite{prompt-engineering}
 
     % add bibliography
     %\printbibheading
     % \printbibliography[nottype=online,notkeyword=norm]
-    \printbibliography[type=online,heading=subbibliography,
-    title={Online Quellen}]
+    \printbibliography[
+    title={Quellen}]
     % \printbibliography[keyword=norm,heading=subbibliography,
     % title={Normen}]
 

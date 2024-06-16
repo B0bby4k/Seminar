@@ -83,7 +83,6 @@
     <requires type="editable">
       <file>bibliography/references.bib</file>
       <file>bibliography/websources.bib</file>
-      <file>bibliography/normen.bib</file>
     </requires>
   </external>
 </requests>
