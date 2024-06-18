@@ -416,6 +416,9 @@ INPUT chapters/20_Grundlagen.aux
 INPUT ./chapters/30_Herausforderungen_Risiken.aux
 INPUT ./chapters/30_Herausforderungen_Risiken.aux
 INPUT chapters/30_Herausforderungen_Risiken.aux
+INPUT ./chapters/40_Herausforderungen_Lösungsansätze.aux
+INPUT ./chapters/40_Herausforderungen_Lösungsansätze.aux
+INPUT chapters/40_Herausforderungen_Lösungsansätze.aux
 INPUT ./chapters/50_Lösungsansätze.aux
 INPUT ./chapters/50_Lösungsansätze.aux
 INPUT chapters/50_Lösungsansätze.aux
@@ -534,6 +537,12 @@ OUTPUT chapters/30_Herausforderungen_Risiken.aux
 INPUT ./chapters/30_Herausforderungen_Risiken.tex
 INPUT ./chapters/30_Herausforderungen_Risiken.tex
 INPUT chapters/30_Herausforderungen_Risiken.tex
+INPUT ./chapters/40_Herausforderungen_Lösungsansätze.tex
+INPUT ./chapters/40_Herausforderungen_Lösungsansätze.tex
+OUTPUT chapters/40_Herausforderungen_Lösungsansätze.aux
+INPUT ./chapters/40_Herausforderungen_Lösungsansätze.tex
+INPUT ./chapters/40_Herausforderungen_Lösungsansätze.tex
+INPUT chapters/40_Herausforderungen_Lösungsansätze.tex
 INPUT ./chapters/50_Lösungsansätze.tex
 INPUT ./chapters/50_Lösungsansätze.tex
 OUTPUT chapters/50_Lösungsansätze.aux
@@ -556,6 +565,9 @@ INPUT chapters/20_Grundlagen.aux
 INPUT ./chapters/30_Herausforderungen_Risiken.aux
 INPUT ./chapters/30_Herausforderungen_Risiken.aux
 INPUT chapters/30_Herausforderungen_Risiken.aux
+INPUT ./chapters/40_Herausforderungen_Lösungsansätze.aux
+INPUT ./chapters/40_Herausforderungen_Lösungsansätze.aux
+INPUT chapters/40_Herausforderungen_Lösungsansätze.aux
 INPUT ./chapters/50_Lösungsansätze.aux
 INPUT ./chapters/50_Lösungsansätze.aux
 INPUT chapters/50_Lösungsansätze.aux
