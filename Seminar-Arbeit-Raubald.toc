@@ -3,21 +3,15 @@
 \contentsline {chapter}{\numberline {2}Grundlagen der KI und des Datenschutzes}{2}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Künstliche Intelligenz (KI)}{2}{section.2.1}%
 \contentsline {section}{\numberline {2.2}Datenschutz}{2}{section.2.2}%
-\contentsline {chapter}{\numberline {3}Herausforderungen und Risiken}{3}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Datenlecks}{3}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Profiling und Diskriminierung}{3}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Unerwünschte Datenverarbeitung}{4}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Herausforderungen und Lösungsansätze}{5}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Datenlecks}{5}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Profiling und Diskriminierung}{5}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Unerwünschte Datenverarbeitung}{6}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Technische Maßnahmen}{6}{section.4.4}%
-\contentsline {section}{\numberline {4.5}Organisatorische Maßnahmen}{7}{section.4.5}%
-\contentsline {chapter}{\numberline {5}Lösungsansätze}{8}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Technische Maßnahmen}{8}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Organisatorische Maßnahmen}{8}{section.5.2}%
-\contentsline {chapter}{\numberline {6}Abschluss und Ausblick}{10}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Zusammenfassung wichtigster Punkte}{10}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Ausblick auf die Zukunft von KI und Datenschutz}{11}{section.6.2}%
-\contentsline {chapter}{\numberline {7}Quellen}{12}{chapter.7}%
+\contentsline {chapter}{\numberline {3}Herausforderungen und Lösungsansätze}{3}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Herausforderungen und Risiken}{3}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Profiling und Diskriminierung}{3}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Unerwünschte Datenverarbeitung}{3}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Mögliche Lösungsansätze}{4}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Technische Maßnahmen}{4}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Organisatorische Maßnahmen}{4}{subsection.3.2.2}%
+\contentsline {chapter}{\numberline {4}Abschluss und Ausblick}{5}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Zusammenfassung wichtigster Punkte}{5}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Ausblick auf die Zukunft von KI und Datenschutz}{6}{section.4.2}%
+\contentsline {chapter}{\numberline {5}Quellen}{7}{chapter.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
