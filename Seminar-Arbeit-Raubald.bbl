@@ -71,6 +71,28 @@
       \field{title}{KI und die DSGVO}
       \field{year}{2024}
     \endentry
+    \entry{digitalesinstitut2024}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e34a23e494e30528193034fdff437cba}{%
+           family={Institut},
+           familyi={I\bibinitperiod},
+           given={Digitales},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{e34a23e494e30528193034fdff437cba}
+      \strng{fullhash}{e34a23e494e30528193034fdff437cba}
+      \strng{bibnamehash}{e34a23e494e30528193034fdff437cba}
+      \strng{authorbibnamehash}{e34a23e494e30528193034fdff437cba}
+      \strng{authornamehash}{e34a23e494e30528193034fdff437cba}
+      \strng{authorfullhash}{e34a23e494e30528193034fdff437cba}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://web.archive.org/web/20240616162014/https://digitales-institut.de/ki-und-datenschutz-herausforderungen-und-loesungsansaetze/}, accessed on 2024-06-16}
+      \field{title}{KI und Datenschutz: Herausforderungen und Lösungsansätze}
+      \field{year}{2024}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

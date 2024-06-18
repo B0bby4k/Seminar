@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber Seminar-Arbeit-Raubald"] 1718730527.72086 "Seminar-Arbeit-Raubald.bcf" "Seminar-Arbeit-Raubald.bbl" "Seminar-Arbeit-Raubald" 1718730540.59363 0
-  "Seminar-Arbeit-Raubald.bcf" 1718730540.25315 108018 ce689b392d87a2c31b5f333dc910c4b1 "pdflatex"
+["biber Seminar-Arbeit-Raubald"] 1718731118.74001 "Seminar-Arbeit-Raubald.bcf" "Seminar-Arbeit-Raubald.bbl" "Seminar-Arbeit-Raubald" 1718731136.35071 0
+  "Seminar-Arbeit-Raubald.bcf" 1718731135.99383 108170 8a9d296beabd63b6a79c1936bfe82200 "pdflatex"
   "bibliography/references.bib" 1718560226.44104 588 0fb1c6d461a46091320eeb42aaa18ab7 ""
   "bibliography/websources.bib" 1718559778.34448 1132 6034c9779fe412f4976e4ed04c45c140 ""
   (generated)
   "Seminar-Arbeit-Raubald.bbl"
   "Seminar-Arbeit-Raubald.blg"
   (rewritten before read)
-["pdflatex"] 1718730536.02585 "/Users/julianraubald/Seminar-Arbeit/Seminar-Arbeit-Raubald.tex" "Seminar-Arbeit-Raubald.pdf" "Seminar-Arbeit-Raubald" 1718730540.5942 0
+["pdflatex"] 1718731131.75979 "/Users/julianraubald/Seminar-Arbeit/Seminar-Arbeit-Raubald.tex" "Seminar-Arbeit-Raubald.pdf" "Seminar-Arbeit-Raubald" 1718731136.35132 0
   "/Users/julianraubald/Seminar-Arbeit/Seminar-Arbeit-Raubald.tex" 1718728458.68738 5608 ecbad1dd1713c68123a6cbc700d6e707 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc" 1254269338 2375 baa924870cfb487815765f9094cf3728 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -250,19 +250,19 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1714399581.2253 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1714399217 8221426 0f52e48c9da80a786dd487954b8b1a99 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "Seminar-Arbeit-Raubald.aux" 1718730540.23527 7292 d347381966ecf5124b287d505898396b "pdflatex"
-  "Seminar-Arbeit-Raubald.bbl" 1718730531.39727 2806 2cf554e3adf7a6e5d6db7afb2db4d8a9 "biber Seminar-Arbeit-Raubald"
-  "Seminar-Arbeit-Raubald.out" 1718730539.38009 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "Seminar-Arbeit-Raubald.run.xml" 1718730540.25475 2556 8d40b5e54aab882f19eb7a0b7b2186f6 "pdflatex"
+  "Seminar-Arbeit-Raubald.aux" 1718731135.97571 7499 e1880612c814f29dcfab12a137c0ce2b "pdflatex"
+  "Seminar-Arbeit-Raubald.bbl" 1718731122.45174 3903 72faff9c52bd718ec37ea959ecd69bc4 "biber Seminar-Arbeit-Raubald"
+  "Seminar-Arbeit-Raubald.out" 1718731135.11552 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "Seminar-Arbeit-Raubald.run.xml" 1718731135.99539 2556 8d40b5e54aab882f19eb7a0b7b2186f6 "pdflatex"
   "Seminar-Arbeit-Raubald.tex" 1718728458.68738 5608 ecbad1dd1713c68123a6cbc700d6e707 ""
-  "Seminar-Arbeit-Raubald.toc" 1718730540.2549 1414 c4b749c0b803319acbf1367ee1ae8cf4 "pdflatex"
-  "chapters/10_Einleitung.aux" 1718730540.06582 4393 874327b36aa5e1ae1a3e7aa31873a751 "pdflatex"
+  "Seminar-Arbeit-Raubald.toc" 1718731135.99556 1395 95b01613adf021555b0066fdf2c19646 "pdflatex"
+  "chapters/10_Einleitung.aux" 1718731135.79417 4393 874327b36aa5e1ae1a3e7aa31873a751 "pdflatex"
   "chapters/10_Einleitung.tex" 1718467727.13639 2009 25500388a5551a389415f577f84fde24 ""
-  "chapters/20_Grundlagen.aux" 1718730540.12093 4663 8de4dc8bb625dbcdd21d8a32ced3a961 "pdflatex"
+  "chapters/20_Grundlagen.aux" 1718731135.84529 4663 8de4dc8bb625dbcdd21d8a32ced3a961 "pdflatex"
   "chapters/20_Grundlagen.tex" 1718728342.00859 1157 c517aa26b237bdbc41e6691e1db71d80 ""
-  "chapters/40_Herausforderungen_Lösungsansätze.aux" 1718730540.18168 5254 d3b4a1b1d4f42102c028d3d4f796b407 "pdflatex"
-  "chapters/40_Herausforderungen_Lösungsansätze.tex" 1718730522.74667 4343 4747e80f1283436148c4870644edb66e ""
-  "chapters/60_Abschluss_Ausblick.aux" 1718730540.2053 4696 f67b7f375ca660ae07a4ed60c2756134 "pdflatex"
+  "chapters/40_Herausforderungen_Lösungsansätze.aux" 1718731135.91867 5235 3b7277ef974ed1c47dbde5db6f62c987 "pdflatex"
+  "chapters/40_Herausforderungen_Lösungsansätze.tex" 1718731113.61325 2484 2f8989035165e5209bf5aa4c56d7466a ""
+  "chapters/60_Abschluss_Ausblick.aux" 1718731135.94093 4696 884c61990084860f56679f0d974fef42 "pdflatex"
   "chapters/60_Abschluss_Ausblick.tex" 1718560249.45419 2848 919438f505d24da80024670d4f619e6b ""
   "figures/HFT-Logo.jpg" 1718463912.80866 63460 78462f59a7c8607f263231510b323f29 ""
   "preamble/acronyms.tex" 1718463912.82296 73 6fd4704e51f2c056960decdda8cbc892 ""

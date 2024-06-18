@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {2.2}Datenschutz}{2}{section.2.2}%
 \contentsline {chapter}{\numberline {3}Herausforderungen und Lösungsansätze}{3}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Herausforderungen und Risiken}{3}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Profiling und Diskriminierung}{3}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.1}Datenlecks}{3}{subsection.3.1.1}%
 \contentsline {subsection}{\numberline {3.1.2}Unerwünschte Datenverarbeitung}{3}{subsection.3.1.2}%
 \contentsline {section}{\numberline {3.2}Mögliche Lösungsansätze}{4}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Technische Maßnahmen}{4}{subsection.3.2.1}%
