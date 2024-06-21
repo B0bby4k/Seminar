@@ -93,6 +93,28 @@
       \field{title}{KI und Datenschutz: Herausforderungen und Lösungsansätze}
       \field{year}{2024}
     \endentry
+    \entry{mindverse2024}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e1f78d8cb392afdb5c9924656f74caa6}{%
+           family={Verse},
+           familyi={V\bibinitperiod},
+           given={Mind},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e1f78d8cb392afdb5c9924656f74caa6}
+      \strng{fullhash}{e1f78d8cb392afdb5c9924656f74caa6}
+      \strng{bibnamehash}{e1f78d8cb392afdb5c9924656f74caa6}
+      \strng{authorbibnamehash}{e1f78d8cb392afdb5c9924656f74caa6}
+      \strng{authornamehash}{e1f78d8cb392afdb5c9924656f74caa6}
+      \strng{authorfullhash}{e1f78d8cb392afdb5c9924656f74caa6}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://www.mind-verse.de/news/apple-intelligence-datenschutz-und-innovation-in-der-kuenstlichen-intelligenz}, accessed on 2024-06-21}
+      \field{title}{Apple Intelligence: Datenschutz und Innovation in der Künstlichen Intelligenz}
+      \field{year}{2024}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

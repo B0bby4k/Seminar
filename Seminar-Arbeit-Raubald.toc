@@ -10,8 +10,6 @@
 \contentsline {section}{\numberline {3.2}Mögliche Lösungsansätze}{4}{section.3.2}%
 \contentsline {subsection}{\numberline {3.2.1}Technische Maßnahmen}{4}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Organisatorische Maßnahmen}{4}{subsection.3.2.2}%
-\contentsline {chapter}{\numberline {4}Abschluss und Ausblick}{5}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Zusammenfassung wichtigster Punkte}{5}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Ausblick auf die Zukunft von KI und Datenschutz}{6}{section.4.2}%
-\contentsline {chapter}{\numberline {5}Quellen}{7}{chapter.5}%
+\contentsline {chapter}{\numberline {4}Ausblick auf die Zukunft von KI und Datenschutz}{5}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Quellen}{6}{chapter.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
