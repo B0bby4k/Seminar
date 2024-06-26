@@ -93,6 +93,26 @@
       \field{title}{KI und Datenschutz: Herausforderungen und Lösungsansätze}
       \field{year}{2024}
     \endentry
+    \entry{keyed2024}{online}{}
+      \name{author}{1}{}{%
+        {{hash=75886b07f69799867120fe8f4bc7cae0}{%
+           family={Keyed},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{75886b07f69799867120fe8f4bc7cae0}
+      \strng{fullhash}{75886b07f69799867120fe8f4bc7cae0}
+      \strng{bibnamehash}{75886b07f69799867120fe8f4bc7cae0}
+      \strng{authorbibnamehash}{75886b07f69799867120fe8f4bc7cae0}
+      \strng{authornamehash}{75886b07f69799867120fe8f4bc7cae0}
+      \strng{authorfullhash}{75886b07f69799867120fe8f4bc7cae0}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{\url{https://keyed.de/blog/kuenstliche-intelligenz-und-datenschutz/\#Zukunft\%20von\%20K\%C3\%BCnstlicher\%20Intelligenz\%20in\%20Deutschland}, accessed on 2024-06-18}
+      \field{title}{Künstliche Intelligenz und Datenschutz: Zukunft von Künstlicher Intelligenz in Deutschland}
+      \field{year}{2024}
+    \endentry
     \entry{mindverse2024}{online}{}
       \name{author}{1}{}{%
         {{hash=e1f78d8cb392afdb5c9924656f74caa6}{%

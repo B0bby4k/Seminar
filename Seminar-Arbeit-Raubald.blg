@@ -1,20 +1,20 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'Seminar-Arbeit-Raubald.blg'
-[83] biber-darwin:340> INFO - === Fri Jun 21, 2024, 15:57:17
-[101] Biber.pm:419> INFO - Reading 'Seminar-Arbeit-Raubald.bcf'
-[197] Biber.pm:979> INFO - Found 4 citekeys in bib section 0
-[211] Biber.pm:4419> INFO - Processing section 0
-[222] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography/references.bib' for section 0
-[223] bibtex.pm:1713> INFO - LaTeX decoding ...
-[225] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography/references.bib'
-[254] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography/websources.bib' for section 0
-[255] bibtex.pm:1713> INFO - LaTeX decoding ...
-[260] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography/websources.bib'
-[280] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[281] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[281] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
-[281] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
-[285] bbl.pm:660> INFO - Writing 'Seminar-Arbeit-Raubald.bbl' with encoding 'UTF-8'
-[286] bbl.pm:763> INFO - Output to Seminar-Arbeit-Raubald.bbl
-[287] Biber.pm:131> WARN - Duplicate entry key: 'conrad_2017' in file 'bibliography/websources.bib', skipping ...
-[287] Biber.pm:133> INFO - WARNINGS: 1
+[89] biber-darwin:340> INFO - === Wed Jun 26, 2024, 10:04:11
+[109] Biber.pm:419> INFO - Reading 'Seminar-Arbeit-Raubald.bcf'
+[198] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[212] Biber.pm:4419> INFO - Processing section 0
+[223] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography/references.bib' for section 0
+[224] bibtex.pm:1713> INFO - LaTeX decoding ...
+[226] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography/references.bib'
+[255] Biber.pm:4610> INFO - Looking for bibtex file 'bibliography/websources.bib' for section 0
+[256] bibtex.pm:1713> INFO - LaTeX decoding ...
+[261] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography/websources.bib'
+[283] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[283] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[283] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'de-DE'
+[283] Biber.pm:4245> INFO - No sort tailoring available for locale 'de-DE'
+[289] bbl.pm:660> INFO - Writing 'Seminar-Arbeit-Raubald.bbl' with encoding 'UTF-8'
+[291] bbl.pm:763> INFO - Output to Seminar-Arbeit-Raubald.bbl
+[291] Biber.pm:131> WARN - Duplicate entry key: 'conrad_2017' in file 'bibliography/websources.bib', skipping ...
+[291] Biber.pm:133> INFO - WARNINGS: 1

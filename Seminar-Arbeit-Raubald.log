@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  24 JUN 2024 18:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.4.29)  26 JUN 2024 10:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1303,12 +1303,12 @@ Overfull \hbox (1.6153pt too wide) in paragraph at lines 12--13
 
 
 
-]) [4]
+] [4]) [5]
 \openout2 = `chapters/60_Abschluss_Ausblick.aux'.
 
  (./chapters/60_Abschluss_Ausblick.tex
 chapter 4.
-) [5
+) [6
 
 
 
@@ -1321,7 +1321,7 @@ Overfull \hbox (21.27144pt too wide) in paragraph at lines 153--153
 \T1/lmtt/m/n/12 institut . de / ki -[] und -[] datenschutz -[] herausforderungen -[] und -[] loesungsansaetze/$[]\T1/lmr/m/n/12 (-20) ,
  []
 
-[6
+[7
 
 
 
@@ -1338,18 +1338,18 @@ Package logreq Info: Writing requests to 'Seminar-Arbeit-Raubald.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 44434 strings out of 474116
- 866450 string characters out of 5743682
- 1935187 words of memory out of 5000000
- 65982 multiletter control sequences out of 15000+600000
- 605031 words of font info for 111 fonts, out of 8000000 for 9000
+ 44452 strings out of 474116
+ 866755 string characters out of 5743682
+ 1936187 words of memory out of 5000000
+ 65991 multiletter control sequences out of 15000+600000
+ 605251 words of font info for 113 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 110i,7n,107p,10953b,2463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 110i,8n,107p,10953b,2463s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmss17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmssbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/lm/lmtt12.pfb>
-Output written on Seminar-Arbeit-Raubald.pdf (8 pages, 222251 bytes).
+Output written on Seminar-Arbeit-Raubald.pdf (9 pages, 228594 bytes).
 PDF statistics:
- 183 PDF objects out of 1000 (max. 8388607)
- 158 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 27258 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 209 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
+ 36 named destinations out of 1000 (max. 500000)
+ 27274 words of extra memory for PDF output out of 29859 (max. 10000000)
 
